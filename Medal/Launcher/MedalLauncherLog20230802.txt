@@ -1,0 +1,8 @@
+[ Log | 13:40:08 ] [Medal Launcher Log Init] 1.0.0.1 - 02/08/2023 13:40:08
+
+[ Log | 13:40:08 ] GPU Scheduling subkey created successfully
+[ Log | 13:40:08 ] Updated GPU Scheduling registry entry successfully
+[ Log | 13:40:08 ] Launching recorder C:\Users\User\AppData\Local\Medal\recorder-3.692.0\MedalEncoder.exe
+[ Log | 13:40:08 ] No other MedalEncoder instances running
+[ Log | 13:40:09 ] Launched recorder C:\Users\User\AppData\Local\Medal\recorder-3.692.0\MedalEncoder.exe
+[ Log | 13:40:41 ] Starting suicide lock interval

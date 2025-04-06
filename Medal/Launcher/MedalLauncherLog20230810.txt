@@ -1,0 +1,8 @@
+[ Log | 07:58:43 ] [Medal Launcher Log Init] 1.0.0.1 - 10/08/2023 07:58:43
+
+[ Log | 07:58:43 ] GPU Scheduling registry exists
+[ Log | 07:58:43 ] Launching recorder C:\Users\User\AppData\Local\Medal\recorder-3.696.0\MedalEncoder.exe
+[ Log | 07:58:43 ] No other MedalEncoder instances running
+[ Log | 07:58:44 ] Launched recorder C:\Users\User\AppData\Local\Medal\recorder-3.696.0\MedalEncoder.exe
+[ Log | 07:59:16 ] Starting suicide lock interval
+[ Log | 07:59:51 ] Init OverlayInterface

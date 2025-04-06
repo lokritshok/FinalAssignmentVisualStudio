@@ -1,0 +1,84 @@
+[Info | 1:40:15 PM] [Medal Log Init] 3.692.0.0 - 8/2/2023 1:40:15 PM
+
+[Info | 1:40:17 PM] Honeycomb init successfully
+[Info | 1:40:17 PM] Available electron port not found, set port to default 10603
+[Info | 1:40:17 PM] Server: RESTService/1.0.0.0
+[Info | 1:40:17 PM] CLR: 4.0.30319.42000
+[Info | 1:40:17 PM] Server running at http://127.0.0.1:10604/
+[Info | 1:40:20 PM] Current DPI awareness: 0
+[Info | 1:40:20 PM] Change DPI awareness to PROCESS_PER_MONITOR_DPI_AWARE. result=0
+[Info | 1:40:20 PM] Remote config saved
+[Info | 1:40:20 PM] User saved as -1 - undefined
+[Info | 1:40:20 PM] Saving Clip folder: C:\Medal
+[Info | 1:40:20 PM] job.respond 7018924b-a5e3-4cae-99a7-3dcffb6e51a1
+[Info | 1:40:21 PM] C:\Medal - folder verified
+[Info | 1:40:21 PM] Clip folder: C:\Medal
+[Info | 1:40:21 PM] Selecting drive C:\ for backup clips folder with 867.1 GB available space
+[Debug | 1:40:21 PM] job.respond "ok"
+[Debug | 1:40:21 PM] PollDesktopJobQueue reply []
+[Warning | 1:40:22 PM] ICYMI settings don't exist
+[Warning | 1:40:22 PM] ICYMI settings don't exist
+[Info | 1:40:22 PM] Initial app settings - Trigger key is F8 - FPS setting is 30 - Resolution setting is 1280x720 - Clip length is 15 - Detect all games setting is False - Encoding setting is GPU - Overlay setting is True - Sound setting is True - Full Session Sound Alerts setting is False - Mic input setting is False - Mic gain is 0 - Game sound gain is 0 - Auto upload setting is True - Auto upload state setting is 1 - environment setting is production - WindowsGameMode setting is False - Clip Folder is C:\Medal - Bitrate setting is 10 - Controller trigger key is select - Saving Trigger Key Enabled setting is True - Saving Controller Trigger Key Enabled setting is True - Saving mouseTriggerEnabled setting is False - mouseTrigger is Middle - Selected audio device is Auto - Selected mic device is Auto - Full Session Mode Enabled setting is False - DevelopmentModeEnabled setting is False - Mono audio setting is False - Selected webcam device is <None> - WebcamEnabled setting is False - Switch game trigger key is F10 - Show Cursor setting is False - Game Audio Only setting is False - In Memory Buffer setting is False - Mic noise gate enabled setting is False - Mic noise gate open threshold is -30 - Mic noise suppression enabled setting is False - Audio Notifications setting is False - Hold-To-Record setting is False - IncreaseMaxFrameLatencySetting is True - Aspect Ratio is Custom - Advanced Window Capture setting is False - Recording Enabled setting is True - Voice Clipping Enabled setting is False - Voice Clipping Phrases setting is  - ICYMI setting is False - ICYMI setting: { enabled: [], disabled: [] } - ICYMI Clip length is 0 - ICYMI Sound setting is True - ICYMI use Overwolf setting is False - Push to talk enabled setting is False - Push to talk trigger key is NoName - Output Format setting is mp4, Extension .mp4 - Multiple Audio Streams setting is False - Push To Talk Mouse Trigger is None - BFrames Enabled setting is False - UseStringID is False - Push to talk Controller trigger key is none - Screenshot trigger key is NoName - External File Sources setting is  - Quality Preset setting is Performance - Selected GPU device is Auto - Controller key logging enabled setting is True - Screen Capture Clip Mode setting is Disabled - Monitor Device Name setting is  - Broadcast Target is hidden - Broadcast setting is Disabled - AlwaysOn Screen capture setting is False - Progressive uploads setting is False - Overlay Injected Mode setting is False
+[Info | 1:40:22 PM] request user 
+[Info | 1:40:22 PM] request environment 
+[Info | 1:40:22 PM] Checking hardware encoders
+[Debug | 1:40:24 PM] Executing Request: set.useStringId - {
+  "enabled": true
+}
+[Info | 1:40:24 PM] Saving UseStringID True
+[Info | 1:40:24 PM] job.respond f0738dd0-c553-4784-b177-b8628b783244
+[Debug | 1:40:24 PM] PollDesktopJobQueue reply [{'uuid':'f0738dd0-c553-4784-b177-b8628b783244','body':{'enabled':true},'action':'set.useStringId'}]
+[Debug | 1:40:25 PM] job.respond "ok"
+[Debug | 1:40:25 PM] Executing Request: set.allSettings-{"settings":{"set.gameSoundAudioDevice":{"audioDevices":["Auto"]},"set.micAudioDevice":{"audioDevice":"Auto"},"set.devmode":{"enabled":false},"set.bookmarkModeEnabled":{"enabled":false},"set.fullSessionModeEnabled":{"enabled":false},"set.webcam.overlay":{"enabled":false,"position":{"index":1,"value":"TopRight"}},"set.webcam.device":{"selected":{"id":"N/A","label":"Default","value":"Default"}},"set.gpu.device":{"selected":"Auto"},"set.switchGameTriggerkey":{"key":"F10","key.base64":"RjEw"},"set.screenshotTriggerKey":{"key":"NoName","key.base64":"Tm9OYW1l"},"set.triggerkey":{"key":"F8","key.base64":"Rjg="},"set.triggerKeyEnabled":{"enabled":true},"set.setPushToTalkTriggerKey":{"key":"Tab","key.base64":"VGFi"},"set.setPushToTalkMouseTriggerKey":{"name":"None","index":-1},"set.setPushToTalkControllerTriggerKey":{"name":"None","displayName":{"xbox":"None","playstation":"None"}},"set.setPushToTalkEnabled":{"enabled":false},"set.mouseTrigger":{"trigger":{"name":"MiddleClick","index":1}},"set.mouseTriggerEnabled":{"enabled":false},"set.controllerTrigger":{"name":"select","displayName":{"xbox":"Back","playstation":"Select"}},"set.controllerTriggerEnabled":{"enabled":true},"set.cliplength":{"cliplength":"15"},"set.icymicliplength":{"cliplength":"0"},"set.inMemoryBuffer":{"enabled":true},"set.resolution":{"resolution":"High"},"set.fps":{"fps":"60"},"set.bitrate":{"bitrate":"10"},"set.micinput":{"micinput":0},"set.monoAudio":{"monoaudio":false},"set.overlayalerts":{"overlayalerts":1},"set.soundalerts":{"soundalerts":1},"set.bookmarksoundalerts":{"bookmarksoundalerts":1},"set.aspectRatio":{"aspectRatio":2},"set.detectallgames":{"detectallgames":0},"set.encoder":{"type":"GPU"},"set.clipFolder":{"clipFolder":"C:%path.sep%Medal%path.sep%","clipFolder.base64":"QzpcTWVkYWxc"},"set.autoUploadState":{"autoUploadState":3},"set.autoUpload":{"autoUpload":false},"set.gameAudioOnly":{"enabled":0},"set.setVoiceClipping":{"enabled":0},"set.multipleAudioTracks":{"enabled":0},"set.showCursor":{"enabled":0},"set.holdToRecordEnabled":{"enabled":1},"ICYMIEnabled":{"enabled":0},"set.icymisoundalerts":{"soundalerts":1},"set.windowsGraphicsCapture":{"enabled":0},"set.recordingEnabled":{"enabled":1},"set.micNoiseGate":{"enabled":0},"set.micNoiseSuppress":{"enabled":0},"set.micNoiseGateThreshold":{"open_threshold":-100},"set.externalFileSources":{"nativeOptions":[{"label":"NVIDIAShadowPlay","value":"shadowplay","enabled":false,"freeUpSpace":false},{"label":"AMDReLive","value":"relive","enabled":false,"freeUpSpace":false},{"label":"OBS","value":"obs","enabled":false,"freeUpSpace":false}],"folders":[]},"set.advancedOverlayEnabled":{"enabled":false},"set.monitorDeviceName":{"monitorDeviceName":"","monitorDeviceName.base64":""},"set.gameSoundGain":{"gain":50},"set.micGain":{"gain":50}}}
+[Info | 1:40:25 PM] Received settings
+[Info | 1:40:25 PM] Found encoder: AMD AMF HW H.264 Encoder
+[Info | 1:40:25 PM] Found encoder: AMD AMF H.264 Encoder
+[Debug | 1:40:25 PM] Executing Request: set.gameSoundAudioDevice - {
+  "audioDevices": [
+    "Auto"
+  ]
+}
+[Info | 1:40:25 PM] Saving unplugged audio devices - 
+[Info | 1:40:25 PM] Hardware encoder detected
+[Debug | 1:40:26 PM] Executing Request: get.availableMicDevices - 
+[Info | 1:40:26 PM] Selected audio output devices Auto
+[Info | 1:40:26 PM] Video codec set: a264hw - hardware encoding
+[Debug | 1:40:26 PM] Executing Request: set.micAudioDevice - {
+  "audioDevice": "Auto"
+}
+[Info | 1:40:26 PM] Selected mic device Auto
+[Debug | 1:40:26 PM] Executing Request: set.devmode - {
+  "enabled": false
+}
+[Info | 1:40:27 PM] Saving DevelopmentModeEnabled False
+[Debug | 1:40:27 PM] Executing Request: set.bookmarkModeEnabled - {
+  "enabled": false
+}
+[Info | 1:40:27 PM] Saving Full Session Mode Enabled False
+[Debug | 1:40:27 PM] Executing Request: set.fullSessionModeEnabled - {
+  "enabled": false
+}
+[Info | 1:40:27 PM] Saving Full Session Mode Enabled False
+[Debug | 1:40:27 PM] Executing Request: set.webcam.overlay - {
+  "enabled": false,
+  "position": {
+    "index": 1,
+    "value": "Top Right"
+  }
+}
+[Info | 1:40:27 PM] Saving WebcamEnabled False
+[Info | 1:40:27 PM] Saving WebcamPositionIndex: 1
+[Debug | 1:40:27 PM] Executing Request: set.webcam.device - {
+  "selected": {
+    "id": "N/A",
+    "label": "Default",
+    "value": "Default"
+  }
+}
+[Info | 1:40:27 PM] C:\Medal - folder verified
+[Info | 1:40:28 PM] Selected Webcam device Default
+[Warning | 1:40:28 PM] ICYMI Clip length settings invalid, resetting to Clip Length.
+[Info | 1:40:28 PM] Saving ICYMI clip length 15
+[Info | 1:40:28 PM] Set process priority to High
+[Warning | 1:40:29 PM] Screenshots are disabled!
+[Warning | 1:40:29 PM] Screenshots are disabled!

@@ -1,0 +1,3014 @@
+[Info | 11:01:20 AM] [Medal Log Init] 3.696.0.0 - 8/9/2023 11:01:20 AM
+
+[Info | 11:01:25 AM] Honeycomb init successfully
+[Info | 11:01:25 AM] Available electron port not found, set port to default 10603
+[Info | 11:01:25 AM] Server: RESTService/1.0.0.0
+[Info | 11:01:25 AM] CLR: 4.0.30319.42000
+[Info | 11:01:25 AM] Server running at http://127.0.0.1:10604/
+[Info | 11:01:34 AM] job.respond 1457f4a1-15c8-4496-a04e-ef56e58e79d4
+[Info | 11:01:35 AM] job.respond c78dd270-baad-4f1d-9c3e-cb2ee5e6c86f
+[Debug | 11:01:35 AM] job.respond "ok"
+[Info | 11:01:36 AM] 1 logs of- job.respond "ok"
+[Debug | 11:01:36 AM] PollDesktopJobQueue reply [{"uuid":"1457f4a1-15c8-4496-a04e-ef56e58e79d4","body":{"userName.base64":"c25lZXppbmdfY293","key":"90097846-76b9-4cac-a7d6-705fcb995a74","userId":"195928472","userName":"sneezing_cow","roles":[],"thumbnail":"https://cdn.medal.tv/avatars/25202f9a2f8ca813cdcbab803d485699/1690980227997.png","premiumType":"NONE","state":{"state":"idle","timestamp":1691528083793}},"action":"user"}]
+[Info | 11:01:38 AM] Current DPI awareness: 0
+[Info | 11:01:38 AM] Change DPI awareness to PROCESS_PER_MONITOR_DPI_AWARE. result=0
+[Info | 11:01:39 AM] Remote config saved
+[Info | 11:01:39 AM] User saved as 195928472 - sneezing_cow
+[Info | 11:01:39 AM] Saving Clip folder: C:\Medal
+[Info | 11:01:39 AM] C:\Medal - folder verified
+[Info | 11:01:39 AM] Clip folder: C:\Medal
+[Info | 11:01:39 AM] Backup clips folder is C:\Medal
+[Info | 11:01:44 AM] Initial app settings - Trigger key is F8 - FPS setting is 30 - Resolution setting is 1280x720 - Clip length is 120 - Detect all games setting is False - Encoding setting is GPU - Overlay setting is True - Sound setting is True - Full Session Sound Alerts setting is True - Mic input setting is False - Mic gain is 0.5 - Game sound gain is 0.5 - Auto upload setting is False - Auto upload state setting is 0 - environment setting is production - WindowsGameMode setting is False - Clip Folder is C:\Medal - Bitrate setting is 10 - Controller trigger key is select - Saving Trigger Key Enabled setting is True - Saving Controller Trigger Key Enabled setting is True - Saving mouseTriggerEnabled setting is False - mouseTrigger is Middle - Selected audio device is Auto - Selected mic device is Auto - Full Session Mode Enabled setting is False - DevelopmentModeEnabled setting is False - Mono audio setting is False - Selected webcam device is <None> - WebcamEnabled setting is False - Switch game trigger key is F10 - Show Cursor setting is False - Game Audio Only setting is True - In Memory Buffer setting is True - Mic noise gate enabled setting is False - Mic noise gate open threshold is -100 - Mic noise suppression enabled setting is False - Audio Notifications setting is False - Hold-To-Record setting is True - IncreaseMaxFrameLatencySetting is True - Aspect Ratio is Custom - Advanced Window Capture setting is False - Recording Enabled setting is True - Voice Clipping Enabled setting is False - Voice Clipping Phrases setting is  - ICYMI setting is False - ICYMI setting: { enabled: [Rocket League, League of Legends, CS:GO, Fortnite, War Thunder, Apex Legends, Splitgate: Arena Warfare, Valorant, Yu-Gi-Oh! Master Duel], disabled: [] } - ICYMI Clip length is 120 - ICYMI Sound setting is True - ICYMI use Overwolf setting is False - Push to talk enabled setting is False - Push to talk trigger key is Tab - Output Format setting is matroska, Extension .mkv - Multiple Audio Streams setting is False - Push To Talk Mouse Trigger is None - BFrames Enabled setting is False - UseStringID is False - Push to talk Controller trigger key is None - Screenshot trigger key is F7 - External File Sources setting is {"nativeOptions":[{"label":"NVIDIAShadowPlay","value":"shadowplay","enabled":false,"freeUpSpace":false},{"label":"AMDReLive","value":"relive","enabled":false,"freeUpSpace":false},{"label":"OBS","value":"obs","enabled":false,"freeUpSpace":false}],"folders":[]} - Quality Preset setting is Performance - Selected GPU device is Auto - Controller key logging enabled setting is True - Screen Capture Clip Mode setting is Disabled - Monitor Device Name setting is {
+  "monitorDeviceName": "",
+  "monitorDeviceName.base64": ""
+} - Broadcast Target is hidden - Broadcast setting is Disabled - AlwaysOn Screen capture setting is False - Progressive uploads setting is False - Overlay Injected Mode setting is False
+[Info | 11:01:44 AM] request user 
+[Info | 11:01:44 AM] request environment 
+[Info | 11:01:44 AM] Checking hardware encoders
+[Debug | 11:01:44 AM] Executing Request: set.useStringId - {
+  "enabled": true
+}
+[Info | 11:01:45 AM] Saving UseStringID True
+[Info | 11:01:45 AM] job.respond 09223d1d-8491-4b8f-b495-68997c71e264
+[Debug | 11:01:45 AM] PollDesktopJobQueue reply [{'uuid':'09223d1d-8491-4b8f-b495-68997c71e264','body':{'enabled':true},'action':'set.useStringId'}]
+[Debug | 11:01:46 AM] job.respond "ok"
+[Debug | 11:01:46 AM] Executing Request: set.allSettings-{"settings":{"set.gameSoundAudioDevice":{"audioDevices":["Auto"]},"set.micAudioDevice":{"audioDevice":"Auto"},"set.devmode":{"enabled":false},"set.bookmarkModeEnabled":{"enabled":false},"set.fullSessionModeEnabled":{"enabled":false},"set.webcam.overlay":{"enabled":false,"position":{"index":1,"value":"TopRight"}},"set.webcam.device":{"selected":{"id":"<None>","label":"<None>","value":"<None>"}},"set.gpu.device":{"selected":"Auto"},"set.switchGameTriggerkey":{"key":"F10","key.base64":"RjEw"},"set.screenshotTriggerKey":{"key":"F7","key.base64":"Rjc="},"set.triggerkey":{"key":"F8","key.base64":"Rjg="},"set.triggerKeyEnabled":{"enabled":true},"set.setPushToTalkTriggerKey":{"key":"Tab","key.base64":"VGFi"},"set.setPushToTalkMouseTriggerKey":{"name":"None","index":-1},"set.setPushToTalkControllerTriggerKey":{"name":"None","displayName":{"xbox":"None","playstation":"None"}},"set.setPushToTalkEnabled":{"enabled":false},"set.mouseTrigger":{"trigger":{"name":"MiddleClick","index":1}},"set.mouseTriggerEnabled":{"enabled":false},"set.controllerTrigger":{"name":"select","displayName":{"xbox":"Back","playstation":"Select"}},"set.controllerTriggerEnabled":{"enabled":true},"set.cliplength":{"cliplength":"120"},"set.icymicliplength":{"cliplength":"0"},"set.inMemoryBuffer":{"enabled":true},"set.resolution":{"resolution":"High"},"set.fps":{"fps":"30"},"set.bitrate":{"bitrate":"10"},"set.micinput":{"micinput":0},"set.monoAudio":{"monoaudio":false},"set.overlayalerts":{"overlayalerts":1},"set.soundalerts":{"soundalerts":1},"set.bookmarksoundalerts":{"bookmarksoundalerts":1},"set.aspectRatio":{"aspectRatio":2},"set.detectallgames":{"detectallgames":0},"set.encoder":{"type":"GPU"},"set.clipFolder":{"clipFolder":"C:%path.sep%Medal%path.sep%","clipFolder.base64":"QzpcTWVkYWxc"},"set.autoUploadState":{"autoUploadState":0},"set.autoUpload":{"autoUpload":false},"set.gameAudioOnly":{"enabled":1},"set.setVoiceClipping":{"enabled":0},"set.multipleAudioTracks":{"enabled":0},"set.showCursor":{"enabled":0},"set.holdToRecordEnabled":{"enabled":1},"ICYMIEnabled":{"enabled":0},"set.icymisoundalerts":{"soundalerts":1},"set.windowsGraphicsCapture":{"enabled":0},"set.recordingEnabled":{"enabled":1},"set.micNoiseGate":{"enabled":0},"set.micNoiseSuppress":{"enabled":0},"set.micNoiseGateThreshold":{"open_threshold":-100},"set.externalFileSources":{"nativeOptions":[{"label":"NVIDIAShadowPlay","value":"shadowplay","enabled":false,"freeUpSpace":false},{"label":"AMDReLive","value":"relive","enabled":false,"freeUpSpace":false},{"label":"OBS","value":"obs","enabled":false,"freeUpSpace":false}],"folders":[]},"set.advancedOverlayEnabled":{"enabled":false},"set.monitorDeviceName":{"monitorDeviceName":"","monitorDeviceName.base64":""},"set.gameSoundGain":{"gain":50},"set.micGain":{"gain":50}}}
+[Info | 11:01:46 AM] Received settings
+[Debug | 11:01:47 AM] Executing Request: set.gameSoundAudioDevice - {
+  "audioDevices": [
+    "Auto"
+  ]
+}
+[Info | 11:01:47 AM] Saving unplugged audio devices - 
+[Info | 11:01:47 AM] Selected audio output devices Auto
+[Debug | 11:01:49 AM] Executing Request: set.micAudioDevice - {
+  "audioDevice": "Auto"
+}
+[Info | 11:01:49 AM] Found encoder: AMD AMF HW H.264 Encoder
+[Info | 11:01:49 AM] Found encoder: AMD AMF H.264 Encoder
+[Info | 11:01:49 AM] Selected mic device Auto
+[Debug | 11:01:49 AM] Executing Request: set.devmode - {
+  "enabled": false
+}
+[Info | 11:01:49 AM] Hardware encoder detected
+[Info | 11:01:49 AM] Saving DevelopmentModeEnabled False
+[Debug | 11:01:50 AM] Executing Request: set.bookmarkModeEnabled - {
+  "enabled": false
+}
+[Info | 11:01:50 AM] Saving Full Session Mode Enabled False
+[Info | 11:01:50 AM] Video codec set: a264hw - hardware encoding
+[Debug | 11:01:51 AM] Executing Request: set.fullSessionModeEnabled - {
+  "enabled": false
+}
+[Info | 11:01:51 AM] Saving Full Session Mode Enabled False
+[Debug | 11:01:51 AM] Executing Request: set.webcam.overlay - {
+  "enabled": false,
+  "position": {
+    "index": 1,
+    "value": "Top Right"
+  }
+}
+[Info | 11:01:51 AM] Saving WebcamEnabled False
+[Info | 11:01:51 AM] Saving WebcamPositionIndex: 1
+[Debug | 11:01:51 AM] Executing Request: set.webcam.device - {
+  "selected": {
+    "id": "<None>",
+    "label": "<None>",
+    "value": "<None>"
+  }
+}
+[Info | 11:01:51 AM] C:\Medal - folder verified
+[Info | 11:01:51 AM] Selected Webcam device <None>
+[Debug | 11:01:51 AM] Executing Request: set.gpu.device - {
+  "selected": "Auto"
+}
+[Info | 11:01:51 AM] Set process priority to High
+[Info | 11:01:52 AM] Selected GPU device Auto
+[Info | 11:01:52 AM] Video codec set: a264hw - hardware encoding
+[Debug | 11:01:52 AM] Executing Request: set.switchGameTriggerkey - {
+  "key": "F10",
+  "key.base64": "RjEw"
+}
+[Info | 11:01:52 AM] Saving switch game key settings RjEw
+[Info | 11:01:52 AM] Key setting is base64 translated to F10
+[Debug | 11:01:53 AM] Executing Request: set.screenshotTriggerKey - {
+  "key": "F7",
+  "key.base64": "Rjc="
+}
+[Info | 11:01:53 AM] Saving screenshot key settings Rjc=
+[Info | 11:01:53 AM] Key setting is base64 translated to F7
+[Info | 11:01:53 AM] Attempting to start process watcher
+[Info | 11:01:53 AM] [System.RuntimeMethodHandle] Set security permissions for C:\Users\User\AppData\Local\Medal\recorder-3.696.0\Host\medal-hook64.dll
+[Info | 11:01:53 AM] [System.RuntimeMethodHandle] Set security permissions for C:\Users\User\AppData\Local\Medal\recorder-3.696.0\Host\medal-hook32.dll
+[Debug | 11:01:53 AM] Executing Request: set.triggerkey - {
+  "key": "F8",
+  "key.base64": "Rjg="
+}
+[Info | 11:01:53 AM] Saving key settings Rjg=
+[Info | 11:01:53 AM] Key setting is base64 translated to F8
+[Debug | 11:01:53 AM] Executing Request: set.triggerKeyEnabled - {
+  "enabled": true
+}
+[Info | 11:01:53 AM] Saving Trigger Key Enabled True
+[Debug | 11:01:53 AM] Executing Request: set.setPushToTalkTriggerKey - {
+  "key": "Tab",
+  "key.base64": "VGFi"
+}
+[Info | 11:01:53 AM] Saving key settings VGFi
+[Info | 11:01:53 AM] Key setting is base64 translated to Tab
+[Debug | 11:01:53 AM] Executing Request: set.setPushToTalkMouseTriggerKey - {
+  "name": "None",
+  "index": -1
+}
+[Info | 11:01:53 AM] Saving push to talk mouse settings None
+[Warning | 11:01:54 AM] Screenshots are disabled!
+[Debug | 11:01:54 AM] Executing Request: set.setPushToTalkControllerTriggerKey - {
+  "name": "None",
+  "displayName": {
+    "xbox": "None",
+    "playstation": "None"
+  }
+}
+[Info | 11:01:54 AM] Saving push to talk controller key settings None
+[Info | 11:01:54 AM] codecName- a264hw, fcc type- eMFCC_NV12
+[Info | 11:01:54 AM] Process watcher started
+[Debug | 11:01:54 AM] Executing Request: set.setPushToTalkEnabled - {
+  "enabled": false
+}
+[Info | 11:01:54 AM] Output Mode: Clip Output
+[Info | 11:01:54 AM] MedalWriter Created
+[Warning | 11:01:54 AM] Screenshots are disabled!
+[Info | 11:01:54 AM] Saving Push to talk enabled False
+[Info | 11:01:54 AM] [ESM Event] - PushToTalkEnable
+[Debug | 11:01:54 AM] Executing Request: set.mouseTrigger - {
+  "trigger": {
+    "name": "Middle Click",
+    "index": 1
+  }
+}
+[Info | 11:01:54 AM] Saving mouseTrigger settings Middle Click
+[Debug | 11:01:54 AM] Executing Request: set.mouseTriggerEnabled - {
+  "enabled": false
+}
+[Info | 11:01:55 AM] Saving mouseTriggerEnabled Enabled False
+[Debug | 11:01:55 AM] Executing Request: set.controllerTrigger - {
+  "name": "select",
+  "displayName": {
+    "xbox": "Back",
+    "playstation": "Select"
+  }
+}
+[Info | 11:01:55 AM] Saving controller key settings select
+[Info | 11:01:55 AM] Contains args: True
+[Info | 11:01:55 AM] No other MedalEncoder instances running
+[Info | 11:01:55 AM] SDK feature flags--
+[Info | 11:01:55 AM] correct_start_ts is false - mdelay_store_video is false - dx_pipeline_reusable is false - audio_mixing is false - 
+[Debug | 11:01:55 AM] Executing Request: set.controllerTriggerEnabled - {
+  "enabled": true
+}
+[Info | 11:01:55 AM] Saving Controller Trigger Key Enabled True
+[Debug | 11:01:55 AM] Executing Request: set.cliplength - {
+  "cliplength": "120"
+}
+[Info | 11:01:55 AM] Disabling windows game mode to improve performance..
+[Info | 11:01:55 AM] Windows game mode disabled.
+[Info | 11:01:55 AM] Saving clip length 120
+[Info | 11:01:56 AM] Saving WindowsGameMode 0
+[Debug | 11:01:56 AM] Executing Request: set.icymicliplength - {
+  "cliplength": "0"
+}
+[Info | 11:01:56 AM] Video codec set: a264hw - hardware encoding
+[Info | 11:01:56 AM] Saving ICYMI clip length 120
+[Debug | 11:01:56 AM] Executing Request: set.inMemoryBuffer - {
+  "enabled": true
+}
+[Info | 11:01:56 AM] Saving In Memory Buffer True
+[Debug | 11:01:56 AM] Executing Request: set.resolution - {
+  "resolution": "High"
+}
+[Info | 11:01:56 AM] Saving resolution High
+[Info | 11:01:56 AM] Saving bitrate 10
+[Info | 11:01:57 AM] Sending Bitrate Setting
+[Debug | 11:01:57 AM] Executing Request: set.fps - {
+  "fps": "30"
+}
+[Info | 11:01:57 AM] Saving FPS 30
+[Info | 11:01:57 AM] Hook data extracted
+[Debug | 11:01:57 AM] Executing Request: set.bitrate - {
+  "bitrate": "10"
+}
+[Info | 11:01:57 AM] Saving bitrate 10
+[Debug | 11:01:58 AM] Executing Request: set.micinput - {
+  "micinput": 0
+}
+[Info | 11:01:58 AM] Saving Mic Input False
+[Debug | 11:01:58 AM] Executing Request: set.monoAudio - {
+  "monoaudio": false
+}
+[Info | 11:01:59 AM] Saving Mono Audio False
+[Debug | 11:01:59 AM] Executing Request: set.overlayalerts - {
+  "overlayalerts": 1
+}
+[Info | 11:01:59 AM] Saving Overlay Alerts True
+[Debug | 11:01:59 AM] Executing Request: set.soundalerts - {
+  "soundalerts": 1
+}
+[Info | 11:01:59 AM] Saving Sound Alerts True
+[Debug | 11:01:59 AM] Executing Request: set.bookmarksoundalerts - {
+  "bookmarksoundalerts": 1
+}
+[Info | 11:02:00 AM] Saving Full Session Sound Alerts True
+[Debug | 11:02:00 AM] Executing Request: set.aspectRatio - {
+  "aspectRatio": 2
+}
+[Info | 11:02:00 AM] Saving Aspect Ratio Custom
+[Debug | 11:02:00 AM] Executing Request: set.detectallgames - {
+  "detectallgames": 0
+}
+[Info | 11:02:00 AM] Saving Detect All Games False
+[Debug | 11:02:00 AM] Executing Request: set.encoder - {
+  "type": "GPU"
+}
+[Info | 11:02:01 AM] Video codec set: a264hw - hardware encoding
+[Debug | 11:02:01 AM] Executing Request: set.clipFolder - {
+  "clipFolder": "C:%path.sep%Medal%path.sep%",
+  "clipFolder.base64": "QzpcTWVkYWxc"
+}
+[Info | 11:02:01 AM] Saving Clip folder: QzpcTWVkYWxc
+[Info | 11:02:01 AM] Clip folder setting is base64 translated to C:\Medal\
+[Info | 11:02:01 AM] C:\Medal\ - folder verified
+[Debug | 11:02:01 AM] Executing Request: set.autoUploadState - {
+  "autoUploadState": 0
+}
+[Info | 11:02:01 AM] Saving Auto Upload State 0
+[Debug | 11:02:01 AM] Executing Request: set.autoUpload - {
+  "autoUpload": false
+}
+[Info | 11:02:02 AM] Username is base64 translated to sneezing_cow
+[Info | 11:02:02 AM] Saving Auto Upload False
+[Debug | 11:02:02 AM] Executing Request: set.gameAudioOnly - {
+  "enabled": 1
+}
+[Info | 11:02:02 AM] Saving Game Audio Only 1
+[Info | 11:02:02 AM] User updated 195928472 - sneezing_cow
+[Debug | 11:02:02 AM] Executing Request: set.setVoiceClipping - {
+  "enabled": 0
+}
+[Info | 11:02:02 AM] request environment reply "production"
+[Info | 11:02:02 AM] Saving Voice Clipping Enabled 0
+[Debug | 11:02:02 AM] Executing Request: set.multipleAudioTracks - {
+  "enabled": 0
+}
+[Info | 11:02:02 AM] Saving Multiple Audio Streams 0
+[Info | 11:02:02 AM] Saving environment production
+[Debug | 11:02:02 AM] Executing Request: set.showCursor - {
+  "enabled": 0
+}
+[Debug | 11:02:02 AM] encoder options reply "ok"
+[Info | 11:02:03 AM] SendBitrateSetting reply "ok"
+[Info | 11:02:03 AM] Saving Show Cursor False
+[Info | 11:02:03 AM] [ESM Event] - ConfigChangedNoRestart
+[Debug | 11:02:03 AM] Executing Request: set.holdToRecordEnabled - {
+  "enabled": 1
+}
+[Info | 11:02:03 AM] Saving Hold-To-Record enabled: True
+[Debug | 11:02:03 AM] Executing Request: ICYMIEnabled - {
+  "enabled": 0
+}
+[Info | 11:02:04 AM] Saving ICYMI False
+[Debug | 11:02:04 AM] Executing Request: set.icymisoundalerts - {
+  "soundalerts": 1
+}
+[Info | 11:02:04 AM] Saving ICYMI Sound Alerts True
+[Debug | 11:02:04 AM] Executing Request: set.windowsGraphicsCapture - {
+  "enabled": 0
+}
+[Debug | 11:02:05 AM] {"GPU":{"1 Name":"AMD Radeon(TM) R5 Graphics","1 Status":"OK","1 Caption":"AMD Radeon(TM) R5 Graphics","1 DeviceID":"VideoController1","1 AdapterDACType":"Internal DAC(400MHz)","1 Monochrome":"False","1 InstalledDisplayDrivers":"C:\\Windows\\System32\\DriverStore\\FileRepository\\u0355614.inf_amd64_3db8e44c28e65651\\B354383\\aticfx64.dll,C:\\Windows\\System32\\DriverStore\\FileRepository\\u0355614.inf_amd64_3db8e44c28e65651\\B354383\\aticfx64.dll,C:\\Windows\\System32\\DriverStore\\FileRepository\\u0355614.inf_amd64_3db8e44c28e65651\\B354383\\aticfx64.dll,C:\\Windows\\System32\\DriverStore\\FileRepository\\u0355614.inf_amd64_3db8e44c28e65651\\B354383\\amdxc64.dll","1 DriverVersion":"27.20.1010.1","1 VideoProcessor":"AMD Radeon Graphics Processor (0x98E4)","1 VideoArchitecture":"5","1 VideoMemoryType":"2","1 AdapterRAM":"1.0 GB"},"HardDrives":{"C:\\ Name":"Drive C:\\","C:\\ Drive type":"Fixed","C:\\ Volume label":"","C:\\ File system":"NTFS","C:\\ Available space to current user":"870.1 GB","C:\\ Total available space":"870.1 GB","C:\\ Total size of drive":"930.9 GB","C:\\ Root directory":"C:\\"},"CPU":{"1 Name":"AMD A9-9425 RADEON R5, 5 COMPUTE CORES 2C+3G   ","1 DeviceID":"CPU0","1 Manufacturer":"AuthenticAMD","1 CurrentClockSpeed":"3100","1 Caption":"AMD64 Family 21 Model 112 Stepping 0","1 NumberOfCores":"2","1 NumberOfEnabledCore":"2","1 NumberOfLogicalProcessors":"2","1 Architecture":"9","1 Family":"72","1 ProcessorType":"3","1 Characteristics":"4","1 AddressWidth":"64"},"Memory":{"1 TotalPhysicalMemory":"7.0 GB","1 FreePhysicalMemory":"2.7 GB","1 TotalVirtualMemorySize":"11.2 GB","1 FreeVirtualMemory":"6.4 GB","1 TotalVisibleMemorySize":"7.0 GB","1 FreeSpaceInPagingFiles":"4.2 GB"},"OS":{"1 Caption":"Microsoft Windows 10 Home","1 WindowsDirectory":"C:\\Windows","1 ProductType":"1","1 SystemDirectory":"C:\\Windows\\system32","1 CountryCode":"44","1 CurrentTimeZone":"60","1 Locale":"0809","1 EncryptionLevel":"256","1 OSArchitecture":"64-bit","1 OSLanguage":"2057","1 OSType":"18","1 Version":"10.0.19045"},"Monitors":{"1 Name":"AIO LCD","1 BitsPerPixel":"32","1 ScreenWidth":"1920","1 ScreenHeight":"1080","1 Primary":"True"},"Sound":{"1 Name":"High Definition Audio Device","1 ProductName":"High Definition Audio Device","1 DeviceID":"HDAUDIO\\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1025126E&REV_1002\\4&2AA47938&0&0001","1 PowerManagementSupported":"False","1 Status":"OK","1 StatusInfo":"3","2 Name":"AMD High Definition Audio Device","2 ProductName":"AMD High Definition Audio Device","2 DeviceID":"HDAUDIO\\FUNC_01&VEN_1002&DEV_AA01&SUBSYS_00AA0100&REV_1007\\4&217FD65&0&0001","2 PowerManagementSupported":"False","2 Status":"OK","2 StatusInfo":"3"}}
+[Info | 11:02:05 AM] Saving Advanced Window Capture 0
+[Debug | 11:02:05 AM] Executing Request: set.recordingEnabled - {
+  "enabled": 1
+}
+[Info | 11:02:05 AM] Sending available web cam devices {"availableDevices":[{"id":"HD Camera","label":"HD Camera","value":"HD Camera"},{"id":"<None>","label":"<None>","value":"<None>"}],"selectedDevice":{"id":"<None>","label":"<None>","value":"<None>"}}
+[Info | 11:02:05 AM] Sending available GPU devices AMD Radeon(TM) R5 Graphics
+[Info | 11:02:05 AM] ForceNvGPU: NVAPI dll not found.
+[Info | 11:02:05 AM] GPU Scheduling registry exists
+[Info | 11:02:05 AM] ----[ESM State]: Initializing----
+[Info | 11:02:05 AM] Saving Recording Enabled 1
+[Debug | 11:02:05 AM] Executing Request: set.micNoiseGate - {
+  "enabled": 0
+}
+[Info | 11:02:06 AM] Saving mic noise gate enabled 0
+[Debug | 11:02:06 AM] Executing Request: set.micNoiseSuppress - {
+  "enabled": 0
+}
+[Info | 11:02:06 AM] Initializing DirectX overlay
+[Info | 11:02:06 AM] Initializing Electron overlay
+[Info | 11:02:06 AM] Removed existing vulkan registry info [C:\Users\User\AppData\Local\Medal\recorder-3.696.0\Host\medal-vulkan64.json]
+[Info | 11:02:06 AM] Removed existing vulkan registry info [C:\Users\User\AppData\Local\Medal\recorder-3.696.0\Host\medal-vulkan32.json]
+[Info | 11:02:06 AM] Updated vulkan registry info [C:\Users\User\AppData\Local\Medal\recorder-3.696.0]
+[Info | 11:02:06 AM] Saving mic noise suppression enabled 0
+[Debug | 11:02:06 AM] Executing Request: set.micNoiseGateThreshold - {
+  "open_threshold": -100
+}
+[Info | 11:02:06 AM] Saving mic noise gate threshold -100
+[Debug | 11:02:07 AM] Executing Request: set.externalFileSources-{"nativeOptions":[{"label":"NVIDIAShadowPlay","value":"shadowplay","enabled":false,"freeUpSpace":false},{"label":"AMDReLive","value":"relive","enabled":false,"freeUpSpace":false},{"label":"OBS","value":"obs","enabled":false,"freeUpSpace":false}],"folders":[]}
+[Info | 11:02:07 AM] Setting up external recorders
+[Info | 11:02:07 AM] External recorder shadowplay is disabled
+[Info | 11:02:07 AM] External recorder relive is disabled
+[Info | 11:02:07 AM] External recorder obs is disabled
+[Info | 11:02:07 AM] External recorder setup complete
+[Info | 11:02:07 AM] Saving External File Sources {
+  "nativeOptions": [
+    {
+      "label": "NVIDIA ShadowPlay",
+      "value": "shadowplay",
+      "enabled": false,
+      "freeUpSpace": false
+    },
+    {
+      "label": "AMD ReLive",
+      "value": "relive",
+      "enabled": false,
+      "freeUpSpace": false
+    },
+    {
+      "label": "OBS",
+      "value": "obs",
+      "enabled": false,
+      "freeUpSpace": false
+    }
+  ],
+  "folders": []
+}
+[Debug | 11:02:07 AM] Executing Request: set.advancedOverlayEnabled - {
+  "enabled": false
+}
+[Warning | 11:02:07 AM] No command for set.advancedOverlayEnabled
+[Debug | 11:02:07 AM] Executing Request: set.monitorDeviceName - {
+  "monitorDeviceName": "",
+  "monitorDeviceName.base64": ""
+}
+[Info | 11:02:08 AM] Monitor Device Name:{
+  "monitorDeviceName": "",
+  "monitorDeviceName.base64": ""
+}
+[Info | 11:02:08 AM] [ESM Event] - WindowCaptureSetMonitor
+[Debug | 11:02:08 AM] Executing Request: set.gameSoundGain - {
+  "gain": 50
+}
+[Info | 11:02:08 AM] Saving game sound gain 50
+[Debug | 11:02:08 AM] Executing Request: set.micGain - {
+  "gain": 50
+}
+[Info | 11:02:08 AM] Saving mic gain 50
+[Info | 11:02:08 AM] [ESM Event] - Initialized
+[Info | 11:02:08 AM] Running as admin False
+[Info | 11:02:08 AM] DetectAllGames False
+[Info | 11:02:08 AM] job.respond d75f56d2-dda3-4b0f-a26d-99a74bdf9b54
+[Info | 11:02:08 AM] Recorder Initilization Complete
+[Debug | 11:02:08 AM] Executing Request: get.availableMicDevices - 
+[Info | 11:02:08 AM] Sending available mic devices Microphone (Realtek(R) Audio)
+[Info | 11:02:08 AM] job.respond 2d593076-eb41-4b7b-8e78-d713385df88b
+[Debug | 11:02:08 AM] Executing Request: get.availableAudioDevices - 
+[Info | 11:02:08 AM] Sending available audio devices Headphones (Realtek(R) Audio), Speakers (Realtek(R) Audio)
+[Info | 11:02:08 AM] job.respond 196168e2-2199-433e-aee2-7bbbc642d480
+[Debug | 11:02:08 AM] Executing Request: get.micAudioDevice - 
+[Info | 11:02:08 AM] Sending selected mic device Auto
+[Info | 11:02:08 AM] job.respond 04230de3-50d0-4fd2-a234-8f99b6872c56
+[Debug | 11:02:08 AM] Executing Request: get.gameSoundAudioDevice - 
+[Info | 11:02:08 AM] Sending selected audio output devices Auto
+[Info | 11:02:09 AM] job.respond 9543bc6d-69e1-4165-88c2-a663b1e50c7b
+[Debug | 11:02:09 AM] Executing Request: get.GAODisabledList - 
+[Info | 11:02:09 AM] Sending games with not supported GAO
+[Info | 11:02:09 AM] job.respond 42b1d1a6-70a7-4c79-9267-e9c5bf842d60
+[Debug | 11:02:09 AM] PollDesktopJobQueue reply [{'uuid':'d75f56d2-dda3-4b0f-a26d-99a74bdf9b54','body':{'settings':{'set.gameSoundAudioDevice':{'audioDevices':['Auto']},'set.micAudioDevice':{'audioDevice':'Auto'},'set.devmode':{'enabled':false},'set.bookmarkModeEnabled':{'enabled':false},'set.fullSessionModeEnabled':{'enabled':false},'set.webcam.overlay':{'enabled':false,'position':{'index':1,'value':'Top Right'}},'set.webcam.device':{'selected':{'id':'<None>','label':'<None>','value':'<None>'}},'set.gpu.device':{'selected':'Auto'},'set.switchGameTriggerkey':{'key':'F10','key.base64':'RjEw'},'set.screenshotTriggerKey':{'key':'F7','key.base64':'Rjc='},'set.triggerkey':{'key':'F8','key.base64':'Rjg='},'set.triggerKeyEnabled':{'enabled':true},'set.setPushToTalkTriggerKey':{'key':'Tab','key.base64':'VGFi'},'set.setPushToTalkMouseTriggerKey':{'name':'None','index':-1},'set.setPushToTalkControllerTriggerKey':{'name':'None','displayName':{'xbox':'None','playstation':'None'}},'set.setPushToTalkEnabled':{'enabled':false},'set.mouseTrigger':{'trigger':{'name':'Middle Click','index':1}},'set.mouseTriggerEnabled':{'enabled':false},'set.controllerTrigger':{'name':'select','displayName':{'xbox':'Back','playstation':'Select'}},'set.controllerTriggerEnabled':{'enabled':true},'set.cliplength':{'cliplength':'120'},'set.icymicliplength':{'cliplength':'0'},'set.inMemoryBuffer':{'enabled':true},'set.resolution':{'resolution':'High'},'set.fps':{'fps':'30'},'set.bitrate':{'bitrate':'10'},'set.micinput':{'micinput':0},'set.monoAudio':{'monoaudio':false},'set.overlayalerts':{'overlayalerts':1},'set.soundalerts':{'soundalerts':1},'set.bookmarksoundalerts':{'bookmarksoundalerts':1},'set.aspectRatio':{'aspectRatio':2},'set.detectallgames':{'detectallgames':0},'set.encoder':{'type':'GPU'},'set.clipFolder':{'clipFolder':'C:%path.sep%Medal%path.sep%','clipFolder.base64':'QzpcTWVkYWxc'},'set.autoUploadState':{'autoUploadState':0},'set.autoUpload':{'autoUpload':false},'set.gameAudioOnly':{'enabled':1},'set.setVoiceClipping':{'enabled':0},'set.multipleAudioTracks':{'enabled':0},'set.showCursor':{'enabled':0},'set.holdToRecordEnabled':{'enabled':1},'ICYMIEnabled':{'enabled':0},'set.icymisoundalerts':{'soundalerts':1},'set.windowsGraphicsCapture':{'enabled':0},'set.recordingEnabled':{'enabled':1},'set.micNoiseGate':{'enabled':0},'set.micNoiseSuppress':{'enabled':0},'set.micNoiseGateThreshold':{'open_threshold':-100},'set.externalFileSources':{'nativeOptions':[{'label':'NVIDIA ShadowPlay','value':'shadowplay','enabled':false,'freeUpSpace':false},{'label':'AMD ReLive','value':'relive','enabled':false,'freeUpSpace':false},{'label':'OBS','value':'obs','enabled':false,'freeUpSpace':false}],'folders':[]},'set.advancedOverlayEnabled':{'enabled':false},'set.monitorDeviceName':{'monitorDeviceName':'','monitorDeviceName.base64':''},'set.gameSoundGain':{'gain':50},'set.micGain':{'gain':50}}},'action':'set.allSettings'},{'uuid':'2d593076-eb41-4b7b-8e78-d713385df88b','action':'get.availableMicDevices'},{'uuid':'196168e2-2199-433e-aee2-7bbbc642d480','action':'get.availableAudioDevices'},{'uuid':'04230de3-50d0-4fd2-a234-8f99b6872c56','action':'get.micAudioDevice'},{'uuid':'9543bc6d-69e1-4165-88c2-a663b1e50c7b','action':'get.gameSoundAudioDevice'},{'uuid':'42b1d1a6-70a7-4c79-9267-e9c5bf842d60','action':'get.GAODisabledList'}]
+[Info | 11:02:09 AM] CPU supports ICYMI.
+[Info | 11:02:09 AM] Saving Output Format mkv
+[Info | 11:02:09 AM] ----[ESM State]: UpdatingGameDatabase----
+[Info | 11:02:09 AM] Checking for new version from https://cdn.medal.tv/asset/games-db/production/version.json
+[Info | 11:02:09 AM] Remote Info: {"Version":"2.588","Command":"none","Environment":"production"}
+[Info | 11:02:09 AM] Local Info: {"Version":"2.587","Command":"none","Environment":"production"}
+[Info | 11:02:09 AM] Update available. Downloading new game database from https://cdn.medal.tv/asset/games-db/production/MedalGameInfo-2.588.db with force update False
+[Debug | 11:02:09 AM] SendAvailableMicDevices reply 
+[Debug | 11:02:09 AM] SendAvailableAudioDevices reply {"success":true}
+[Debug | 11:02:09 AM] job.respond "ok"
+[Debug | 11:02:09 AM] SendSelectedMicDevice reply {"success":true}
+[Debug | 11:02:09 AM] job.respond "ok"
+[Debug | 11:02:09 AM] SendSelectedAudioDevices reply {"success":true}
+[Debug | 11:02:09 AM] job.respond "ok"
+[Debug | 11:02:11 AM] SendGAODisabledList reply {"success":true}
+[Debug | 11:02:11 AM] job.respond "ok"
+[Info | 11:02:16 AM] 2 logs of- job.respond "ok"
+[Info | 11:02:16 AM] Saving ICYMI Events
+[Info | 11:02:16 AM] job.respond b9c680ef-7782-436b-94a8-93046c9661f1
+[Debug | 11:02:16 AM] PollDesktopJobQueue reply []
+[Debug | 11:02:16 AM] job.respond "ok"
+[Info | 11:02:20 AM] Game database updated. Version: {"Version":"2.588","Command":"none","Environment":"production"}
+[Info | 11:02:20 AM] Processing command: none
+[Info | 11:02:20 AM] [ESM Event] - GameDBUpdateComplete
+[Info | 11:02:20 AM] GameDB: C:\Users\User\AppData\Local\Medal\recorder-3.696.0\MedalGameInfo.db
+[Info | 11:02:20 AM] Custom database location is C:\Users\User\AppData\Roaming\Medal\CustomGameDatabase.db
+[Info | 11:02:20 AM] ----[ESM State]: ScanningForGame----
+[Info | 11:02:21 AM] [Game Status]: game/stopped - [2LBr6_ltG]
+[Info | 11:02:21 AM] Saving ICYMI Events
+[Info | 11:02:21 AM] job.respond 076be078-1727-47e9-a0e8-e9afc01d7349
+[Info | 11:02:21 AM] request windowsgamemode reply "ok"
+[Debug | 11:02:21 AM] PollDesktopJobQueue reply []
+[Debug | 11:02:21 AM] SendAvailableGPUDevices reply {"success":true}
+[Debug | 11:02:21 AM] SendAvailableWebCamDevices reply {"device":{"options":[{"id":"HD Camera","label":"HD Camera","value":"HD Camera"},{"id":"<None>","label":"<None>","value":"<None>"}],"selected":{"id":"<None>","label":"<None>","value":"<None>"}}}
+[Info | 11:02:21 AM] Initilization complete reply "ok"
+[Debug | 11:02:22 AM] game/stopped reply "ok"
+[Debug | 11:02:22 AM] job.respond "ok"
+[Debug | 11:02:22 AM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 11:02:22 AM] Clear override settings
+[Info | 11:02:22 AM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 11:02:22 AM] [ESM Event] - ConfigChangedRestart
+[Info | 11:02:22 AM] job.respond 52fd2c60-586a-4519-b37f-cc83703e44a0
+[Debug | 11:02:22 AM] PollDesktopJobQueue reply [{'uuid':'52fd2c60-586a-4519-b37f-cc83703e44a0','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 11:02:22 AM] job.respond "ok"
+[Info | 11:17:20 AM] [ESM Event] - GameDBCheckForUpdate
+[Info | 11:17:20 AM] ----[ESM State]: UpdatingGameDatabase----
+[Info | 11:17:20 AM] Checking for new version from https://cdn.medal.tv/asset/games-db/production/version.json
+[Info | 11:17:21 AM] Remote Info: {"Version":"2.588","Command":"none","Environment":"production"}
+[Info | 11:17:21 AM] Local Info: {"Version":"2.588","Command":"none","Environment":"production"}
+[Info | 11:17:21 AM] No update is available.
+[Info | 11:17:21 AM] [ESM Event] - GameDBUpdateComplete
+[Info | 11:17:21 AM] GameDB: C:\Users\User\AppData\Local\Medal\recorder-3.696.0\MedalGameInfo.db
+[Info | 11:17:21 AM] ----[ESM State]: ScanningForGame----
+[Info | 11:17:21 AM] [Game Status]: game/stopped - [2LBr6_ltG]
+[Debug | 11:17:22 AM] game/stopped reply "ok"
+[Debug | 11:17:22 AM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 11:17:22 AM] Clear override settings
+[Info | 11:17:22 AM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 11:17:22 AM] [ESM Event] - ConfigChangedRestart
+[Info | 11:17:22 AM] job.respond 79f37c36-0481-41e6-a37d-1826695fa758
+[Debug | 11:17:22 AM] PollDesktopJobQueue reply [{'uuid':'79f37c36-0481-41e6-a37d-1826695fa758','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 11:17:22 AM] job.respond "ok"
+[Info | 11:22:41 AM] Game Found Type ProcessClass: Roblox
+[Info | 11:22:41 AM] Process name found RobloxPlayerBeta | Caption | Roblox | and class | WINDOWSCLIENT | Detect all Games | False
+[Info | 11:22:41 AM] Game found RobloxPlayerBeta Handle: 197688
+[Info | 11:22:41 AM] Monitor: 65537 Current DPI: 96, 96
+[Info | 11:22:41 AM] Setting up window hooks
+[Info | 11:22:41 AM] Window location change event hooked
+[Info | 11:22:41 AM] Window focus event hooked
+[Info | 11:22:41 AM] Window destroy event hooked
+[Info | 11:22:41 AM] Window reorder event hooked
+[Info | 11:22:41 AM] Window hooks complete
+[Info | 11:22:41 AM] Active game initialized Roblox
+[Info | 11:22:41 AM] [Game Status]: game/started - Roblox[1e2Ad6EOaE]
+[Info | 11:22:41 AM] Start recording game Roblox
+[Info | 11:22:41 AM] [ESM Event] - WindowCaptureStart
+[Info | 11:22:41 AM] Environment.OSVersion.Version - 10.0.19045.0
+[Warning | 11:22:41 AM] Screenshots are disabled!
+[Info | 11:22:41 AM] ICYMI initializing. Config Enabled: True - Settings Enabled: False
+[Info | 11:22:42 AM] Check for late hook install: False
+[Info | 11:22:42 AM] Frame factory initialized on device Auto, LUID:42459
+[Info | 11:22:42 AM] codecName- a264hw, fcc type- eMFCC_NV12
+[Debug | 11:22:43 AM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 11:22:43 AM] Clear override settings
+[Info | 11:22:43 AM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 11:22:43 AM] [ESM Event] - ConfigChangedRestart
+[Info | 11:22:43 AM] job.respond d738f5b9-90e4-41fc-bdfd-b0bd51e1f338
+[Debug | 11:22:43 AM] PollDesktopJobQueue reply [{'uuid':'d738f5b9-90e4-41fc-bdfd-b0bd51e1f338','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 11:22:43 AM] job.respond "ok"
+[Debug | 11:22:44 AM] game/started reply "ok"
+[Info | 11:22:44 AM] Notification message received
+[Info | 11:22:44 AM] job.respond fe590d0c-ff45-425b-acf9-6a4cb015d999
+[Debug | 11:22:44 AM] job.respond "ok"
+[Info | 11:22:45 AM] Output Mode: Clip Output
+[Info | 11:22:46 AM] Recording mic: False
+[Info | 11:22:48 AM] [ESM Event] - GameWindowDefocus
+[Info | 11:22:48 AM] Stream 512 Added! Props: streamid='512' pid='24180'
+[Info | 11:22:48 AM] Mic disabled
+[Info | 11:22:48 AM] Window capture video resolution is {Width=1320, Height=720} - Aspect ratio is Custom
+[Info | 11:22:48 AM] Window capture aspect ratio 11:6
+[Info | 11:22:48 AM] Acquired window capture device.
+[Info | 11:22:48 AM] Capture area is 0,24,1920,1040
+[Info | 11:22:49 AM] Screen: 0
+[Info | 11:22:49 AM] Hiding: 0,24,1920,1040
+[Info | 11:22:49 AM] [Game Status]: capture/started - Roblox[1e2Ad6EOaE]
+[Debug | 11:22:49 AM] capture/started reply "ok"
+[Info | 11:22:49 AM] codecName- a264hw, fcc type- eMFCC_NV12
+[Info | 11:22:49 AM] Memory buffer size (MB): 180
+[Info | 11:22:51 AM] Started Filter
+[Info | 11:22:51 AM] Starting GAO...
+[Info | 11:22:51 AM] InputManager starting...
+[Info | 11:22:51 AM] Check for input devices
+[Info | 11:22:51 AM] First video data from screen capture
+[Info | 11:22:51 AM] Added Mouse Device: Mouse
+[Info | 11:22:52 AM] Set sound gain {1},{1} - 0 - 0
+[Info | 11:22:52 AM] Audio config- 0,1 -  | tracksplitbits - 10 | mix channels - 0,1
+[Info | 11:22:52 AM] Creating overlay frame from: C:\Users\User\AppData\Local\Medal\recorder-3.696.0\Assets\inactiveGame.png
+[Info | 11:22:53 AM] InputManager started.
+[Info | 11:22:53 AM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 11:22:53 AM] [ESM Event] - GameWindowDefocus
+[Info | 11:22:53 AM] InputManager: PollInput started
+[Info | 11:22:53 AM] ----[ESM State]: WindowCaptureStandard----
+[Info | 11:22:53 AM] InputManager: active game switch detected, regenerating trigger inputs
+[Info | 11:22:53 AM] Stopped Filter
+[Info | 11:22:53 AM] Stopping window capture...
+[Info | 11:22:53 AM] Window capture stopped.
+[Info | 11:22:53 AM] Dispose overlay frame
+[Info | 11:22:54 AM] Mic disabled
+[Info | 11:22:54 AM] ICYMI initializing. Config Enabled: True - Settings Enabled: False
+[Info | 11:22:54 AM] Check for late hook install: False
+[Info | 11:22:54 AM] Frame factory initialized on device Auto, LUID:42459
+[Info | 11:22:54 AM] codecName- a264hw, fcc type- eMFCC_NV12
+[Info | 11:22:54 AM] Output Mode: Clip Output
+[Info | 11:22:56 AM] Recording mic: False
+[Info | 11:22:56 AM] Stream 513 Added! Props: streamid='513' pid='24180'
+[Info | 11:22:56 AM] Mic disabled
+[Info | 11:22:56 AM] Window capture video resolution is {Width=1320, Height=720} - Aspect ratio is Custom
+[Info | 11:22:56 AM] Window capture aspect ratio 11:6
+[Info | 11:22:56 AM] Acquired window capture device.
+[Info | 11:22:58 AM] Capture area is 0,24,1920,1040
+[Info | 11:22:58 AM] Screen: 0
+[Info | 11:22:58 AM] Hiding: 0,24,1920,1040
+[Info | 11:22:58 AM] codecName- a264hw, fcc type- eMFCC_NV12
+[Info | 11:22:58 AM] Memory buffer size (MB): 180
+[Warning | 11:22:58 AM] InputManager polling slowly: average of 6.272ms
+[Info | 11:22:59 AM] Started Filter
+[Info | 11:22:59 AM] First video data from screen capture
+[Info | 11:22:59 AM] Starting GAO...
+[Info | 11:22:59 AM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 11:22:59 AM] [ESM Event] - GameWindowDefocus
+[Info | 11:22:59 AM] Hiding: 0,24,1920,1040
+[Info | 11:22:59 AM] Screen: 0
+[Info | 11:22:59 AM] Hiding: 0,24,1920,1040
+[Info | 11:22:59 AM] Screen: 0
+[Info | 11:22:59 AM] Hiding: 0,24,1920,1040
+[Info | 11:22:59 AM] Set sound gain {1},{1} - 0 - 0
+[Info | 11:22:59 AM] Audio config- 0,1 -  | tracksplitbits - 10 | mix channels - 0,1
+[Info | 11:23:00 AM] Creating overlay frame from: C:\Users\User\AppData\Local\Medal\recorder-3.696.0\Assets\inactiveGame.png
+[Info | 11:23:00 AM] [ESM Event] - GameWindowDefocus
+[Info | 11:23:00 AM] Hiding: 0,24,1920,1040
+[Info | 11:23:01 AM] Post Match Info: {"categoryId":"1e2Ad6EOaE","server":{"externalId":"2709441373","name":"[TRADING] Ability Playground","metadata":null},"match":null,"player":{"externalId":"1883801835","name":"karma","metadata":null,"matchMetadata":null},"otherPlayers":null,"metadata":{"playerCount":11}}
+[Warning | 11:23:03 AM] InputManager polling slowly: average of 4.502ms
+[Info | 11:23:04 AM] Active game GameRecordingSuccessfullyStarted WindowCapture
+[Info | 11:23:04 AM] Using standard overlay
+[Info | 11:23:04 AM] Electron overlay support- Enabled:False - Capture Type:WindowCapture
+[Info | 11:23:04 AM] Starting DirectX overlay for Roblox
+[Info | 11:23:04 AM] Starting Medal Performance monitor.
+[Info | 11:23:04 AM] Capture mode: DXGI
+[Info | 11:23:04 AM] [ESM Event] - GameWindowDefocus
+[Info | 11:23:04 AM] Hiding: 0,24,1920,1040
+[Info | 11:23:07 AM] [ESM Event] - GameWindowDefocus
+[Info | 11:23:07 AM] Hiding: 0,24,1920,1040
+[Warning | 11:23:08 AM] InputManager polling slowly: average of 5.884ms
+[Warning | 11:23:08 AM] Error getting the CPU performance counter: An item with the same key has already been added.
+[Warning | 11:23:13 AM] InputManager polling slowly: average of 5.074ms
+[Warning | 11:23:31 AM] Error getting the CPU temperature counter value: Instance '\_TZ.THRM' does not exist in the specified Category.
+[Info | 11:23:33 AM] [ESM Event] - GameWindowDefocus
+[Info | 11:23:33 AM] Hiding: 0,24,1920,1040
+[Info | 11:23:34 AM] [ESM Event] - GameWindowDefocus
+[Info | 11:23:34 AM] Hiding: 0,24,1920,1040
+[Warning | 11:23:39 AM] InputManager polling slowly: average of 2.098ms
+[Info | 11:23:39 AM] [ESM Event] - GameWindowFocus
+[Info | 11:23:39 AM] Showing: 0,24,1920,1040
+[Info | 11:23:39 AM] Fallback set game in focus
+[Info | 11:24:44 AM] [ESM Event] - GameWindowDefocus
+[Info | 11:24:44 AM] Hiding: 0,24,1920,1040
+[Info | 11:24:47 AM] Sound Property Changed
+[Info | 11:24:50 AM] 7 logs of- Sound Property Changed
+[Info | 11:24:50 AM] OnDeviceStateChanged : DataFlow=capture DeviceState=Active
+[Info | 11:24:50 AM] Sending available mic devices Microphone (Realtek(R) Audio), Headset (OnePlus Buds Z Hands-Free AG Audio)
+[Info | 11:24:50 AM] Sound Property Changed
+[Debug | 11:24:50 AM] SendAvailableMicDevices reply {"success":true}
+[Info | 11:24:51 AM] OnDefaultDeviceChanged : DataFlow=Capture
+[Info | 11:24:52 AM] Sound Property Changed
+[Info | 11:24:53 AM] 3 logs of- Sound Property Changed
+[Info | 11:24:53 AM] Check for input devices
+[Info | 11:24:53 AM] Sound Property Changed
+[Info | 11:24:58 AM] 9 logs of- Sound Property Changed
+[Info | 11:24:58 AM] OnDeviceStateChanged : Cannot get the device DeviceState=Active
+[Info | 11:24:58 AM] Sending available mic devices Microphone (Realtek(R) Audio), Headset (OnePlus Buds Z Hands-Free AG Audio)
+[Info | 11:24:58 AM] Sending available audio devices Headphones (Realtek(R) Audio), Speakers (Realtek(R) Audio), Headset (OnePlus Buds Z Hands-Free AG Audio)
+[Debug | 11:24:58 AM] SendAvailableMicDevices reply {"success":true}
+[Info | 11:24:59 AM] OnDefaultDeviceChanged : DataFlow=Render
+[Info | 11:24:59 AM] Setup Loopback Audio
+[Info | 11:24:59 AM] Default device is Headphones (Realtek(R) Audio)
+[Debug | 11:24:59 AM] SendAvailableAudioDevices reply {"success":true}
+[Info | 11:24:59 AM] Sound Property Changed
+[Info | 11:25:00 AM] Audio device set. Audio name:Headphones (Realtek(R) Audio), Index:0, SampleRate:48000, Channels:2, BitsPerSample:-32, Period:0, Buffer:22
+[Info | 11:25:00 AM] Set sound gain {1},{1},{1},{1} - 0 - 0
+[Info | 11:25:00 AM] Audio config- 0,1,2,3 -  | tracksplitbits - 1010 | mix channels - 0+2,1+3
+[Info | 11:25:00 AM] Audio hook was found while the loopback was still in. Stopping the loopback...
+[Info | 11:25:00 AM] Check for input devices
+[Info | 11:25:00 AM] Sound Property Changed
+[Info | 11:25:04 AM] 10 logs of- Sound Property Changed
+[Info | 11:25:04 AM] OnDeviceStateChanged : DataFlow=loopback DeviceState=Active
+[Info | 11:25:05 AM] Sending available audio devices Headphones (OnePlus Buds Z Stereo), Speakers (Realtek(R) Audio), Headset (OnePlus Buds Z Hands-Free AG Audio), Headphones (Realtek(R) Audio)
+[Debug | 11:25:05 AM] SendAvailableAudioDevices reply {"success":true}
+[Info | 11:25:05 AM] OnDefaultDeviceChanged : DataFlow=Render
+[Info | 11:25:05 AM] Setup Loopback Audio
+[Info | 11:25:05 AM] Default device is Headphones (OnePlus Buds Z Stereo)
+[Info | 11:25:05 AM] Sound Property Changed
+[Info | 11:25:06 AM] OnDefaultDeviceChanged : DataFlow=Render
+[Info | 11:25:06 AM] Setup Loopback Audio
+[Info | 11:25:06 AM] Audio device set. Audio name:Headphones (OnePlus Buds Z Stereo), Index:0, SampleRate:44100, Channels:2, BitsPerSample:-32, Period:0, Buffer:21
+[Info | 11:25:06 AM] Set sound gain {1},{1} - 0 - 0
+[Info | 11:25:06 AM] Audio config- 0,1 -  | tracksplitbits - 10 | mix channels - 0,1
+[Info | 11:25:06 AM] Audio hook was found while the loopback was still in. Stopping the loopback...
+[Info | 11:25:06 AM] Default device is Headphones (OnePlus Buds Z Stereo)
+[Info | 11:25:06 AM] Sound Property Changed
+[Info | 11:25:07 AM] Check for input devices
+[Info | 11:25:07 AM] Audio device set. Audio name:Headphones (OnePlus Buds Z Stereo), Index:0, SampleRate:44100, Channels:2, BitsPerSample:-32, Period:0, Buffer:21
+[Info | 11:25:07 AM] Sound Property Changed
+[Info | 11:25:07 AM] Set sound gain {1},{1},{1},{1} - 0 - 0
+[Info | 11:25:07 AM] Audio config- 0,1,2,3 -  | tracksplitbits - 1010 | mix channels - 0+2,1+3
+[Info | 11:25:07 AM] Set sound gain {1},{1} - 0 - 0
+[Info | 11:25:07 AM] Audio config- 0,1 -  | tracksplitbits - 10 | mix channels - 0,1
+[Info | 11:25:07 AM] Set sound gain {1},{1},{1},{1} - 0 - 0
+[Info | 11:25:07 AM] Audio config- 0,1,2,3 -  | tracksplitbits - 1010 | mix channels - 0+2,1+3
+[Info | 11:25:08 AM] Sound Property Changed
+[Info | 11:25:09 AM] 1 logs of- Sound Property Changed
+[Info | 11:25:09 AM] [ESM Event] - GameWindowFocus
+[Info | 11:25:09 AM] Showing: 0,24,1920,1040
+[Warning | 11:25:10 AM] InputManager polling slowly: average of 2.150ms
+[Info | 11:25:13 AM] Sound Property Changed
+[Info | 11:25:15 AM] 3 logs of- Sound Property Changed
+[Warning | 11:25:15 AM] InputManager polling slowly: average of 2.584ms
+[Info | 11:25:20 AM] 3 logs of- Sound Property Changed
+[Warning | 11:25:20 AM] InputManager polling slowly: average of 2.571ms
+[Warning | 11:25:25 AM] InputManager polling slowly: average of 2.077ms
+[Info | 11:25:40 AM] 4 logs of- Sound Property Changed
+[Warning | 11:25:40 AM] InputManager polling slowly: average of 3.034ms
+[Info | 11:25:45 AM] 2 logs of- Sound Property Changed
+[Warning | 11:25:45 AM] InputManager polling slowly: average of 3.522ms
+[Info | 11:25:50 AM] 2 logs of- Sound Property Changed
+[Warning | 11:25:50 AM] InputManager polling slowly: average of 3.497ms
+[Warning | 11:25:55 AM] InputManager polling slowly: average of 2.950ms
+[Info | 11:26:00 AM] 3 logs of- Sound Property Changed
+[Warning | 11:26:00 AM] InputManager polling slowly: average of 3.534ms
+[Info | 11:26:05 AM] 2 logs of- Sound Property Changed
+[Warning | 11:26:05 AM] InputManager polling slowly: average of 3.303ms
+[Info | 11:26:10 AM] 1 logs of- Sound Property Changed
+[Warning | 11:26:10 AM] InputManager polling slowly: average of 4.680ms
+[Warning | 11:26:16 AM] InputManager polling slowly: average of 5.821ms
+[Warning | 11:26:21 AM] InputManager polling slowly: average of 4.190ms
+[Warning | 11:26:26 AM] InputManager polling slowly: average of 2.786ms
+[Warning | 11:26:31 AM] InputManager polling slowly: average of 3.135ms
+[Warning | 11:26:36 AM] InputManager polling slowly: average of 2.634ms
+[Warning | 11:26:41 AM] InputManager polling slowly: average of 3.101ms
+[Warning | 11:26:46 AM] InputManager polling slowly: average of 2.834ms
+[Warning | 11:26:51 AM] InputManager polling slowly: average of 2.206ms
+[Warning | 11:26:56 AM] InputManager polling slowly: average of 4.781ms
+[Warning | 11:27:01 AM] InputManager polling slowly: average of 5.052ms
+[Warning | 11:27:06 AM] InputManager polling slowly: average of 2.695ms
+[Warning | 11:27:11 AM] InputManager polling slowly: average of 3.048ms
+[Warning | 11:27:16 AM] InputManager polling slowly: average of 3.297ms
+[Warning | 11:27:21 AM] InputManager polling slowly: average of 3.859ms
+[Warning | 11:27:26 AM] InputManager polling slowly: average of 2.831ms
+[Warning | 11:27:32 AM] InputManager polling slowly: average of 2.854ms
+[Warning | 11:27:37 AM] InputManager polling slowly: average of 3.277ms
+[Warning | 11:27:42 AM] InputManager polling slowly: average of 2.120ms
+[Warning | 11:27:47 AM] InputManager polling slowly: average of 3.107ms
+[Warning | 11:27:52 AM] InputManager polling slowly: average of 4.453ms
+[Warning | 11:27:57 AM] InputManager polling slowly: average of 6.909ms
+[Warning | 11:28:02 AM] InputManager polling slowly: average of 6.837ms
+[Warning | 11:28:07 AM] InputManager polling slowly: average of 3.365ms
+[Warning | 11:28:12 AM] InputManager polling slowly: average of 3.312ms
+[Warning | 11:28:17 AM] InputManager polling slowly: average of 3.540ms
+[Warning | 11:28:22 AM] InputManager polling slowly: average of 3.605ms
+[Warning | 11:28:27 AM] InputManager polling slowly: average of 3.699ms
+[Warning | 11:28:32 AM] InputManager polling slowly: average of 2.571ms
+[Warning | 11:28:37 AM] InputManager polling slowly: average of 2.689ms
+[Warning | 11:28:42 AM] InputManager polling slowly: average of 2.387ms
+[Warning | 11:28:47 AM] InputManager polling slowly: average of 2.173ms
+[Warning | 11:28:53 AM] InputManager polling slowly: average of 3.450ms
+[Warning | 11:28:58 AM] InputManager polling slowly: average of 3.577ms
+[Warning | 11:29:03 AM] InputManager polling slowly: average of 3.602ms
+[Warning | 11:29:08 AM] InputManager polling slowly: average of 3.729ms
+[Warning | 11:29:13 AM] InputManager polling slowly: average of 4.316ms
+[Warning | 11:29:18 AM] InputManager polling slowly: average of 4.100ms
+[Warning | 11:29:23 AM] InputManager polling slowly: average of 3.221ms
+[Warning | 11:29:28 AM] InputManager polling slowly: average of 2.573ms
+[Warning | 11:29:33 AM] InputManager polling slowly: average of 2.431ms
+[Warning | 11:29:38 AM] InputManager polling slowly: average of 3.712ms
+[Warning | 11:29:43 AM] InputManager polling slowly: average of 3.929ms
+[Warning | 11:29:48 AM] InputManager polling slowly: average of 2.798ms
+[Warning | 11:29:53 AM] InputManager polling slowly: average of 2.278ms
+[Warning | 11:29:58 AM] InputManager polling slowly: average of 2.516ms
+[Warning | 11:30:03 AM] InputManager polling slowly: average of 2.912ms
+[Warning | 11:30:09 AM] InputManager polling slowly: average of 3.348ms
+[Warning | 11:30:14 AM] InputManager polling slowly: average of 2.560ms
+[Warning | 11:30:39 AM] InputManager polling slowly: average of 2.045ms
+[Warning | 11:30:44 AM] InputManager polling slowly: average of 2.418ms
+[Warning | 11:30:49 AM] InputManager polling slowly: average of 2.276ms
+[Warning | 11:30:54 AM] InputManager polling slowly: average of 2.737ms
+[Warning | 11:30:59 AM] InputManager polling slowly: average of 3.177ms
+[Warning | 11:31:04 AM] InputManager polling slowly: average of 2.457ms
+[Warning | 11:31:09 AM] InputManager polling slowly: average of 2.884ms
+[Warning | 11:31:14 AM] InputManager polling slowly: average of 2.779ms
+[Warning | 11:31:19 AM] InputManager polling slowly: average of 3.706ms
+[Warning | 11:31:25 AM] InputManager polling slowly: average of 4.201ms
+[Warning | 11:31:30 AM] InputManager polling slowly: average of 3.545ms
+[Info | 11:31:31 AM] [ESM Event] - GameWindowDefocus
+[Info | 11:31:31 AM] Hiding: 0,24,1920,1040
+[Info | 11:31:31 AM] Window object destroyed: Roblox -- 197688
+[Info | 11:31:31 AM] Game is still running
+[Info | 11:31:33 AM] Game window changed. Finding new game window
+[Info | 11:31:33 AM] Found 0 windows that match process caption and class
+[Info | 11:31:33 AM] New window handle 0
+[Info | 11:31:33 AM] Finding new game window failed
+[Info | 11:31:33 AM] Roblox exited.
+[Info | 11:31:33 AM] [Game Status]: game/stopped - Roblox[1e2Ad6EOaE]
+[Info | 11:31:33 AM] Stop recording game Roblox
+[Info | 11:31:33 AM] InputManager stopping...
+[Info | 11:31:33 AM] InputManager: PollInput stopped
+[Info | 11:31:33 AM] InputManager stopped.
+[Info | 11:31:33 AM] [ESM Event] - GameClosed
+[Info | 11:31:33 AM] Stopped Filter
+[Info | 11:31:33 AM] [Game Status]: capture/stopped - Roblox[1e2Ad6EOaE]
+[Info | 11:31:33 AM] Stopping window capture...
+[Info | 11:31:35 AM] Window capture stopped.
+[Info | 11:31:35 AM] Dispose overlay frame
+[Info | 11:31:35 AM] Mic disabled
+[Debug | 11:31:36 AM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 11:31:36 AM] Clear override settings
+[Info | 11:31:36 AM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 11:31:36 AM] [ESM Event] - ConfigChangedRestart
+[Info | 11:31:36 AM] job.respond c37feec2-f424-4447-9e13-6cb9da90dd44
+[Debug | 11:31:36 AM] PollDesktopJobQueue reply [{'uuid':'c37feec2-f424-4447-9e13-6cb9da90dd44','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 11:31:36 AM] job.respond "ok"
+[Debug | 11:31:36 AM] capture/stopped reply "ok"
+[Info | 11:31:36 AM] ----[ESM State]: ScanningForGame----
+[Info | 11:31:36 AM] [Game Status]: game/stopped - [2LBr6_ltG]
+[Info | 11:31:36 AM] Removing window hooks
+[Info | 11:31:36 AM] Window hooks removed
+[Info | 11:31:36 AM] Stopping performance monitor.
+[Info | 11:31:36 AM] Stopping periodic game extension jobs.
+[Debug | 11:31:37 AM] game/stopped reply "ok"
+[Info | 11:31:38 AM] 1 logs of- game/stopped reply "ok"
+[Debug | 11:31:38 AM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 11:31:38 AM] Clear override settings
+[Info | 11:31:38 AM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 11:31:38 AM] [ESM Event] - ConfigChangedRestart
+[Info | 11:31:38 AM] job.respond da4a52fc-b1c2-4db3-b234-822e1449f281
+[Debug | 11:31:38 AM] PollDesktopJobQueue reply [{'uuid':'da4a52fc-b1c2-4db3-b234-822e1449f281','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 11:31:38 AM] job.respond "ok"
+[Warning | 11:31:44 AM] Scanning already in progress (0.05s)
+[Info | 11:46:36 AM] [ESM Event] - GameDBCheckForUpdate
+[Info | 11:46:36 AM] ----[ESM State]: UpdatingGameDatabase----
+[Info | 11:46:36 AM] Checking for new version from https://cdn.medal.tv/asset/games-db/production/version.json
+[Info | 11:46:37 AM] Remote Info: {"Version":"2.588","Command":"none","Environment":"production"}
+[Info | 11:46:37 AM] Local Info: {"Version":"2.588","Command":"none","Environment":"production"}
+[Info | 11:46:37 AM] No update is available.
+[Info | 11:46:37 AM] [ESM Event] - GameDBUpdateComplete
+[Info | 11:46:37 AM] GameDB: C:\Users\User\AppData\Local\Medal\recorder-3.696.0\MedalGameInfo.db
+[Info | 11:46:37 AM] ----[ESM State]: ScanningForGame----
+[Info | 11:46:37 AM] [Game Status]: game/stopped - [2LBr6_ltG]
+[Debug | 11:46:38 AM] game/stopped reply "ok"
+[Debug | 11:46:38 AM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 11:46:38 AM] Clear override settings
+[Info | 11:46:38 AM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 11:46:38 AM] [ESM Event] - ConfigChangedRestart
+[Info | 11:46:38 AM] job.respond d741705b-0e49-4b0a-a101-1b7fa050cb47
+[Debug | 11:46:38 AM] PollDesktopJobQueue reply [{'uuid':'d741705b-0e49-4b0a-a101-1b7fa050cb47','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 11:46:38 AM] job.respond "ok"
+[Info | 11:52:07 AM] Game Found Type ProcessClass: Roblox
+[Info | 11:52:07 AM] Process name found RobloxPlayerBeta | Caption | Roblox | and class | WINDOWSCLIENT | Detect all Games | False
+[Info | 11:52:07 AM] Game found RobloxPlayerBeta Handle: 984054
+[Info | 11:52:07 AM] Monitor: 65537 Current DPI: 96, 96
+[Info | 11:52:07 AM] Setting up window hooks
+[Info | 11:52:07 AM] Window location change event hooked
+[Info | 11:52:07 AM] Window focus event hooked
+[Info | 11:52:07 AM] Window destroy event hooked
+[Info | 11:52:07 AM] Window reorder event hooked
+[Info | 11:52:07 AM] Window hooks complete
+[Info | 11:52:07 AM] Active game initialized Roblox
+[Info | 11:52:07 AM] [Game Status]: game/started - Roblox[1e2Ad6EOaE]
+[Info | 11:52:07 AM] Start recording game Roblox
+[Info | 11:52:07 AM] [ESM Event] - WindowCaptureStart
+[Info | 11:52:07 AM] Dispose overlay frame
+[Info | 11:52:07 AM] Environment.OSVersion.Version - 10.0.19045.0
+[Info | 11:52:07 AM] Dispose overlay frame
+[Warning | 11:52:07 AM] Screenshots are disabled!
+[Info | 11:52:07 AM] ICYMI initializing. Config Enabled: True - Settings Enabled: False
+[Info | 11:52:07 AM] Check for late hook install: False
+[Info | 11:52:07 AM] Frame factory initialized on device Auto, LUID:42459
+[Info | 11:52:07 AM] codecName- a264hw, fcc type- eMFCC_NV12
+[Info | 11:52:08 AM] Output Mode: Clip Output
+[Info | 11:52:08 AM] Recording mic: False
+[Info | 11:52:08 AM] Stream 514 Added! Props: streamid='514' pid='26304'
+[Info | 11:52:08 AM] Mic disabled
+[Info | 11:52:08 AM] Window capture video resolution is {Width=1320, Height=720} - Aspect ratio is Custom
+[Info | 11:52:08 AM] Window capture aspect ratio 11:6
+[Info | 11:52:08 AM] Acquired window capture device.
+[Info | 11:52:08 AM] Capture area is 0,24,1920,1040
+[Info | 11:52:08 AM] Screen: 0
+[Info | 11:52:08 AM] Hiding: 0,24,1920,1040
+[Info | 11:52:08 AM] [Game Status]: capture/started - Roblox[1e2Ad6EOaE]
+[Info | 11:52:08 AM] codecName- a264hw, fcc type- eMFCC_NV12
+[Info | 11:52:08 AM] Memory buffer size (MB): 180
+[Info | 11:52:09 AM] Started Filter
+[Info | 11:52:09 AM] Starting GAO...
+[Info | 11:52:09 AM] First video data from screen capture
+[Info | 11:52:09 AM] InputManager starting...
+[Info | 11:52:09 AM] Check for input devices
+[Info | 11:52:09 AM] Set sound gain {1},{1} - 0 - 0
+[Info | 11:52:09 AM] Audio config- 0,1 -  | tracksplitbits - 10 | mix channels - 0,1
+[Info | 11:52:09 AM] Creating overlay frame from: C:\Users\User\AppData\Local\Medal\recorder-3.696.0\Assets\inactiveGame.png
+[Info | 11:52:09 AM] InputManager started.
+[Info | 11:52:09 AM] InputManager: PollInput started
+[Info | 11:52:09 AM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 11:52:09 AM] InputManager: active game switch detected, regenerating trigger inputs
+[Info | 11:52:09 AM] [ESM Event] - GameWindowDefocus
+[Info | 11:52:09 AM] ----[ESM State]: WindowCaptureStandard----
+[Info | 11:52:09 AM] Screen: 0
+[Info | 11:52:09 AM] Hiding: 0,24,1920,1040
+[Info | 11:52:14 AM] Active game GameRecordingSuccessfullyStarted WindowCapture
+[Info | 11:52:14 AM] Using standard overlay
+[Info | 11:52:14 AM] Electron overlay support- Enabled:False - Capture Type:WindowCapture
+[Info | 11:52:14 AM] Starting DirectX overlay for Roblox
+[Info | 11:52:14 AM] Starting Medal Performance monitor.
+[Info | 11:52:14 AM] Capture mode: DXGI
+[Warning | 11:52:14 AM] Error getting the CPU temperature counter value: Instance '\_TZ.THRM' does not exist in the specified Category.
+[Warning | 11:52:14 AM] InputManager polling slowly: average of 3.002ms
+[Warning | 11:52:19 AM] InputManager polling slowly: average of 2.832ms
+[Debug | 11:52:20 AM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 11:52:20 AM] Clear override settings
+[Info | 11:52:20 AM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 11:52:20 AM] [ESM Event] - ConfigChangedRestart
+[Debug | 11:52:20 AM] capture/started reply "ok"
+[Info | 11:52:20 AM] Stopped Filter
+[Info | 11:52:20 AM] Stopping window capture...
+[Info | 11:52:20 AM] Window capture stopped.
+[Info | 11:52:20 AM] Dispose overlay frame
+[Info | 11:52:20 AM] Mic disabled
+[Debug | 11:52:21 AM] game/started reply "ok"
+[Info | 11:52:22 AM] ICYMI initializing. Config Enabled: True - Settings Enabled: False
+[Info | 11:52:22 AM] Check for late hook install: False
+[Info | 11:52:22 AM] Frame factory initialized on device Auto, LUID:42459
+[Info | 11:52:22 AM] codecName- a264hw, fcc type- eMFCC_NV12
+[Info | 11:52:22 AM] Output Mode: Clip Output
+[Info | 11:52:23 AM] Recording mic: False
+[Info | 11:52:23 AM] Stream 515 Added! Props: streamid='515' pid='26304'
+[Info | 11:52:23 AM] Mic disabled
+[Info | 11:52:23 AM] Window capture video resolution is {Width=1320, Height=720} - Aspect ratio is Custom
+[Info | 11:52:23 AM] Window capture aspect ratio 11:6
+[Info | 11:52:23 AM] Acquired window capture device.
+[Info | 11:52:24 AM] Capture area is 0,24,1920,1040
+[Info | 11:52:24 AM] Screen: 0
+[Info | 11:52:24 AM] Hiding: 0,24,1920,1040
+[Info | 11:52:24 AM] codecName- a264hw, fcc type- eMFCC_NV12
+[Info | 11:52:24 AM] Memory buffer size (MB): 180
+[Info | 11:52:24 AM] Started Filter
+[Info | 11:52:24 AM] Starting GAO...
+[Info | 11:52:24 AM] First video data from screen capture
+[Info | 11:52:24 AM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 11:52:24 AM] [ESM Event] - GameWindowDefocus
+[Info | 11:52:24 AM] Screen: 0
+[Info | 11:52:24 AM] Hiding: 0,24,1920,1040
+[Info | 11:52:24 AM] job.respond b3d2a34c-57cb-4593-81f5-cf2325c6e30c
+[Debug | 11:52:24 AM] PollDesktopJobQueue reply [{'uuid':'b3d2a34c-57cb-4593-81f5-cf2325c6e30c','body':{'enabled':false},'action':'set.toggleBroadcast'},{'uuid':'efdebda0-5325-4263-9728-f6ce3012b48b','body':{},'action':'ping'}]
+[Debug | 11:52:25 AM] job.respond "ok"
+[Info | 11:52:25 AM] Set sound gain {1},{1} - 0 - 0
+[Info | 11:52:25 AM] Audio config- 0,1 -  | tracksplitbits - 10 | mix channels - 0,1
+[Info | 11:52:25 AM] Creating overlay frame from: C:\Users\User\AppData\Local\Medal\recorder-3.696.0\Assets\inactiveGame.png
+[Info | 11:52:29 AM] [ESM Event] - GameWindowFocus
+[Info | 11:52:29 AM] Showing: 0,24,1920,1040
+[Info | 11:52:29 AM] Fallback set game in focus
+[Info | 11:52:31 AM] Active game GameRecordingSuccessfullyStarted WindowCapture
+[Info | 11:52:31 AM] Using standard overlay
+[Info | 11:52:31 AM] Electron overlay support- Enabled:False - Capture Type:WindowCapture
+[Info | 11:52:31 AM] Starting DirectX overlay for Roblox
+[Info | 11:52:31 AM] Notification message received
+[Info | 11:52:31 AM] Starting Medal Performance monitor.
+[Info | 11:52:31 AM] job.respond 5219a5b7-4b73-4a4c-9305-5ecb4d616991
+[Info | 11:52:31 AM] Capture mode: DXGI
+[Debug | 11:52:31 AM] job.respond "ok"
+[Info | 11:52:34 AM] [ESM Event] - GameWindowDefocus
+[Info | 11:52:34 AM] Hiding: 0,24,1920,1040
+[Info | 11:52:34 AM] Fallback set game defocus
+[Warning | 11:52:34 AM] Error getting the CPU temperature counter value: Instance '\_TZ.THRM' does not exist in the specified Category.
+[Warning | 11:52:35 AM] InputManager polling slowly: average of 2.788ms
+[Info | 11:52:35 AM] [ESM Event] - GameWindowDefocus
+[Info | 11:52:35 AM] Hiding: 0,24,1920,1040
+[Warning | 11:52:40 AM] InputManager polling slowly: average of 3.263ms
+[Info | 11:52:43 AM] [ESM Event] - GameWindowDefocus
+[Info | 11:52:43 AM] Hiding: 0,24,1920,1040
+[Warning | 11:52:45 AM] InputManager polling slowly: average of 2.320ms
+[Info | 11:52:45 AM] [ESM Event] - GameWindowDefocus
+[Info | 11:52:45 AM] Hiding: 0,24,1920,1040
+[Info | 11:52:48 AM] [ESM Event] - GameWindowDefocus
+[Info | 11:52:48 AM] Hiding: 0,24,1920,1040
+[Info | 11:52:48 AM] [ESM Event] - GameWindowDefocus
+[Info | 11:52:48 AM] Hiding: 0,24,1920,1040
+[Info | 11:52:48 AM] [ESM Event] - GameWindowDefocus
+[Info | 11:52:48 AM] Hiding: 0,24,1920,1040
+[Info | 11:52:54 AM] [ESM Event] - GameWindowFocus
+[Info | 11:52:54 AM] Showing: 0,24,1920,1040
+[Warning | 11:52:55 AM] InputManager polling slowly: average of 2.185ms
+[Info | 11:52:55 AM] Post Match Info: {"categoryId":"1e2Ad6EOaE","server":{"externalId":"2709441373","name":"[TRADING] Ability Playground","metadata":null},"match":null,"player":{"externalId":"1883801835","name":"karma","metadata":null,"matchMetadata":null},"otherPlayers":null,"metadata":{"playerCount":9}}
+[Info | 11:52:55 AM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 11:52:55 AM] Screen: 0
+[Info | 11:52:55 AM] [ESM Event] - WindowCaptureMoved
+[Info | 11:52:55 AM] Capture area is 0,24,1920,1040
+[Info | 11:52:55 AM] [ESM Event] - GameWindowResize
+[Info | 11:52:55 AM] [ESM Event] - Queued - ConfigChangedRestart
+[Info | 11:52:55 AM] [ESM Event] - GameWindowFocus
+[Info | 11:52:55 AM] Showing: 0,24,1920,1040
+[Info | 11:52:58 AM] [ESM Event] - Delayed fire - ConfigChangedRestart
+[Info | 11:52:58 AM] [ESM Event] - ConfigChangedRestart
+[Info | 11:52:58 AM] Stopped Filter
+[Info | 11:52:58 AM] Stopping window capture...
+[Info | 11:52:58 AM] Window capture stopped.
+[Info | 11:52:58 AM] Dispose overlay frame
+[Info | 11:52:58 AM] Mic disabled
+[Info | 11:52:58 AM] ICYMI initializing. Config Enabled: True - Settings Enabled: False
+[Info | 11:52:58 AM] Check for late hook install: False
+[Info | 11:52:58 AM] Frame factory initialized on device Auto, LUID:42459
+[Info | 11:52:58 AM] codecName- a264hw, fcc type- eMFCC_NV12
+[Info | 11:52:58 AM] Output Mode: Clip Output
+[Warning | 11:53:00 AM] InputManager polling slowly: average of 2.306ms
+[Info | 11:53:00 AM] Recording mic: False
+[Info | 11:53:00 AM] Stream 516 Added! Props: streamid='516' pid='26304'
+[Info | 11:53:00 AM] Mic disabled
+[Info | 11:53:00 AM] Window capture video resolution is {Width=1320, Height=720} - Aspect ratio is Custom
+[Info | 11:53:00 AM] Window capture aspect ratio 11:6
+[Info | 11:53:00 AM] Acquired window capture device.
+[Info | 11:53:00 AM] Capture area is 0,24,1920,1040
+[Info | 11:53:00 AM] Screen: 0
+[Info | 11:53:00 AM] Hiding: 0,24,1920,1040
+[Info | 11:53:00 AM] codecName- a264hw, fcc type- eMFCC_NV12
+[Info | 11:53:01 AM] Memory buffer size (MB): 180
+[Info | 11:53:01 AM] [ESM Event] - Delayed fire - ConfigChangedRestart
+[Info | 11:53:01 AM] [ESM Event] - ConfigChangedRestart
+[Info | 11:53:01 AM] Started Filter
+[Info | 11:53:01 AM] First video data from screen capture
+[Info | 11:53:01 AM] Starting GAO...
+[Info | 11:53:01 AM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 11:53:01 AM] [ESM Event] - GameWindowFocus
+[Info | 11:53:01 AM] Stopped Filter
+[Info | 11:53:01 AM] Stopping window capture...
+[Warning | 11:53:02 AM] Time-out error on video thread (no source)
+[Info | 11:53:02 AM] Window capture stopped.
+[Info | 11:53:02 AM] Dispose overlay frame
+[Info | 11:53:02 AM] Mic disabled
+[Info | 11:53:02 AM] ICYMI initializing. Config Enabled: True - Settings Enabled: False
+[Info | 11:53:02 AM] Check for late hook install: False
+[Info | 11:53:02 AM] Frame factory initialized on device Auto, LUID:42459
+[Info | 11:53:02 AM] codecName- a264hw, fcc type- eMFCC_NV12
+[Info | 11:53:02 AM] Output Mode: Clip Output
+[Info | 11:53:03 AM] Recording mic: False
+[Info | 11:53:03 AM] Stream 517 Added! Props: streamid='517' pid='26304'
+[Info | 11:53:03 AM] Mic disabled
+[Info | 11:53:03 AM] Window capture video resolution is {Width=1320, Height=720} - Aspect ratio is Custom
+[Info | 11:53:03 AM] Window capture aspect ratio 11:6
+[Info | 11:53:03 AM] Acquired window capture device.
+[Info | 11:53:03 AM] Capture area is 0,24,1920,1040
+[Info | 11:53:03 AM] Screen: 0
+[Info | 11:53:03 AM] Hiding: 0,24,1920,1040
+[Info | 11:53:03 AM] codecName- a264hw, fcc type- eMFCC_NV12
+[Info | 11:53:03 AM] Memory buffer size (MB): 180
+[Info | 11:53:03 AM] Started Filter
+[Info | 11:53:03 AM] Starting GAO...
+[Info | 11:53:03 AM] First video data from screen capture
+[Info | 11:53:03 AM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 11:53:03 AM] [ESM Event] - GameWindowFocus
+[Info | 11:53:03 AM] Screen: 0
+[Info | 11:53:03 AM] Showing: 0,24,1920,1040
+[Info | 11:53:03 AM] Screen: 0
+[Info | 11:53:03 AM] Showing: 0,24,1920,1040
+[Info | 11:53:03 AM] Set sound gain {1},{1} - 0 - 0
+[Info | 11:53:03 AM] Audio config- 0,1 -  | tracksplitbits - 10 | mix channels - 0,1
+[Info | 11:53:06 AM] [ESM Event] - GameWindowDefocus
+[Info | 11:53:06 AM] Hiding: 0,24,1920,1040
+[Info | 11:53:06 AM] [ESM Event] - GameWindowDefocus
+[Info | 11:53:06 AM] Hiding: 0,24,1920,1040
+[Info | 11:53:06 AM] Creating overlay frame from: C:\Users\User\AppData\Local\Medal\recorder-3.696.0\Assets\inactiveGame.png
+[Info | 11:53:07 AM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 11:53:07 AM] Screen: 0
+[Info | 11:53:07 AM] [ESM Event] - WindowCaptureMoved
+[Info | 11:53:08 AM] Active game GameRecordingSuccessfullyStarted WindowCapture
+[Info | 11:53:08 AM] Using standard overlay
+[Info | 11:53:08 AM] Electron overlay support- Enabled:False - Capture Type:WindowCapture
+[Info | 11:53:08 AM] Starting DirectX overlay for Roblox
+[Info | 11:53:08 AM] Starting Medal Performance monitor.
+[Info | 11:53:08 AM] Capture mode: DXGI
+[Warning | 11:53:08 AM] Error getting the CPU temperature counter value: Instance '\_TZ.THRM' does not exist in the specified Category.
+[Warning | 11:53:14 AM] InputManager polling slowly: average of 3.803ms
+[Warning | 11:53:19 AM] InputManager polling slowly: average of 3.800ms
+[Info | 11:53:22 AM] [ESM Event] - GameWindowFocus
+[Info | 11:53:22 AM] Showing: 0,24,1920,1040
+[Info | 11:53:22 AM] [ESM Event] - GameWindowDefocus
+[Info | 11:53:22 AM] Hiding: 0,24,1920,1040
+[Info | 11:53:25 AM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 11:53:25 AM] Screen: 0
+[Info | 11:53:25 AM] [ESM Event] - WindowCaptureMoved
+[Info | 11:53:25 AM] Capture area is 0,24,1920,1040
+[Info | 11:53:25 AM] [ESM Event] - GameWindowFocus
+[Info | 11:53:25 AM] Showing: 0,24,1920,1040
+[Info | 11:53:27 AM] Window object destroyed: Roblox -- 984054
+[Info | 11:53:27 AM] Game is still running
+[Info | 11:53:27 AM] Game window changed. Finding new game window
+[Info | 11:53:27 AM] Found 0 windows that match process caption and class
+[Info | 11:53:27 AM] New window handle 0
+[Info | 11:53:27 AM] Finding new game window failed
+[Info | 11:53:27 AM] Roblox exited.
+[Info | 11:53:27 AM] [Game Status]: game/stopped - Roblox[1e2Ad6EOaE]
+[Info | 11:53:27 AM] Stop recording game Roblox
+[Info | 11:53:27 AM] InputManager stopping...
+[Info | 11:53:28 AM] InputManager: PollInput stopped
+[Info | 11:53:28 AM] InputManager stopped.
+[Info | 11:53:28 AM] [ESM Event] - GameClosed
+[Info | 11:53:28 AM] Stopped Filter
+[Info | 11:53:28 AM] [Game Status]: capture/stopped - Roblox[1e2Ad6EOaE]
+[Info | 11:53:28 AM] Stopping window capture...
+[Debug | 11:53:28 AM] capture/stopped reply "ok"
+[Info | 11:53:28 AM] Window capture stopped.
+[Info | 11:53:28 AM] Dispose overlay frame
+[Info | 11:53:28 AM] Mic disabled
+[Info | 11:53:29 AM] ----[ESM State]: ScanningForGame----
+[Info | 11:53:29 AM] [Game Status]: game/stopped - [2LBr6_ltG]
+[Info | 11:53:29 AM] Removing window hooks
+[Info | 11:53:29 AM] Window hooks removed
+[Info | 11:53:29 AM] Stopping performance monitor.
+[Info | 11:53:29 AM] Stopping periodic game extension jobs.
+[Debug | 11:53:31 AM] game/stopped reply "ok"
+[Debug | 11:53:31 AM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 11:53:31 AM] Clear override settings
+[Info | 11:53:31 AM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 11:53:31 AM] [ESM Event] - ConfigChangedRestart
+[Info | 11:53:31 AM] job.respond 1e0b8d82-f5c5-4c61-9e64-654beba18f8e
+[Debug | 11:53:31 AM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 11:53:31 AM] Clear override settings
+[Debug | 11:53:31 AM] job.respond "ok"
+[Info | 11:53:31 AM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 11:53:31 AM] [ESM Event] - ConfigChangedRestart
+[Info | 11:53:31 AM] job.respond 6e2d92ae-6ec4-48ca-94b9-3ce3eb309465
+[Debug | 11:53:31 AM] PollDesktopJobQueue reply [{'uuid':'1e0b8d82-f5c5-4c61-9e64-654beba18f8e','body':{'enabled':false},'action':'set.toggleBroadcast'},{'uuid':'6e2d92ae-6ec4-48ca-94b9-3ce3eb309465','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 11:53:31 AM] job.respond "ok"
+[Debug | 11:53:32 AM] game/stopped reply "ok"
+[Info | 11:53:55 AM] Game Found Type ProcessClass: Roblox
+[Info | 11:53:55 AM] Process name found RobloxPlayerBeta | Caption | Roblox | and class | WINDOWSCLIENT | Detect all Games | False
+[Info | 11:53:55 AM] Game found RobloxPlayerBeta Handle: 329404
+[Info | 11:53:55 AM] Monitor: 65537 Current DPI: 96, 96
+[Info | 11:53:55 AM] Setting up window hooks
+[Info | 11:53:55 AM] Window location change event hooked
+[Info | 11:53:55 AM] Window focus event hooked
+[Info | 11:53:55 AM] Window destroy event hooked
+[Info | 11:53:55 AM] Window reorder event hooked
+[Info | 11:53:55 AM] Window hooks complete
+[Info | 11:53:55 AM] Active game initialized Roblox
+[Info | 11:53:55 AM] [Game Status]: game/started - Roblox[1e2Ad6EOaE]
+[Info | 11:53:55 AM] Start recording game Roblox
+[Info | 11:53:55 AM] [ESM Event] - WindowCaptureStart
+[Info | 11:53:55 AM] Dispose overlay frame
+[Info | 11:53:55 AM] Environment.OSVersion.Version - 10.0.19045.0
+[Info | 11:53:55 AM] Dispose overlay frame
+[Warning | 11:53:55 AM] Screenshots are disabled!
+[Info | 11:53:55 AM] ICYMI initializing. Config Enabled: True - Settings Enabled: False
+[Info | 11:53:55 AM] Check for late hook install: False
+[Info | 11:53:55 AM] Frame factory initialized on device Auto, LUID:42459
+[Info | 11:53:55 AM] codecName- a264hw, fcc type- eMFCC_NV12
+[Info | 11:53:58 AM] Output Mode: Clip Output
+[Debug | 11:53:59 AM] game/started reply "ok"
+[Info | 11:54:00 AM] Recording mic: False
+[Info | 11:54:00 AM] Stream 518 Added! Props: streamid='518' pid='30544'
+[Info | 11:54:00 AM] Mic disabled
+[Info | 11:54:00 AM] Window capture video resolution is {Width=1320, Height=720} - Aspect ratio is Custom
+[Info | 11:54:00 AM] Window capture aspect ratio 11:6
+[Info | 11:54:00 AM] Acquired window capture device.
+[Info | 11:54:00 AM] Capture area is 0,24,1920,1040
+[Info | 11:54:00 AM] Screen: 0
+[Info | 11:54:00 AM] Hiding: 0,24,1920,1040
+[Info | 11:54:00 AM] [Game Status]: capture/started - Roblox[1e2Ad6EOaE]
+[Info | 11:54:00 AM] codecName- a264hw, fcc type- eMFCC_NV12
+[Info | 11:54:00 AM] Memory buffer size (MB): 180
+[Debug | 11:54:00 AM] capture/started reply "ok"
+[Info | 11:54:00 AM] Started Filter
+[Info | 11:54:00 AM] Starting GAO...
+[Info | 11:54:00 AM] First video data from screen capture
+[Info | 11:54:00 AM] InputManager starting...
+[Info | 11:54:00 AM] Check for input devices
+[Info | 11:54:00 AM] InputManager: PollInput started
+[Info | 11:54:00 AM] InputManager started.
+[Info | 11:54:00 AM] InputManager: active game switch detected, regenerating trigger inputs
+[Info | 11:54:00 AM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 11:54:00 AM] [ESM Event] - GameWindowFocus
+[Info | 11:54:00 AM] ----[ESM State]: WindowCaptureStandard----
+[Info | 11:54:00 AM] Screen: 0
+[Info | 11:54:00 AM] Showing: 0,24,1920,1040
+[Info | 11:54:00 AM] Set sound gain {1},{1} - 0 - 0
+[Info | 11:54:00 AM] Audio config- 0,1 -  | tracksplitbits - 10 | mix channels - 0,1
+[Debug | 11:54:01 AM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 11:54:01 AM] Clear override settings
+[Info | 11:54:01 AM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 11:54:01 AM] [ESM Event] - ConfigChangedRestart
+[Info | 11:54:01 AM] Stopped Filter
+[Info | 11:54:01 AM] Stopping window capture...
+[Info | 11:54:01 AM] Window capture stopped.
+[Info | 11:54:01 AM] Dispose overlay frame
+[Info | 11:54:01 AM] Mic disabled
+[Info | 11:54:01 AM] ICYMI initializing. Config Enabled: True - Settings Enabled: False
+[Info | 11:54:01 AM] Check for late hook install: False
+[Info | 11:54:01 AM] Frame factory initialized on device Auto, LUID:42459
+[Info | 11:54:01 AM] codecName- a264hw, fcc type- eMFCC_NV12
+[Info | 11:54:01 AM] Output Mode: Clip Output
+[Info | 11:54:02 AM] Recording mic: False
+[Info | 11:54:02 AM] Stream 519 Added! Props: streamid='519' pid='30544'
+[Info | 11:54:02 AM] Mic disabled
+[Info | 11:54:02 AM] Window capture video resolution is {Width=1320, Height=720} - Aspect ratio is Custom
+[Info | 11:54:02 AM] Window capture aspect ratio 11:6
+[Info | 11:54:02 AM] Acquired window capture device.
+[Info | 11:54:02 AM] Capture area is 0,24,1920,1040
+[Info | 11:54:02 AM] Screen: 0
+[Info | 11:54:02 AM] Hiding: 0,24,1920,1040
+[Info | 11:54:02 AM] codecName- a264hw, fcc type- eMFCC_NV12
+[Info | 11:54:02 AM] Memory buffer size (MB): 180
+[Info | 11:54:02 AM] Started Filter
+[Info | 11:54:02 AM] Starting GAO...
+[Info | 11:54:02 AM] First video data from screen capture
+[Info | 11:54:02 AM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 11:54:02 AM] [ESM Event] - GameWindowFocus
+[Info | 11:54:02 AM] Screen: 0
+[Info | 11:54:02 AM] Showing: 0,24,1920,1040
+[Info | 11:54:02 AM] job.respond fac36185-e93b-4716-8658-64b18ec41e7c
+[Debug | 11:54:02 AM] PollDesktopJobQueue reply [{'uuid':'fac36185-e93b-4716-8658-64b18ec41e7c','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 11:54:02 AM] job.respond "ok"
+[Info | 11:54:02 AM] Set sound gain {1},{1} - 0 - 0
+[Info | 11:54:02 AM] Audio config- 0,1 -  | tracksplitbits - 10 | mix channels - 0,1
+[Info | 11:54:07 AM] Active game GameRecordingSuccessfullyStarted WindowCapture
+[Info | 11:54:07 AM] Using standard overlay
+[Info | 11:54:07 AM] Electron overlay support- Enabled:False - Capture Type:WindowCapture
+[Info | 11:54:07 AM] Starting DirectX overlay for Roblox
+[Info | 11:54:07 AM] Starting Medal Performance monitor.
+[Info | 11:54:07 AM] Capture mode: DXGI
+[Warning | 11:54:07 AM] Error getting the CPU temperature counter value: Instance '\_TZ.THRM' does not exist in the specified Category.
+[Warning | 11:54:11 AM] InputManager polling slowly: average of 2.056ms
+[Info | 11:54:11 AM] Post Match Info: {"categoryId":"1e2Ad6EOaE","server":{"externalId":"2709441373","name":"[TRADING] Ability Playground","metadata":null},"match":null,"player":{"externalId":"1883801835","name":"karma","metadata":null,"matchMetadata":null},"otherPlayers":null,"metadata":{"playerCount":10}}
+[Warning | 11:54:16 AM] InputManager polling slowly: average of 2.413ms
+[Warning | 11:54:41 AM] InputManager polling slowly: average of 2.198ms
+[Warning | 11:54:46 AM] InputManager polling slowly: average of 3.163ms
+[Warning | 11:54:51 AM] InputManager polling slowly: average of 3.437ms
+[Warning | 11:54:56 AM] InputManager polling slowly: average of 3.214ms
+[Warning | 11:55:01 AM] InputManager polling slowly: average of 3.986ms
+[Warning | 11:55:06 AM] InputManager polling slowly: average of 3.762ms
+[Warning | 11:55:11 AM] InputManager polling slowly: average of 2.425ms
+[Warning | 11:55:21 AM] InputManager polling slowly: average of 2.045ms
+[Warning | 11:55:27 AM] InputManager polling slowly: average of 3.190ms
+[Warning | 11:55:32 AM] InputManager polling slowly: average of 3.744ms
+[Warning | 11:55:37 AM] InputManager polling slowly: average of 3.406ms
+[Warning | 11:55:44 AM] InputManager polling slowly: average of 32.724ms
+[Warning | 11:55:49 AM] InputManager polling slowly: average of 32.719ms
+[Warning | 11:55:54 AM] InputManager polling slowly: average of 32.950ms
+[Warning | 11:55:59 AM] InputManager polling slowly: average of 3.593ms
+[Warning | 11:56:04 AM] InputManager polling slowly: average of 2.771ms
+[Warning | 11:56:09 AM] InputManager polling slowly: average of 2.589ms
+[Warning | 11:56:14 AM] InputManager polling slowly: average of 2.948ms
+[Warning | 11:56:19 AM] InputManager polling slowly: average of 3.389ms
+[Warning | 11:56:24 AM] InputManager polling slowly: average of 3.408ms
+[Warning | 11:56:30 AM] InputManager polling slowly: average of 3.638ms
+[Warning | 11:56:35 AM] InputManager polling slowly: average of 3.401ms
+[Info | 11:56:39 AM] [ESM Event] - GameWindowDefocus
+[Info | 11:56:39 AM] Hiding: 0,24,1920,1040
+[Info | 11:56:39 AM] Window object destroyed: Roblox -- 329404
+[Info | 11:56:39 AM] Game is still running
+[Info | 11:56:40 AM] Creating overlay frame from: C:\Users\User\AppData\Local\Medal\recorder-3.696.0\Assets\inactiveGame.png
+[Warning | 11:56:40 AM] InputManager polling slowly: average of 2.809ms
+[Warning | 11:56:40 AM] Resolution dimensions corrected!
+[Info | 11:56:41 AM] Game window changed. Finding new game window
+[Info | 11:56:41 AM] Found 0 windows that match process caption and class
+[Info | 11:56:41 AM] New window handle 0
+[Info | 11:56:41 AM] Finding new game window failed
+[Info | 11:56:41 AM] Roblox exited.
+[Info | 11:56:41 AM] [Game Status]: game/stopped - Roblox[1e2Ad6EOaE]
+[Info | 11:56:41 AM] Stop recording game Roblox
+[Info | 11:56:41 AM] InputManager: active game switch detected, regenerating trigger inputs
+[Info | 11:56:41 AM] InputManager stopping...
+[Info | 11:56:41 AM] InputManager: PollInput stopped
+[Info | 11:56:42 AM] InputManager stopped.
+[Info | 11:56:42 AM] [ESM Event] - GameClosed
+[Info | 11:56:42 AM] Stopped Filter
+[Info | 11:56:42 AM] [Game Status]: capture/stopped - Roblox[1e2Ad6EOaE]
+[Info | 11:56:42 AM] Stopping window capture...
+[Info | 11:56:43 AM] Window capture stopped.
+[Info | 11:56:43 AM] Dispose overlay frame
+[Info | 11:56:43 AM] Mic disabled
+[Debug | 11:56:44 AM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 11:56:44 AM] Clear override settings
+[Info | 11:56:44 AM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 11:56:44 AM] [ESM Event] - ConfigChangedRestart
+[Info | 11:56:44 AM] job.respond e4e99218-12ce-4478-bfa6-084b799cdeda
+[Debug | 11:56:44 AM] PollDesktopJobQueue reply [{'uuid':'e4e99218-12ce-4478-bfa6-084b799cdeda','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 11:56:44 AM] job.respond "ok"
+[Info | 11:56:44 AM] Game window changed. Finding new game window
+[Info | 11:56:44 AM] Found 0 windows that match process caption and class
+[Info | 11:56:44 AM] New window handle 0
+[Info | 11:56:44 AM] Finding new game window failed
+[Info | 11:56:44 AM] Roblox exited.
+[Info | 11:56:44 AM] [Game Status]: game/stopped - Roblox[1e2Ad6EOaE]
+[Info | 11:56:44 AM] Removing window hooks
+[Debug | 11:56:45 AM] capture/stopped reply "ok"
+[Info | 11:56:45 AM] ----[ESM State]: ScanningForGame----
+[Info | 11:56:45 AM] [Game Status]: game/stopped - [2LBr6_ltG]
+[Info | 11:56:45 AM] Removing window hooks
+[Info | 11:56:45 AM] Window hooks removed
+[Info | 11:56:45 AM] Stopping performance monitor.
+[Info | 11:56:45 AM] 1 logs of- Window hooks removed
+[Info | 11:56:45 AM] Stopping performance monitor.
+[Info | 11:56:45 AM] 1 logs of- Stopping performance monitor.
+[Info | 11:56:45 AM] Stopping periodic game extension jobs.
+[Info | 11:56:45 AM] Stopping periodic game extension jobs.
+[Debug | 11:56:48 AM] game/stopped reply "ok"
+[Debug | 11:56:48 AM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 11:56:48 AM] Clear override settings
+[Info | 11:56:48 AM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 11:56:48 AM] [ESM Event] - ConfigChangedRestart
+[Info | 11:56:48 AM] job.respond fcf03310-e49e-44e0-b481-e2745c80f7d7
+[Debug | 11:56:48 AM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 11:56:48 AM] Clear override settings
+[Info | 11:56:48 AM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 11:56:48 AM] [ESM Event] - ConfigChangedRestart
+[Info | 11:56:48 AM] job.respond 00644efc-2379-4731-8718-efee2bc9f300
+[Debug | 11:56:48 AM] PollDesktopJobQueue reply [{'uuid':'fcf03310-e49e-44e0-b481-e2745c80f7d7','body':{'enabled':false},'action':'set.toggleBroadcast'},{'uuid':'00644efc-2379-4731-8718-efee2bc9f300','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 11:56:48 AM] job.respond "ok"
+[Info | 11:56:50 AM] 1 logs of- job.respond "ok"
+[Debug | 11:56:50 AM] game/stopped reply "ok"
+[Info | 11:57:06 AM] 1 logs of- game/stopped reply "ok"
+[Info | 11:57:06 AM] OnDeviceStateChanged : Cannot get the device DeviceState=Unplugged
+[Info | 11:57:06 AM] Sending available mic devices Microphone (Realtek(R) Audio)
+[Info | 11:57:06 AM] 1 logs of- OnDeviceStateChanged : Cannot get the device DeviceState=Unplugged
+[Info | 11:57:06 AM] Sending available audio devices Headphones (Realtek(R) Audio), Speakers (Realtek(R) Audio), Headset (OnePlus Buds Z Hands-Free AG Audio)
+[Info | 11:57:06 AM] Sound Property Changed
+[Info | 11:57:06 AM] Sending available mic devices Microphone (Realtek(R) Audio)
+[Info | 11:57:06 AM] Sending available audio devices Headphones (Realtek(R) Audio), Speakers (Realtek(R) Audio), Headset (OnePlus Buds Z Hands-Free AG Audio)
+[Info | 11:57:06 AM] OnDefaultDeviceChanged : DataFlow=Capture
+[Info | 11:57:06 AM] OnDeviceStateChanged : Cannot get the device DeviceState=Unplugged
+[Info | 11:57:06 AM] Sending available mic devices Microphone (Realtek(R) Audio)
+[Info | 11:57:06 AM] Sending available audio devices Headphones (Realtek(R) Audio), Speakers (Realtek(R) Audio)
+[Debug | 11:57:07 AM] SendAvailableMicDevices reply {"success":true}
+[Info | 11:57:07 AM] OnDefaultDeviceChanged : DataFlow=Render
+[Info | 11:57:07 AM] Sound Property Changed
+[Debug | 11:57:07 AM] SendAvailableAudioDevices reply {"success":true}
+[Debug | 1:42:58 PM] SendAvailableMicDevices reply {"success":true}
+[Debug | 1:43:01 PM] SendAvailableAudioDevices reply {"success":true}
+[Debug | 1:43:01 PM] SendAvailableMicDevices reply {"success":true}
+[Debug | 1:43:02 PM] SendAvailableAudioDevices reply {"success":true}
+[Info | 1:45:01 PM] Game Found Type ProcessClass: Roblox
+[Info | 1:45:01 PM] Process name found RobloxPlayerBeta | Caption | Roblox | and class | WINDOWSCLIENT | Detect all Games | False
+[Info | 1:45:01 PM] Game found RobloxPlayerBeta Handle: 394880
+[Info | 1:45:01 PM] Monitor: 65537 Current DPI: 96, 96
+[Info | 1:45:01 PM] Setting up window hooks
+[Info | 1:45:01 PM] Window location change event hooked
+[Info | 1:45:01 PM] Window focus event hooked
+[Info | 1:45:01 PM] Window destroy event hooked
+[Info | 1:45:01 PM] Window reorder event hooked
+[Info | 1:45:01 PM] Window hooks complete
+[Info | 1:45:01 PM] Active game initialized Roblox
+[Info | 1:45:01 PM] [Game Status]: game/started - Roblox[1e2Ad6EOaE]
+[Info | 1:45:01 PM] Start recording game Roblox
+[Info | 1:45:01 PM] [ESM Event] - WindowCaptureStart
+[Info | 1:45:01 PM] Dispose overlay frame
+[Info | 1:45:01 PM] Environment.OSVersion.Version - 10.0.19045.0
+[Info | 1:45:01 PM] Dispose overlay frame
+[Warning | 1:45:01 PM] Screenshots are disabled!
+[Info | 1:45:01 PM] ICYMI initializing. Config Enabled: True - Settings Enabled: False
+[Info | 1:45:01 PM] Check for late hook install: False
+[Info | 1:45:01 PM] Frame factory initialized on device Auto, LUID:42459
+[Info | 1:45:01 PM] codecName- a264hw, fcc type- eMFCC_NV12
+[Debug | 1:45:02 PM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 1:45:02 PM] Clear override settings
+[Info | 1:45:02 PM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 1:45:02 PM] [ESM Event] - ConfigChangedRestart
+[Info | 1:45:02 PM] job.respond 54aed533-530e-4e65-ad7a-b868434f3327
+[Debug | 1:45:02 PM] PollDesktopJobQueue reply [{'uuid':'54aed533-530e-4e65-ad7a-b868434f3327','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 1:45:02 PM] job.respond "ok"
+[Debug | 1:45:03 PM] game/started reply "ok"
+[Info | 1:45:03 PM] Output Mode: Clip Output
+[Info | 1:45:03 PM] Notification message received
+[Info | 1:45:03 PM] job.respond eb761abd-a066-4721-b1a5-e9e0e9cd0f67
+[Debug | 1:45:03 PM] job.respond "ok"
+[Info | 1:45:04 PM] Recording mic: False
+[Info | 1:45:04 PM] Stream 520 Added! Props: streamid='520' pid='17948'
+[Info | 1:45:04 PM] Mic disabled
+[Info | 1:45:04 PM] Window capture video resolution is {Width=1320, Height=720} - Aspect ratio is Custom
+[Info | 1:45:04 PM] Window capture aspect ratio 11:6
+[Info | 1:45:04 PM] Acquired window capture device.
+[Info | 1:45:04 PM] Capture area is 0,24,1920,1040
+[Info | 1:45:04 PM] Screen: 0
+[Info | 1:45:04 PM] Hiding: 0,24,1920,1040
+[Info | 1:45:04 PM] [Game Status]: capture/started - Roblox[1e2Ad6EOaE]
+[Debug | 1:45:04 PM] capture/started reply "ok"
+[Info | 1:45:04 PM] codecName- a264hw, fcc type- eMFCC_NV12
+[Info | 1:45:04 PM] Memory buffer size (MB): 180
+[Info | 1:45:04 PM] Started Filter
+[Info | 1:45:04 PM] Starting GAO...
+[Info | 1:45:04 PM] InputManager starting...
+[Info | 1:45:04 PM] Check for input devices
+[Info | 1:45:04 PM] First video data from screen capture
+[Info | 1:45:04 PM] Set sound gain {1},{1} - 0 - 0
+[Info | 1:45:04 PM] Audio config- 0,1 -  | tracksplitbits - 10 | mix channels - 0,1
+[Info | 1:45:04 PM] Creating overlay frame from: C:\Users\User\AppData\Local\Medal\recorder-3.696.0\Assets\inactiveGame.png
+[Info | 1:45:05 PM] InputManager: PollInput started
+[Info | 1:45:05 PM] InputManager started.
+[Info | 1:45:05 PM] InputManager: active game switch detected, regenerating trigger inputs
+[Info | 1:45:05 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 1:45:05 PM] [ESM Event] - GameWindowDefocus
+[Info | 1:45:05 PM] ----[ESM State]: WindowCaptureStandard----
+[Info | 1:45:05 PM] Stopped Filter
+[Info | 1:45:05 PM] Stopping window capture...
+[Info | 1:45:05 PM] Window capture stopped.
+[Info | 1:45:05 PM] Dispose overlay frame
+[Info | 1:45:05 PM] Mic disabled
+[Info | 1:45:05 PM] ICYMI initializing. Config Enabled: True - Settings Enabled: False
+[Info | 1:45:05 PM] Check for late hook install: False
+[Info | 1:45:05 PM] Frame factory initialized on device Auto, LUID:42459
+[Info | 1:45:05 PM] codecName- a264hw, fcc type- eMFCC_NV12
+[Info | 1:45:05 PM] Output Mode: Clip Output
+[Info | 1:45:06 PM] Recording mic: False
+[Info | 1:45:06 PM] Stream 521 Added! Props: streamid='521' pid='17948'
+[Info | 1:45:06 PM] Mic disabled
+[Info | 1:45:06 PM] Window capture video resolution is {Width=1320, Height=720} - Aspect ratio is Custom
+[Info | 1:45:06 PM] Window capture aspect ratio 11:6
+[Info | 1:45:06 PM] Acquired window capture device.
+[Info | 1:45:06 PM] Capture area is 0,24,1920,1040
+[Info | 1:45:06 PM] Screen: 0
+[Info | 1:45:06 PM] Hiding: 0,24,1920,1040
+[Info | 1:45:06 PM] codecName- a264hw, fcc type- eMFCC_NV12
+[Info | 1:45:06 PM] Memory buffer size (MB): 180
+[Info | 1:45:06 PM] Started Filter
+[Info | 1:45:06 PM] First video data from screen capture
+[Info | 1:45:06 PM] Starting GAO...
+[Info | 1:45:06 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 1:45:06 PM] [ESM Event] - GameWindowDefocus
+[Info | 1:45:06 PM] Screen: 0
+[Info | 1:45:06 PM] Hiding: 0,24,1920,1040
+[Info | 1:45:06 PM] Screen: 0
+[Info | 1:45:06 PM] Hiding: 0,24,1920,1040
+[Info | 1:45:06 PM] Set sound gain {1},{1} - 0 - 0
+[Info | 1:45:06 PM] Audio config- 0,1 -  | tracksplitbits - 10 | mix channels - 0,1
+[Info | 1:45:06 PM] Creating overlay frame from: C:\Users\User\AppData\Local\Medal\recorder-3.696.0\Assets\inactiveGame.png
+[Info | 1:45:11 PM] Active game GameRecordingSuccessfullyStarted WindowCapture
+[Info | 1:45:11 PM] Using standard overlay
+[Info | 1:45:11 PM] Electron overlay support- Enabled:False - Capture Type:WindowCapture
+[Info | 1:45:11 PM] Starting DirectX overlay for Roblox
+[Info | 1:45:11 PM] Starting Medal Performance monitor.
+[Info | 1:45:11 PM] Capture mode: DXGI
+[Warning | 1:45:11 PM] Error getting the CPU temperature counter value: Instance '\_TZ.THRM' does not exist in the specified Category.
+[Info | 1:45:15 PM] Post Match Info: {"categoryId":"1e2Ad6EOaE","server":{"externalId":"2709441373","name":"[TRADING] Ability Playground","metadata":null},"match":null,"player":{"externalId":"1883801835","name":"karma","metadata":null,"matchMetadata":null},"otherPlayers":null,"metadata":{"playerCount":17}}
+[Info | 1:45:29 PM] Sound Property Changed
+[Info | 1:45:35 PM] 4 logs of- Sound Property Changed
+[Warning | 1:45:35 PM] InputManager polling slowly: average of 2.013ms
+[Info | 1:45:36 PM] 1 logs of- Sound Property Changed
+[Info | 1:45:36 PM] [ESM Event] - GameWindowFocus
+[Info | 1:45:36 PM] Showing: 0,24,1920,1040
+[Info | 1:45:36 PM] Fallback set game in focus
+[Info | 1:45:37 PM] Sound Property Changed
+[Info | 1:45:40 PM] 1 logs of- Sound Property Changed
+[Warning | 1:45:40 PM] InputManager polling slowly: average of 3.046ms
+[Info | 1:45:41 PM] OnDeviceStateChanged : DataFlow=loopback DeviceState=Active
+[Info | 1:45:41 PM] Sending available audio devices Headphones (Realtek(R) Audio), Speakers (Realtek(R) Audio), Headset (OnePlus Buds Z Hands-Free AG Audio)
+[Debug | 1:45:41 PM] SendAvailableAudioDevices reply {"success":true}
+[Info | 1:45:42 PM] OnDefaultDeviceChanged : DataFlow=Render
+[Info | 1:45:42 PM] Setup Loopback Audio
+[Info | 1:45:42 PM] Default device is Headphones (Realtek(R) Audio)
+[Info | 1:45:42 PM] Audio device set. Audio name:Headphones (Realtek(R) Audio), Index:0, SampleRate:48000, Channels:2, BitsPerSample:-32, Period:0, Buffer:22
+[Info | 1:45:42 PM] Audio hook was found while the loopback was still in. Stopping the loopback...
+[Info | 1:45:42 PM] Set sound gain {1},{1},{1},{1} - 0 - 0
+[Info | 1:45:42 PM] Audio config- 0,1,2,3 -  | tracksplitbits - 1010 | mix channels - 0+2,1+3
+[Info | 1:45:43 PM] Sound Property Changed
+[Info | 1:45:44 PM] 4 logs of- Sound Property Changed
+[Info | 1:45:44 PM] OnDeviceStateChanged : DataFlow=capture DeviceState=Active
+[Info | 1:45:44 PM] Sound Property Changed
+[Info | 1:45:44 PM] Check for input devices
+[Info | 1:45:45 PM] Sound Property Changed
+[Info | 1:45:45 PM] Sending available mic devices Microphone (Realtek(R) Audio), Headset (OnePlus Buds Z Hands-Free AG Audio)
+[Debug | 1:45:45 PM] SendAvailableMicDevices reply {"success":true}
+[Info | 1:45:45 PM] Sound Property Changed
+[Info | 1:45:45 PM] Check for input devices
+[Info | 1:45:45 PM] OnDefaultDeviceChanged : DataFlow=Capture
+[Warning | 1:45:45 PM] InputManager polling slowly: average of 2.093ms
+[Info | 1:45:45 PM] Sound Property Changed
+[Info | 1:45:46 PM] 3 logs of- Sound Property Changed
+[Info | 1:45:46 PM] OnDeviceStateChanged : DataFlow=loopback DeviceState=Active
+[Info | 1:45:47 PM] Sound Property Changed
+[Info | 1:45:47 PM] Sending available audio devices Headphones (OnePlus Buds Z Stereo), Speakers (Realtek(R) Audio), Headset (OnePlus Buds Z Hands-Free AG Audio), Headphones (Realtek(R) Audio)
+[Debug | 1:45:47 PM] SendAvailableAudioDevices reply {"success":true}
+[Info | 1:45:47 PM] Check for input devices
+[Info | 1:45:47 PM] OnDefaultDeviceChanged : DataFlow=Render
+[Info | 1:45:47 PM] Setup Loopback Audio
+[Info | 1:45:47 PM] Default device is Headphones (OnePlus Buds Z Stereo)
+[Info | 1:45:47 PM] Sound Property Changed
+[Info | 1:45:49 PM] 1 logs of- Sound Property Changed
+[Info | 1:45:49 PM] Audio device set. Audio name:Headphones (OnePlus Buds Z Stereo), Index:0, SampleRate:44100, Channels:2, BitsPerSample:-32, Period:0, Buffer:21
+[Info | 1:45:49 PM] Set sound gain {1},{1} - 0 - 0
+[Info | 1:45:49 PM] Audio config- 0,1 -  | tracksplitbits - 10 | mix channels - 0,1
+[Info | 1:45:49 PM] Audio hook was found while the loopback was still in. Stopping the loopback...
+[Info | 1:45:49 PM] Sound Property Changed
+[Info | 1:45:49 PM] Set sound gain {1},{1},{1},{1} - 0 - 0
+[Info | 1:45:49 PM] Audio config- 0,1,2,3 -  | tracksplitbits - 1010 | mix channels - 0+2,1+3
+[Info | 1:45:49 PM] Sound Property Changed
+[Info | 1:46:10 PM] 10 logs of- Sound Property Changed
+[Warning | 1:46:10 PM] InputManager polling slowly: average of 2.590ms
+[Warning | 1:46:15 PM] InputManager polling slowly: average of 2.481ms
+[Warning | 1:46:26 PM] InputManager polling slowly: average of 3.132ms
+[Warning | 1:46:31 PM] InputManager polling slowly: average of 3.469ms
+[Warning | 1:46:36 PM] InputManager polling slowly: average of 3.703ms
+[Info | 1:46:40 PM] [ESM Event] - GameWindowDefocus
+[Info | 1:46:40 PM] Hiding: 0,24,1920,1040
+[Warning | 1:46:41 PM] InputManager polling slowly: average of 3.266ms
+[Info | 1:46:43 PM] Check for input devices
+[Info | 1:46:43 PM] [ESM Event] - GameWindowDefocus
+[Info | 1:46:43 PM] Hiding: 0,24,1920,1040
+[Info | 1:46:43 PM] OnDeviceStateChanged : Cannot get the device DeviceState=Unplugged
+[Info | 1:46:43 PM] Sending available mic devices Microphone (Realtek(R) Audio), Headset (OnePlus Buds Z Hands-Free AG Audio)
+[Info | 1:46:43 PM] Sending available audio devices Headphones (OnePlus Buds Z Stereo), Speakers (Realtek(R) Audio), Headset (OnePlus Buds Z Hands-Free AG Audio)
+[Debug | 1:46:44 PM] SendAvailableMicDevices reply {"success":true}
+[Debug | 1:46:45 PM] SendAvailableAudioDevices reply {"success":true}
+[Info | 1:46:46 PM] Sound Property Changed
+[Warning | 1:46:46 PM] InputManager polling slowly: average of 2.011ms
+[Info | 1:46:51 PM] 4 logs of- Sound Property Changed
+[Warning | 1:46:51 PM] InputManager polling slowly: average of 2.273ms
+[Info | 1:46:52 PM] [ESM Event] - GameWindowDefocus
+[Info | 1:46:52 PM] Hiding: 0,24,1920,1040
+[Info | 1:46:52 PM] Sound Property Changed
+[Info | 1:46:52 PM] [ESM Event] - GameWindowDefocus
+[Info | 1:46:52 PM] Hiding: 0,24,1920,1040
+[Info | 1:46:53 PM] Sound Property Changed
+[Info | 1:46:53 PM] [ESM Event] - GameWindowDefocus
+[Info | 1:46:53 PM] Hiding: 0,24,1920,1040
+[Info | 1:46:54 PM] [ESM Event] - GameWindowFocus
+[Info | 1:46:54 PM] Showing: 0,24,1920,1040
+[Info | 1:46:55 PM] Sound Property Changed
+[Warning | 1:46:56 PM] InputManager polling slowly: average of 3.282ms
+[Info | 1:46:57 PM] [ESM Event] - GameWindowDefocus
+[Info | 1:46:57 PM] Hiding: 0,24,1920,1040
+[Info | 1:46:57 PM] Fallback set game defocus
+[Info | 1:46:57 PM] Sound Property Changed
+[Info | 1:47:01 PM] 4 logs of- Sound Property Changed
+[Warning | 1:47:01 PM] InputManager polling slowly: average of 2.150ms
+[Info | 1:47:06 PM] 6 logs of- Sound Property Changed
+[Info | 1:47:06 PM] Check for input devices
+[Info | 1:47:06 PM] OnDeviceStateChanged : Cannot get the device DeviceState=Unplugged
+[Info | 1:47:06 PM] Sending available mic devices Microphone (Realtek(R) Audio), Headset (OnePlus Buds Z Hands-Free AG Audio)
+[Info | 1:47:06 PM] Sending available audio devices Speakers (Realtek(R) Audio), Headset (OnePlus Buds Z Hands-Free AG Audio)
+[Debug | 1:47:07 PM] SendAvailableMicDevices reply {"success":true}
+[Debug | 1:47:07 PM] SendAvailableAudioDevices reply {"success":true}
+[Info | 1:47:07 PM] OnDefaultDeviceChanged : DataFlow=Render
+[Info | 1:47:07 PM] Setup Loopback Audio
+[Info | 1:47:07 PM] Sound Property Changed
+[Info | 1:47:07 PM] Default device is Speakers (Realtek(R) Audio)
+[Info | 1:47:08 PM] Sound Property Changed
+[Info | 1:47:08 PM] OnDefaultDeviceChanged : DataFlow=Render
+[Info | 1:47:08 PM] Setup Loopback Audio
+[Info | 1:47:08 PM] Sound Property Changed
+[Info | 1:47:08 PM] Check for input devices
+[Info | 1:47:08 PM] OnDeviceStateChanged : Cannot get the device DeviceState=Unplugged
+[Info | 1:47:08 PM] Sound Property Changed
+[Info | 1:47:08 PM] Audio device set. Audio name:Speakers (Realtek(R) Audio), Index:0, SampleRate:48000, Channels:2, BitsPerSample:-32, Period:0, Buffer:22
+[Info | 1:47:08 PM] Default device is Speakers (Realtek(R) Audio)
+[Info | 1:47:08 PM] Sending available mic devices Microphone (Realtek(R) Audio)
+[Info | 1:47:08 PM] Sending available audio devices Speakers (Realtek(R) Audio), Headset (OnePlus Buds Z Hands-Free AG Audio)
+[Debug | 1:47:08 PM] SendAvailableMicDevices reply {"success":true}
+[Debug | 1:47:08 PM] SendAvailableAudioDevices reply {"success":true}
+[Info | 1:47:08 PM] OnDefaultDeviceChanged : DataFlow=Capture
+[Info | 1:47:08 PM] Sound Property Changed
+[Info | 1:47:08 PM] OnDeviceStateChanged : Cannot get the device DeviceState=Unplugged
+[Info | 1:47:09 PM] Sending available audio devices Speakers (Realtek(R) Audio)
+[Info | 1:47:09 PM] Sending available mic devices Microphone (Realtek(R) Audio)
+[Debug | 1:47:09 PM] SendAvailableMicDevices reply {"success":true}
+[Debug | 1:47:09 PM] SendAvailableAudioDevices reply {"success":true}
+[Info | 1:47:09 PM] OnDefaultDeviceChanged : DataFlow=Render
+[Info | 1:47:09 PM] Audio device set. Audio name:Speakers (Realtek(R) Audio), Index:0, SampleRate:48000, Channels:2, BitsPerSample:-32, Period:0, Buffer:22
+[Info | 1:47:09 PM] Set sound gain {1},{1} - 0 - 0
+[Info | 1:47:09 PM] Audio config- 0,1 -  | tracksplitbits - 10 | mix channels - 0,1
+[Info | 1:47:09 PM] Audio hook was found while the loopback was still in. Stopping the loopback...
+[Info | 1:47:09 PM] Set sound gain {1},{1},{1},{1} - 0 - 0
+[Info | 1:47:09 PM] Audio config- 0,1,2,3 -  | tracksplitbits - 1010 | mix channels - 0+2,1+3
+[Info | 1:47:10 PM] [ESM Event] - GameWindowDefocus
+[Info | 1:47:10 PM] Hiding: 0,24,1920,1040
+[Info | 1:47:10 PM] Sound Property Changed
+[Info | 1:47:10 PM] [ESM Event] - GameWindowDefocus
+[Info | 1:47:10 PM] Hiding: 0,24,1920,1040
+[Info | 1:47:10 PM] Sound Property Changed
+[Warning | 1:47:11 PM] InputManager polling slowly: average of 2.444ms
+[Info | 1:47:12 PM] 2 logs of- Sound Property Changed
+[Info | 1:47:12 PM] Check for input devices
+[Info | 1:47:12 PM] Sound Property Changed
+[Info | 1:47:13 PM] 1 logs of- Sound Property Changed
+[Info | 1:47:13 PM] [ESM Event] - GameWindowDefocus
+[Info | 1:47:13 PM] Hiding: 0,24,1920,1040
+[Info | 1:47:14 PM] Sound Property Changed
+[Info | 1:47:16 PM] 4 logs of- Sound Property Changed
+[Info | 1:47:16 PM] Check for input devices
+[Info | 1:47:16 PM] Sound Property Changed
+[Info | 1:47:26 PM] 12 logs of- Sound Property Changed
+[Info | 1:47:26 PM] OnDeviceStateChanged : DataFlow=loopback DeviceState=Active
+[Info | 1:47:26 PM] Sound Property Changed
+[Info | 1:47:26 PM] Sending available audio devices Speakers (Realtek(R) Audio), Headset (OnePlus Buds Z Hands-Free AG Audio)
+[Debug | 1:47:26 PM] SendAvailableAudioDevices reply {"success":true}
+[Info | 1:47:27 PM] OnDefaultDeviceChanged : DataFlow=Render
+[Info | 1:47:27 PM] Setup Loopback Audio
+[Info | 1:47:27 PM] Default device is Speakers (Realtek(R) Audio)
+[Info | 1:47:27 PM] Audio device set. Audio name:Speakers (Realtek(R) Audio), Index:0, SampleRate:48000, Channels:2, BitsPerSample:-32, Period:0, Buffer:22
+[Info | 1:47:27 PM] Set sound gain {1},{1} - 0 - 0
+[Info | 1:47:27 PM] Audio config- 0,1 -  | tracksplitbits - 10 | mix channels - 0,1
+[Info | 1:47:27 PM] Audio hook was found while the loopback was still in. Stopping the loopback...
+[Info | 1:47:28 PM] Set sound gain {1},{1},{1},{1} - 0 - 0
+[Info | 1:47:28 PM] Audio config- 0,1,2,3 -  | tracksplitbits - 1010 | mix channels - 0+2,1+3
+[Info | 1:47:29 PM] Sound Property Changed
+[Info | 1:47:29 PM] Check for input devices
+[Info | 1:47:29 PM] Sound Property Changed
+[Info | 1:47:32 PM] 10 logs of- Sound Property Changed
+[Info | 1:47:32 PM] [ESM Event] - GameWindowDefocus
+[Info | 1:47:32 PM] Hiding: 0,24,1920,1040
+[Info | 1:47:32 PM] Sound Property Changed
+[Info | 1:47:33 PM] [ESM Event] - GameWindowDefocus
+[Info | 1:47:33 PM] Hiding: 0,24,1920,1040
+[Info | 1:47:33 PM] Sound Property Changed
+[Info | 1:47:37 PM] 3 logs of- Sound Property Changed
+[Info | 1:47:37 PM] OnDeviceStateChanged : DataFlow=capture DeviceState=Active
+[Info | 1:47:37 PM] Sound Property Changed
+[Info | 1:47:37 PM] Sending available mic devices Microphone (Realtek(R) Audio), Headset (OnePlus Buds Z Hands-Free AG Audio)
+[Info | 1:47:37 PM] Sound Property Changed
+[Debug | 1:47:37 PM] SendAvailableMicDevices reply {"success":true}
+[Info | 1:47:37 PM] OnDefaultDeviceChanged : DataFlow=Capture
+[Info | 1:47:38 PM] Sound Property Changed
+[Info | 1:47:38 PM] Check for input devices
+[Info | 1:47:39 PM] Sound Property Changed
+[Info | 1:47:39 PM] OnDefaultDeviceChanged : DataFlow=Render
+[Info | 1:47:39 PM] Setup Loopback Audio
+[Info | 1:47:39 PM] Default device is Headset (OnePlus Buds Z Hands-Free AG Audio)
+[Info | 1:47:40 PM] Sound Property Changed
+[Info | 1:47:41 PM] 4 logs of- Sound Property Changed
+[Info | 1:47:41 PM] OnDeviceStateChanged : DataFlow=loopback DeviceState=Active
+[Info | 1:47:41 PM] Sending available audio devices Headphones (OnePlus Buds Z Stereo), Speakers (Realtek(R) Audio), Headset (OnePlus Buds Z Hands-Free AG Audio)
+[Debug | 1:47:41 PM] SendAvailableAudioDevices reply {"success":true}
+[Info | 1:47:41 PM] Sound Property Changed
+[Info | 1:47:42 PM] OnDefaultDeviceChanged : DataFlow=Render
+[Info | 1:47:42 PM] Setup Loopback Audio
+[Info | 1:47:42 PM] Check for input devices
+[Info | 1:47:42 PM] [ESM Event] - GameWindowDefocus
+[Info | 1:47:42 PM] Hiding: 0,24,1920,1040
+[Info | 1:47:42 PM] Audio device set. Audio name:Headset (OnePlus Buds Z Hands-Free AG Audio), Index:0, SampleRate:16000, Channels:1, BitsPerSample:-32, Period:0, Buffer:22
+[Info | 1:47:42 PM] Set sound gain {1},{1} - 0 - 0
+[Info | 1:47:42 PM] Audio config- 0,1 -  | tracksplitbits - 10 | mix channels - 0,1
+[Info | 1:47:42 PM] Audio hook was found while the loopback was still in. Stopping the loopback...
+[Info | 1:47:42 PM] Sound Property Changed
+[Info | 1:47:43 PM] Default device is Headphones (OnePlus Buds Z Stereo)
+[Info | 1:47:43 PM] Audio device set. Audio name:Headphones (OnePlus Buds Z Stereo), Index:0, SampleRate:44100, Channels:2, BitsPerSample:-32, Period:0, Buffer:21
+[Info | 1:47:43 PM] Set sound gain {1},{1},{1} - 0 - 0
+[Info | 1:47:43 PM] Audio config- 0,1,2 -  | tracksplitbits - 101 | mix channels - 0+2,1+2
+[Info | 1:47:43 PM] [ESM Event] - GameWindowDefocus
+[Info | 1:47:43 PM] Hiding: 0,24,1920,1040
+[Info | 1:47:43 PM] Sound Property Changed
+[Info | 1:47:43 PM] Set sound gain {1},{1} - 0 - 0
+[Info | 1:47:43 PM] Audio config- 0,1 -  | tracksplitbits - 10 | mix channels - 0,1
+[Info | 1:47:43 PM] Set sound gain {1},{1},{1},{1} - 0 - 0
+[Info | 1:47:43 PM] Audio config- 0,1,2,3 -  | tracksplitbits - 1010 | mix channels - 0+2,1+3
+[Info | 1:47:44 PM] Sound Property Changed
+[Info | 1:47:44 PM] 1 logs of- Sound Property Changed
+[Info | 1:47:44 PM] [ESM Event] - GameWindowDefocus
+[Info | 1:47:44 PM] Hiding: 0,24,1920,1040
+[Info | 1:47:45 PM] Sound Property Changed
+[Info | 1:47:46 PM] [ESM Event] - GameWindowFocus
+[Info | 1:47:46 PM] Showing: 0,24,1920,1040
+[Warning | 1:47:51 PM] InputManager polling slowly: average of 2.427ms
+[Info | 1:47:53 PM] Sound Property Changed
+[Warning | 1:47:57 PM] InputManager polling slowly: average of 3.409ms
+[Info | 1:47:59 PM] [ESM Event] - GameWindowDefocus
+[Info | 1:47:59 PM] Hiding: 0,24,1920,1040
+[Info | 1:48:01 PM] Sound Property Changed
+[Warning | 1:48:02 PM] InputManager polling slowly: average of 3.176ms
+[Info | 1:48:07 PM] 1 logs of- Sound Property Changed
+[Warning | 1:48:07 PM] InputManager polling slowly: average of 2.826ms
+[Info | 1:48:12 PM] 1 logs of- Sound Property Changed
+[Warning | 1:48:12 PM] InputManager polling slowly: average of 2.826ms
+[Info | 1:48:17 PM] 2 logs of- Sound Property Changed
+[Warning | 1:48:17 PM] InputManager polling slowly: average of 2.487ms
+[Info | 1:48:56 PM] 18 logs of- Sound Property Changed
+[Info | 1:49:07 PM] 18 logs of- Sound Property Changed
+[Warning | 1:49:07 PM] InputManager polling slowly: average of 2.443ms
+[Info | 1:49:07 PM] [ESM Event] - GameWindowFocus
+[Info | 1:49:07 PM] Showing: 0,24,1920,1040
+[Warning | 1:49:12 PM] InputManager polling slowly: average of 3.426ms
+[Warning | 1:49:17 PM] InputManager polling slowly: average of 3.498ms
+[Info | 1:49:19 PM] Sound Property Changed
+[Warning | 1:49:22 PM] InputManager polling slowly: average of 2.421ms
+[Info | 1:49:27 PM] OnDeviceStateChanged : Cannot get the device DeviceState=Unplugged
+[Info | 1:49:27 PM] Sound Property Changed
+[Info | 1:49:27 PM] Sending available mic devices Microphone (Realtek(R) Audio), Headset (OnePlus Buds Z Hands-Free AG Audio)
+[Info | 1:49:27 PM] Sound Property Changed
+[Info | 1:49:27 PM] Sending available audio devices Headset (OnePlus Buds Z Hands-Free AG Audio), Speakers (Realtek(R) Audio)
+[Warning | 1:49:27 PM] InputManager polling slowly: average of 2.715ms
+[Info | 1:49:27 PM] OnDefaultDeviceChanged : DataFlow=Render
+[Info | 1:49:27 PM] Setup Loopback Audio
+[Info | 1:49:27 PM] Sound Property Changed
+[Debug | 1:49:28 PM] SendAvailableAudioDevices reply {"success":true}
+[Info | 1:49:28 PM] Check for input devices
+[Info | 1:49:28 PM] Sound Property Changed
+[Info | 1:49:28 PM] OnDefaultDeviceChanged : DataFlow=Render
+[Info | 1:49:28 PM] Setup Loopback Audio
+[Debug | 1:49:28 PM] SendAvailableMicDevices reply {"success":true}
+[Info | 1:49:29 PM] Default device is Headset (OnePlus Buds Z Hands-Free AG Audio)
+[Info | 1:49:30 PM] Audio device set. Audio name:Headset (OnePlus Buds Z Hands-Free AG Audio), Index:0, SampleRate:8000, Channels:1, BitsPerSample:-32, Period:0, Buffer:22
+[Info | 1:49:30 PM] Default device is Speakers (Realtek(R) Audio)
+[Info | 1:49:30 PM] Sound Property Changed
+[Info | 1:49:30 PM] OnDeviceStateChanged : Cannot get the device DeviceState=Unplugged
+[Info | 1:49:30 PM] Sending available mic devices Microphone (Realtek(R) Audio), Headset (OnePlus Buds Z Hands-Free AG Audio)
+[Info | 1:49:30 PM] Sending available audio devices Speakers (Realtek(R) Audio)
+[Debug | 1:49:31 PM] SendAvailableMicDevices reply {"success":true}
+[Info | 1:49:31 PM] Sound Property Changed
+[Info | 1:49:31 PM] OnDefaultDeviceChanged : DataFlow=Render
+[Info | 1:49:31 PM] Setup Loopback Audio
+[Debug | 1:49:31 PM] SendAvailableAudioDevices reply {"success":true}
+[Info | 1:49:32 PM] Audio device set. Audio name:Speakers (Realtek(R) Audio), Index:0, SampleRate:48000, Channels:2, BitsPerSample:-32, Period:0, Buffer:22
+[Info | 1:49:32 PM] Set sound gain {1},{1} - 0 - 0
+[Info | 1:49:32 PM] Audio config- 0,1 -  | tracksplitbits - 10 | mix channels - 0,1
+[Info | 1:49:32 PM] Audio hook was found while the loopback was still in. Stopping the loopback...
+[Warning | 1:49:32 PM] InputManager polling slowly: average of 2.309ms
+[Info | 1:49:32 PM] Default device is Speakers (Realtek(R) Audio)
+[Info | 1:49:32 PM] Sound Property Changed
+[Info | 1:49:33 PM] OnDefaultDeviceChanged : DataFlow=Render
+[Info | 1:49:35 PM] Sound Property Changed
+[Info | 1:49:36 PM] Check for input devices
+[Info | 1:49:37 PM] Audio device set. Audio name:Speakers (Realtek(R) Audio), Index:0, SampleRate:48000, Channels:2, BitsPerSample:-32, Period:0, Buffer:22
+[Info | 1:49:37 PM] Sound Property Changed
+[Info | 1:49:37 PM] Set sound gain {1},{1},{1},{1} - 0 - 0
+[Info | 1:49:37 PM] Audio config- 0,1,2,3 -  | tracksplitbits - 1010 | mix channels - 0+2,1+3
+[Warning | 1:49:42 PM] InputManager polling slowly: average of 2.367ms
+[Warning | 1:49:48 PM] InputManager polling slowly: average of 2.827ms
+[Info | 1:49:49 PM] Sound Property Changed
+[Info | 1:49:49 PM] [ESM Event] - GameWindowDefocus
+[Info | 1:49:49 PM] Hiding: 0,24,1920,1040
+[Info | 1:49:51 PM] Sound Property Changed
+[Info | 1:49:53 PM] 1 logs of- Sound Property Changed
+[Warning | 1:49:53 PM] InputManager polling slowly: average of 2.273ms
+[Info | 1:49:53 PM] [ESM Event] - GameWindowDefocus
+[Info | 1:49:53 PM] Hiding: 0,24,1920,1040
+[Info | 1:49:55 PM] [ESM Event] - GameWindowDefocus
+[Info | 1:49:55 PM] Hiding: 0,24,1920,1040
+[Info | 1:49:56 PM] Sound Property Changed
+[Info | 1:49:59 PM] 3 logs of- Sound Property Changed
+[Info | 1:49:59 PM] [ESM Event] - GameWindowDefocus
+[Info | 1:49:59 PM] Hiding: 0,24,1920,1040
+[Info | 1:49:59 PM] Sound Property Changed
+[Info | 1:50:03 PM] 4 logs of- Sound Property Changed
+[Info | 1:50:03 PM] OnDeviceStateChanged : Cannot get the device DeviceState=Unplugged
+[Info | 1:50:03 PM] Sending available mic devices Microphone (Realtek(R) Audio)
+[Info | 1:50:03 PM] Sending available audio devices Speakers (Realtek(R) Audio)
+[Debug | 1:50:04 PM] SendAvailableMicDevices reply {"success":true}
+[Info | 1:50:04 PM] OnDefaultDeviceChanged : DataFlow=Capture
+[Debug | 1:50:04 PM] SendAvailableAudioDevices reply {"success":true}
+[Info | 1:50:07 PM] Sound Property Changed
+[Info | 1:50:08 PM] 1 logs of- Sound Property Changed
+[Info | 1:50:08 PM] Check for input devices
+[Info | 1:50:10 PM] Sound Property Changed
+[Info | 1:50:13 PM] 2 logs of- Sound Property Changed
+[Warning | 1:50:13 PM] InputManager polling slowly: average of 2.121ms
+[Info | 1:50:15 PM] 3 logs of- Sound Property Changed
+[Info | 1:50:15 PM] OnDeviceStateChanged : DataFlow=loopback DeviceState=Active
+[Info | 1:50:15 PM] Sound Property Changed
+[Info | 1:50:15 PM] Sending available audio devices Headset (OnePlus Buds Z Hands-Free AG Audio), Speakers (Realtek(R) Audio)
+[Debug | 1:50:16 PM] SendAvailableAudioDevices reply {"success":true}
+[Info | 1:50:17 PM] OnDefaultDeviceChanged : DataFlow=Render
+[Info | 1:50:17 PM] Setup Loopback Audio
+[Info | 1:50:18 PM] Default device is Headset (OnePlus Buds Z Hands-Free AG Audio)
+[Info | 1:50:18 PM] Sound Property Changed
+[Info | 1:50:18 PM] OnDefaultDeviceChanged : DataFlow=Render
+[Info | 1:50:18 PM] Setup Loopback Audio
+[Info | 1:50:18 PM] OnDefaultDeviceChanged : DataFlow=Render
+[Info | 1:50:18 PM] Setup Loopback Audio
+[Info | 1:50:19 PM] Sound Property Changed
+[Info | 1:50:20 PM] 2 logs of- Sound Property Changed
+[Info | 1:50:20 PM] Check for input devices
+[Info | 1:50:20 PM] Sound Property Changed
+[Warning | 1:50:20 PM] Loopback audio enable failed - Loopback audio enable failed. Audio name:Microphone (Realtek(R) Audio), Waveformat:IeeeFloat, SampleRate:44100, Channels:2, BitsPerSample:32, Exception:System.Runtime.InteropServices.COMException (0x88890004): Class not registered
+
+Class not registered
+
+   at .cuk(Int32 a, MethodBase a, Object a, Object[] a)
+   at MedalEncoder.Sound.OutputDeviceManager.SetDevice(Int32 deviceIdx, String deviceParams, MFLiveClass liveObject)
+   at SetupLoopbackAudio(MedalAudio )
+[Critical | 1:50:20 PM] Loopback audio enable failed
+[Info | 1:50:21 PM] 1 logs of- Loopback audio enable failed
+[Info | 1:50:21 PM] Set sound gain {1},{1} - 0 - 0
+[Info | 1:50:21 PM] Audio config- 0,1 -  | tracksplitbits - 10 | mix channels - 0,1
+[Info | 1:50:21 PM] Sound Property Changed
+[Info | 1:50:22 PM] Default device is Headset (OnePlus Buds Z Hands-Free AG Audio)
+[Warning | 1:50:22 PM] Loopback audio enable failed - Loopback audio enable failed. Audio name:Microphone (Realtek(R) Audio), Waveformat:IeeeFloat, SampleRate:44100, Channels:2, BitsPerSample:32, Exception:System.Runtime.InteropServices.COMException (0x88890008): Exception from HRESULT: 0x88890008
+   at .cuk(Int32 a, MethodBase a, Object a, Object[] a)
+   at MedalEncoder.Sound.OutputDeviceManager.SetDevice(Int32 deviceIdx, String deviceParams, MFLiveClass liveObject)
+   at SetupLoopbackAudio(MedalAudio )
+[Critical | 1:50:22 PM] Loopback audio enable failed
+[Info | 1:50:23 PM] Default device is Headset (OnePlus Buds Z Hands-Free AG Audio)
+[Warning | 1:50:23 PM] Loopback audio enable failed - Loopback audio enable failed. Audio name:Microphone (Realtek(R) Audio), Waveformat:IeeeFloat, SampleRate:44100, Channels:2, BitsPerSample:32, Exception:System.Runtime.InteropServices.COMException (0x88890008): Exception from HRESULT: 0x88890008
+   at .cuk(Int32 a, MethodBase a, Object a, Object[] a)
+   at MedalEncoder.Sound.OutputDeviceManager.SetDevice(Int32 deviceIdx, String deviceParams, MFLiveClass liveObject)
+   at SetupLoopbackAudio(MedalAudio )
+[Critical | 1:50:23 PM] Loopback audio enable failed
+[Info | 1:50:23 PM] Sound Property Changed
+[Info | 1:50:23 PM] OnDeviceStateChanged : Cannot get the device DeviceState=Unplugged
+[Info | 1:50:23 PM] Sending available audio devices Speakers (Realtek(R) Audio)
+[Info | 1:50:23 PM] Sending available mic devices Microphone (Realtek(R) Audio)
+[Info | 1:50:25 PM] Sound Property Changed
+[Debug | 1:50:25 PM] SendAvailableAudioDevices reply {"success":true}
+[Info | 1:50:25 PM] OnDefaultDeviceChanged : DataFlow=Render
+[Debug | 1:50:25 PM] SendAvailableMicDevices reply {"success":true}
+[Info | 1:50:26 PM] OnDefaultDeviceChanged : DataFlow=Render
+[Info | 1:50:27 PM] Sound Property Changed
+[Info | 1:50:27 PM] OnDefaultDeviceChanged : DataFlow=Render
+[Info | 1:50:29 PM] Sound Property Changed
+[Info | 1:50:38 PM] 10 logs of- Sound Property Changed
+[Info | 1:50:38 PM] Check for input devices
+[Info | 1:50:38 PM] Sound Property Changed
+[Info | 1:50:47 PM] 8 logs of- Sound Property Changed
+[Info | 1:50:47 PM] [ESM Event] - GameWindowDefocus
+[Info | 1:50:47 PM] Hiding: 0,24,1920,1040
+[Info | 1:50:48 PM] Sound Property Changed
+[Info | 1:50:59 PM] 16 logs of- Sound Property Changed
+[Info | 1:50:59 PM] Check for input devices
+[Info | 1:51:00 PM] Sound Property Changed
+[Info | 1:51:00 PM] Check for input devices
+[Info | 1:51:01 PM] 2 logs of- Check for input devices
+[Info | 1:51:01 PM] Sound Property Changed
+[Info | 1:51:07 PM] 3 logs of- Sound Property Changed
+[Info | 1:51:07 PM] [ESM Event] - GameWindowDefocus
+[Info | 1:51:07 PM] Hiding: 0,24,1920,1040
+[Info | 1:51:07 PM] Sound Property Changed
+[Info | 1:51:16 PM] 8 logs of- Sound Property Changed
+[Info | 1:51:16 PM] OnDeviceStateChanged : DataFlow=loopback DeviceState=Active
+[Info | 1:51:16 PM] Sending available audio devices Headphones (Realtek(R) Audio), Speakers (Realtek(R) Audio)
+[Debug | 1:51:16 PM] SendAvailableAudioDevices reply {"success":true}
+[Info | 1:51:16 PM] OnDefaultDeviceChanged : DataFlow=Render
+[Info | 1:51:16 PM] Setup Loopback Audio
+[Info | 1:51:16 PM] Default device is Headphones (Realtek(R) Audio)
+[Info | 1:51:17 PM] Sound Property Changed
+[Info | 1:51:17 PM] OnDefaultDeviceChanged : DataFlow=Render
+[Info | 1:51:17 PM] Setup Loopback Audio
+[Info | 1:51:18 PM] OnDefaultDeviceChanged : DataFlow=Render
+[Info | 1:51:18 PM] Setup Loopback Audio
+[Info | 1:51:20 PM] [ESM Event] - GameWindowFocus
+[Info | 1:51:20 PM] Showing: 0,24,1920,1040
+[Info | 1:51:21 PM] Sound Property Changed
+[Info | 1:51:25 PM] 5 logs of- Sound Property Changed
+[Info | 1:51:25 PM] [ESM Event] - GameWindowDefocus
+[Info | 1:51:25 PM] Hiding: 0,24,1920,1040
+[Info | 1:51:25 PM] Sound Property Changed
+[Info | 1:51:32 PM] 7 logs of- Sound Property Changed
+[Info | 1:51:32 PM] Audio device set. Audio name:Headphones (Realtek(R) Audio), Index:0, SampleRate:48000, Channels:2, BitsPerSample:-32, Period:0, Buffer:22
+[Info | 1:51:32 PM] Default device is Headphones (Realtek(R) Audio)
+[Info | 1:51:33 PM] Sound Property Changed
+[Info | 1:51:33 PM] OnDeviceStateChanged : Cannot get the device DeviceState=NotPresent
+[Info | 1:51:33 PM] Sending available audio devices Speakers (Realtek(R) Audio)
+[Info | 1:51:33 PM] Sending available mic devices Microphone (Realtek(R) Audio)
+[Info | 1:51:34 PM] Sound Property Changed
+[Warning | 1:51:34 PM] Loopback audio enable failed - Loopback audio enable failed. Audio name:Microphone (Realtek(R) Audio), Waveformat:IeeeFloat, SampleRate:44100, Channels:2, BitsPerSample:32, Exception:System.Runtime.InteropServices.COMException (0x88890004): Class not registered
+
+Class not registered
+
+   at .cuk(Int32 a, MethodBase a, Object a, Object[] a)
+   at MedalEncoder.Sound.OutputDeviceManager.SetDevice(Int32 deviceIdx, String deviceParams, MFLiveClass liveObject)
+   at SetupLoopbackAudio(MedalAudio )
+[Critical | 1:51:34 PM] Loopback audio enable failed
+[Info | 1:51:34 PM] OnDefaultDeviceChanged : DataFlow=Render
+[Info | 1:51:34 PM] Setup Loopback Audio
+[Debug | 1:51:34 PM] SendAvailableAudioDevices reply {"success":true}
+[Info | 1:51:35 PM] OnDefaultDeviceChanged : DataFlow=Render
+[Info | 1:51:35 PM] Setup Loopback Audio
+[Info | 1:51:35 PM] Default device is Speakers (Realtek(R) Audio)
+[Info | 1:51:35 PM] [ESM Event] - GameWindowFocus
+[Info | 1:51:35 PM] Showing: 0,24,1920,1040
+[Debug | 1:51:35 PM] SendAvailableMicDevices reply {"success":true}
+[Info | 1:51:37 PM] Audio device set. Audio name:Speakers (Realtek(R) Audio), Index:0, SampleRate:48000, Channels:2, BitsPerSample:-32, Period:0, Buffer:22
+[Info | 1:51:37 PM] Set sound gain {1},{1},{1},{1} - 0 - 0
+[Info | 1:51:37 PM] Audio config- 0,1,2,3 -  | tracksplitbits - 1010 | mix channels - 0+2,1+3
+[Info | 1:51:37 PM] Audio hook was found while the loopback was still in. Stopping the loopback...
+[Info | 1:51:37 PM] Default device is Speakers (Realtek(R) Audio)
+[Info | 1:51:37 PM] Sound Property Changed
+[Info | 1:51:42 PM] 3 logs of- Sound Property Changed
+[Info | 1:51:42 PM] Audio device set. Audio name:Speakers (Realtek(R) Audio), Index:0, SampleRate:48000, Channels:2, BitsPerSample:-32, Period:0, Buffer:22
+[Info | 1:51:42 PM] Default device is Speakers (Realtek(R) Audio)
+[Info | 1:51:42 PM] Sound Property Changed
+[Info | 1:51:47 PM] 2 logs of- Sound Property Changed
+[Info | 1:51:47 PM] Audio device set. Audio name:Speakers (Realtek(R) Audio), Index:0, SampleRate:48000, Channels:2, BitsPerSample:-32, Period:0, Buffer:22
+[Info | 1:51:47 PM] Set sound gain {1},{1} - 0 - 0
+[Info | 1:51:47 PM] Audio config- 0,1 -  | tracksplitbits - 10 | mix channels - 0,1
+[Info | 1:51:47 PM] Set sound gain {1},{1},{1},{1} - 0 - 0
+[Info | 1:51:47 PM] Audio config- 0,1,2,3 -  | tracksplitbits - 1010 | mix channels - 0+2,1+3
+[Info | 1:51:50 PM] Sound Property Changed
+[Warning | 1:51:54 PM] InputManager polling slowly: average of 2.570ms
+[Warning | 1:51:59 PM] InputManager polling slowly: average of 3.592ms
+[Warning | 1:52:04 PM] InputManager polling slowly: average of 3.535ms
+[Info | 1:52:07 PM] Check for input devices
+[Info | 1:52:12 PM] Window object destroyed: Roblox -- 394880
+[Info | 1:52:12 PM] Game is still running
+[Info | 1:52:12 PM] Game window changed. Finding new game window
+[Info | 1:52:12 PM] Found 0 windows that match process caption and class
+[Info | 1:52:12 PM] New window handle 0
+[Info | 1:52:12 PM] Finding new game window failed
+[Info | 1:52:12 PM] Roblox exited.
+[Info | 1:52:12 PM] [Game Status]: game/stopped - Roblox[1e2Ad6EOaE]
+[Info | 1:52:12 PM] Stop recording game Roblox
+[Info | 1:52:12 PM] InputManager stopping...
+[Info | 1:52:12 PM] InputManager: PollInput stopped
+[Info | 1:52:12 PM] InputManager stopped.
+[Info | 1:52:12 PM] [ESM Event] - GameClosed
+[Info | 1:52:12 PM] Stopped Filter
+[Info | 1:52:12 PM] [Game Status]: capture/stopped - Roblox[1e2Ad6EOaE]
+[Info | 1:52:12 PM] Stopping window capture...
+[Info | 1:52:12 PM] Game window changed. Finding new game window
+[Info | 1:52:12 PM] Found 0 windows that match process caption and class
+[Info | 1:52:12 PM] New window handle 0
+[Info | 1:52:12 PM] Finding new game window failed
+[Info | 1:52:12 PM] Roblox exited.
+[Info | 1:52:12 PM] [Game Status]: game/stopped - Roblox[1e2Ad6EOaE]
+[Info | 1:52:12 PM] Removing window hooks
+[Info | 1:52:12 PM] Window hooks removed
+[Info | 1:52:12 PM] Stopping performance monitor.
+[Info | 1:52:12 PM] Stopping periodic game extension jobs.
+[Info | 1:52:12 PM] Fallback set game defocus
+[Info | 1:52:13 PM] Sound Property Changed
+[Info | 1:52:15 PM] Window capture stopped.
+[Info | 1:52:15 PM] Dispose overlay frame
+[Info | 1:52:15 PM] Mic disabled
+[Info | 1:52:15 PM] Sound Property Changed
+[Info | 1:52:15 PM] ----[ESM State]: ScanningForGame----
+[Info | 1:52:16 PM] [Game Status]: game/stopped - [2LBr6_ltG]
+[Info | 1:52:16 PM] Removing window hooks
+[Info | 1:52:16 PM] Window hooks removed
+[Info | 1:52:16 PM] Stopping periodic game extension jobs.
+[Debug | 1:52:16 PM] capture/stopped reply "ok"
+[Info | 1:52:16 PM] Sound Property Changed
+[Info | 1:52:17 PM] 2 logs of- Sound Property Changed
+[Debug | 1:52:17 PM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 1:52:17 PM] Clear override settings
+[Info | 1:52:17 PM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 1:52:17 PM] [ESM Event] - ConfigChangedRestart
+[Info | 1:52:17 PM] job.respond 27ec5ff5-52a9-48c1-90f8-acd79c621253
+[Debug | 1:52:17 PM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 1:52:17 PM] Clear override settings
+[Info | 1:52:17 PM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 1:52:17 PM] [ESM Event] - ConfigChangedRestart
+[Info | 1:52:17 PM] job.respond e6eb4e62-37aa-476c-a72d-47d064887b39
+[Debug | 1:52:17 PM] PollDesktopJobQueue reply [{'uuid':'27ec5ff5-52a9-48c1-90f8-acd79c621253','body':{'enabled':false},'action':'set.toggleBroadcast'},{'uuid':'e6eb4e62-37aa-476c-a72d-47d064887b39','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 1:52:17 PM] job.respond "ok"
+[Info | 1:52:18 PM] Sound Property Changed
+[Info | 1:52:18 PM] 1 logs of- Sound Property Changed
+[Info | 1:52:18 PM] OnDeviceStateChanged : Cannot get the device DeviceState=Unplugged
+[Info | 1:52:18 PM] Sending available mic devices Microphone (Realtek(R) Audio)
+[Info | 1:52:18 PM] Sending available audio devices Speakers (Realtek(R) Audio)
+[Debug | 1:52:19 PM] game/stopped reply "ok"
+[Debug | 1:52:19 PM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 1:52:19 PM] Clear override settings
+[Info | 1:52:19 PM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 1:52:19 PM] [ESM Event] - ConfigChangedRestart
+[Info | 1:52:19 PM] job.respond 2bf56fb4-3f19-471e-a5d4-55274d0f5a00
+[Debug | 1:52:19 PM] PollDesktopJobQueue reply [{'uuid':'2bf56fb4-3f19-471e-a5d4-55274d0f5a00','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 1:52:19 PM] job.respond "ok"
+[Info | 1:52:20 PM] 1 logs of- job.respond "ok"
+[Debug | 1:52:20 PM] SendAvailableMicDevices reply {"success":true}
+[Debug | 1:52:20 PM] SendAvailableAudioDevices reply {"success":true}
+[Debug | 1:52:20 PM] game/stopped reply "ok"
+[Info | 1:53:35 PM] 1 logs of- game/stopped reply "ok"
+[Warning | 1:53:35 PM] Scanning already in progress (0.02s)
+[Info | 2:07:15 PM] [ESM Event] - GameDBCheckForUpdate
+[Info | 2:07:16 PM] ----[ESM State]: UpdatingGameDatabase----
+[Info | 2:07:16 PM] Checking for new version from https://cdn.medal.tv/asset/games-db/production/version.json
+[Info | 2:07:16 PM] Remote Info: {"Version":"2.588","Command":"none","Environment":"production"}
+[Info | 2:07:16 PM] Local Info: {"Version":"2.588","Command":"none","Environment":"production"}
+[Info | 2:07:16 PM] No update is available.
+[Info | 2:07:16 PM] [ESM Event] - GameDBUpdateComplete
+[Info | 2:07:16 PM] GameDB: C:\Users\User\AppData\Local\Medal\recorder-3.696.0\MedalGameInfo.db
+[Info | 2:07:16 PM] ----[ESM State]: ScanningForGame----
+[Info | 2:07:16 PM] [Game Status]: game/stopped - [2LBr6_ltG]
+[Debug | 2:07:16 PM] game/stopped reply "ok"
+[Debug | 2:07:16 PM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 2:07:16 PM] Clear override settings
+[Info | 2:07:16 PM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 2:07:16 PM] [ESM Event] - ConfigChangedRestart
+[Info | 2:07:16 PM] job.respond ab2d6ff4-6c2d-4748-a659-d84da0bf34ee
+[Debug | 2:07:16 PM] PollDesktopJobQueue reply [{'uuid':'ab2d6ff4-6c2d-4748-a659-d84da0bf34ee','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 2:07:16 PM] job.respond "ok"
+[Info | 2:22:16 PM] [ESM Event] - GameDBCheckForUpdate
+[Info | 2:22:16 PM] ----[ESM State]: UpdatingGameDatabase----
+[Info | 2:22:16 PM] Checking for new version from https://cdn.medal.tv/asset/games-db/production/version.json
+[Info | 2:22:17 PM] Remote Info: {"Version":"2.588","Command":"none","Environment":"production"}
+[Info | 2:22:17 PM] Local Info: {"Version":"2.588","Command":"none","Environment":"production"}
+[Info | 2:22:17 PM] No update is available.
+[Info | 2:22:17 PM] [ESM Event] - GameDBUpdateComplete
+[Info | 2:22:17 PM] GameDB: C:\Users\User\AppData\Local\Medal\recorder-3.696.0\MedalGameInfo.db
+[Info | 2:22:17 PM] ----[ESM State]: ScanningForGame----
+[Info | 2:22:17 PM] [Game Status]: game/stopped - [2LBr6_ltG]
+[Debug | 2:22:17 PM] game/stopped reply "ok"
+[Debug | 2:22:18 PM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 2:22:18 PM] Clear override settings
+[Info | 2:22:18 PM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 2:22:18 PM] [ESM Event] - ConfigChangedRestart
+[Info | 2:22:18 PM] job.respond c6526667-ef0c-4424-9e31-880a630892d9
+[Debug | 2:22:18 PM] PollDesktopJobQueue reply [{'uuid':'c6526667-ef0c-4424-9e31-880a630892d9','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 2:22:18 PM] job.respond "ok"
+[Info | 2:29:15 PM] Game Found Type ProcessClass: Roblox
+[Info | 2:29:15 PM] Process name found RobloxPlayerBeta | Caption | Roblox | and class | WINDOWSCLIENT | Detect all Games | False
+[Info | 2:29:15 PM] Game found RobloxPlayerBeta Handle: 1704640
+[Info | 2:29:15 PM] Monitor: 65537 Current DPI: 96, 96
+[Info | 2:29:15 PM] Setting up window hooks
+[Info | 2:29:15 PM] Window location change event hooked
+[Info | 2:29:15 PM] Window focus event hooked
+[Info | 2:29:15 PM] Window destroy event hooked
+[Info | 2:29:15 PM] Window reorder event hooked
+[Info | 2:29:15 PM] Window hooks complete
+[Info | 2:29:15 PM] Active game initialized Roblox
+[Info | 2:29:15 PM] [Game Status]: game/started - Roblox[1e2Ad6EOaE]
+[Info | 2:29:15 PM] Start recording game Roblox
+[Info | 2:29:15 PM] [ESM Event] - WindowCaptureStart
+[Info | 2:29:15 PM] Dispose overlay frame
+[Info | 2:29:15 PM] Environment.OSVersion.Version - 10.0.19045.0
+[Info | 2:29:15 PM] Dispose overlay frame
+[Warning | 2:29:15 PM] Screenshots are disabled!
+[Info | 2:29:15 PM] ICYMI initializing. Config Enabled: True - Settings Enabled: False
+[Info | 2:29:15 PM] Check for late hook install: False
+[Info | 2:29:15 PM] Frame factory initialized on device Auto, LUID:42459
+[Info | 2:29:15 PM] codecName- a264hw, fcc type- eMFCC_NV12
+[Debug | 2:29:16 PM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 2:29:16 PM] Clear override settings
+[Info | 2:29:16 PM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 2:29:16 PM] [ESM Event] - ConfigChangedRestart
+[Info | 2:29:16 PM] job.respond ced87493-dd0e-40b9-951c-34d2fe9ce2ad
+[Debug | 2:29:16 PM] PollDesktopJobQueue reply [{'uuid':'ced87493-dd0e-40b9-951c-34d2fe9ce2ad','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 2:29:16 PM] job.respond "ok"
+[Debug | 2:29:17 PM] game/started reply "ok"
+[Info | 2:29:18 PM] Output Mode: Clip Output
+[Info | 2:29:18 PM] Notification message received
+[Info | 2:29:18 PM] job.respond f7f80b34-f20e-45cb-a20d-9fa1b0a1f6de
+[Debug | 2:29:18 PM] job.respond "ok"
+[Info | 2:29:19 PM] Recording mic: False
+[Info | 2:29:19 PM] Stream 522 Added! Props: streamid='522' pid='18836'
+[Info | 2:29:19 PM] Mic disabled
+[Info | 2:29:19 PM] Window capture video resolution is {Width=1320, Height=720} - Aspect ratio is Custom
+[Info | 2:29:19 PM] Window capture aspect ratio 11:6
+[Info | 2:29:19 PM] Acquired window capture device.
+[Info | 2:29:19 PM] Capture area is 0,24,1920,1040
+[Info | 2:29:19 PM] Screen: 0
+[Info | 2:29:19 PM] Hiding: 0,24,1920,1040
+[Info | 2:29:19 PM] [Game Status]: capture/started - Roblox[1e2Ad6EOaE]
+[Info | 2:29:19 PM] codecName- a264hw, fcc type- eMFCC_NV12
+[Info | 2:29:19 PM] Memory buffer size (MB): 180
+[Debug | 2:29:20 PM] capture/started reply "ok"
+[Info | 2:29:20 PM] Started Filter
+[Info | 2:29:20 PM] Starting GAO...
+[Info | 2:29:20 PM] InputManager starting...
+[Info | 2:29:20 PM] Check for input devices
+[Info | 2:29:20 PM] First video data from screen capture
+[Info | 2:29:20 PM] InputManager: PollInput started
+[Info | 2:29:20 PM] InputManager started.
+[Info | 2:29:20 PM] InputManager: active game switch detected, regenerating trigger inputs
+[Info | 2:29:20 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 2:29:20 PM] [ESM Event] - GameWindowFocus
+[Info | 2:29:20 PM] ----[ESM State]: WindowCaptureStandard----
+[Info | 2:29:20 PM] Set sound gain {1},{1} - 0 - 0
+[Info | 2:29:20 PM] Audio config- 0,1 -  | tracksplitbits - 10 | mix channels - 0,1
+[Info | 2:29:20 PM] Stopped Filter
+[Info | 2:29:20 PM] Stopping window capture...
+[Info | 2:29:22 PM] Window capture stopped.
+[Info | 2:29:22 PM] Dispose overlay frame
+[Info | 2:29:22 PM] Mic disabled
+[Info | 2:29:22 PM] ICYMI initializing. Config Enabled: True - Settings Enabled: False
+[Info | 2:29:22 PM] Check for late hook install: False
+[Info | 2:29:22 PM] Frame factory initialized on device Auto, LUID:42459
+[Info | 2:29:22 PM] codecName- a264hw, fcc type- eMFCC_NV12
+[Info | 2:29:22 PM] Output Mode: Clip Output
+[Info | 2:29:23 PM] Recording mic: False
+[Warning | 2:29:23 PM] [SDK] LoopbackCapture::ActivateAudioInterface - failed to activate process loopback audio interface: HR 8000FFFF
+[Critical | 2:29:23 PM] [SDK] LoopbackCapture::ActivateAudioInterface
+[Warning | 2:29:23 PM] [SDK] GameAudioCapture::AddStream - failed to init GAO: HR 8000FFFF
+[Critical | 2:29:23 PM] [SDK] GameAudioCapture::AddStream
+[Warning | 2:29:24 PM] Failed to add GAO stream - System.Runtime.InteropServices.COMException (0x8000FFFF): Catastrophic failure (Exception from HRESULT: 0x8000FFFF (E_UNEXPECTED))
+   at MFORMATSLib.MFLiveClass.PropsSet(String _bsPropName, String _bsPropValue)
+   at AddStream(MedalGameAudioCaptureConfig , Int64 , Int32 )
+[Critical | 2:29:24 PM] Failed to add GAO stream
+[Info | 2:29:24 PM] Mic disabled
+[Info | 2:29:24 PM] Setup Loopback Audio
+[Info | 2:29:24 PM] Default device is Speakers (Realtek(R) Audio)
+[Info | 2:29:24 PM] Audio device set. Audio name:Speakers (Realtek(R) Audio), Index:0, SampleRate:48000, Channels:2, BitsPerSample:-32, Period:0, Buffer:22
+[Info | 2:29:24 PM] Window capture video resolution is {Width=1320, Height=720} - Aspect ratio is Custom
+[Info | 2:29:24 PM] Window capture aspect ratio 11:6
+[Info | 2:29:24 PM] Acquired window capture device.
+[Info | 2:29:24 PM] Capture area is 0,24,1920,1040
+[Info | 2:29:24 PM] Screen: 0
+[Info | 2:29:24 PM] Hiding: 0,24,1920,1040
+[Info | 2:29:24 PM] codecName- a264hw, fcc type- eMFCC_NV12
+[Info | 2:29:24 PM] Memory buffer size (MB): 180
+[Info | 2:29:24 PM] Started Filter
+[Info | 2:29:24 PM] First video data from screen capture
+[Info | 2:29:24 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 2:29:24 PM] [ESM Event] - GameWindowFocus
+[Info | 2:29:24 PM] Screen: 0
+[Info | 2:29:24 PM] Showing: 0,24,1920,1040
+[Info | 2:29:24 PM] Screen: 0
+[Info | 2:29:24 PM] Showing: 0,24,1920,1040
+[Info | 2:29:24 PM] Set sound gain {1},{1} - 0 - 0
+[Info | 2:29:24 PM] Audio config- 0,1 -  | tracksplitbits - 10 | mix channels - 0,1
+[Warning | 2:29:25 PM] InputManager polling slowly: average of 22.645ms
+[Info | 2:29:28 PM] Check for input devices
+[Info | 2:29:29 PM] Active game GameRecordingSuccessfullyStarted WindowCapture
+[Info | 2:29:29 PM] Using standard overlay
+[Info | 2:29:29 PM] Electron overlay support- Enabled:False - Capture Type:WindowCapture
+[Info | 2:29:29 PM] Starting DirectX overlay for Roblox
+[Info | 2:29:29 PM] Starting Medal Performance monitor.
+[Info | 2:29:29 PM] Capture mode: DXGI
+[Warning | 2:29:29 PM] Error getting the CPU temperature counter value: Instance '\_TZ.THRM' does not exist in the specified Category.
+[Info | 2:29:30 PM] Post Match Info: {"categoryId":"1e2Ad6EOaE","server":{"externalId":"2709441373","name":"[TRADING] Ability Playground","metadata":null},"match":null,"player":{"externalId":"1883801835","name":"karma","metadata":null,"matchMetadata":null},"otherPlayers":null,"metadata":{"playerCount":15}}
+[Warning | 2:29:30 PM] InputManager polling slowly: average of 22.779ms
+[Info | 2:29:35 PM] Check for input devices
+[Info | 2:29:51 PM] 6 logs of- Check for input devices
+[Info | 2:29:51 PM] [ESM Event] - GameWindowDefocus
+[Info | 2:29:51 PM] Hiding: 0,24,1920,1040
+[Info | 2:29:51 PM] Window object destroyed: Roblox -- 1704640
+[Info | 2:29:51 PM] Game is still running
+[Info | 2:29:51 PM] Creating overlay frame from: C:\Users\User\AppData\Local\Medal\recorder-3.696.0\Assets\inactiveGame.png
+[Warning | 2:29:52 PM] Resolution dimensions corrected!
+[Info | 2:29:55 PM] Game window changed. Finding new game window
+[Info | 2:29:55 PM] Found 0 windows that match process caption and class
+[Info | 2:29:55 PM] New window handle 0
+[Info | 2:29:55 PM] Finding new game window failed
+[Info | 2:29:55 PM] Roblox exited.
+[Info | 2:29:55 PM] [Game Status]: game/stopped - Roblox[1e2Ad6EOaE]
+[Info | 2:29:55 PM] Stop recording game Roblox
+[Info | 2:29:55 PM] InputManager stopping...
+[Info | 2:29:55 PM] InputManager: PollInput stopped
+[Info | 2:29:55 PM] InputManager stopped.
+[Info | 2:29:55 PM] [ESM Event] - GameClosed
+[Info | 2:29:55 PM] Stopped Filter
+[Info | 2:29:55 PM] [Game Status]: capture/stopped - Roblox[1e2Ad6EOaE]
+[Info | 2:29:55 PM] Stopping window capture...
+[Debug | 2:29:57 PM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 2:29:57 PM] Clear override settings
+[Info | 2:29:57 PM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 2:29:57 PM] [ESM Event] - ConfigChangedRestart
+[Info | 2:29:57 PM] job.respond 58637676-2de5-4a18-b64f-693ed2398900
+[Debug | 2:29:57 PM] PollDesktopJobQueue reply [{'uuid':'58637676-2de5-4a18-b64f-693ed2398900','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 2:29:57 PM] capture/stopped reply "ok"
+[Debug | 2:29:57 PM] job.respond "ok"
+[Info | 2:29:57 PM] Window capture stopped.
+[Info | 2:29:57 PM] Dispose overlay frame
+[Info | 2:29:57 PM] Mic disabled
+[Info | 2:29:57 PM] ----[ESM State]: ScanningForGame----
+[Info | 2:29:57 PM] [Game Status]: game/stopped - [2LBr6_ltG]
+[Info | 2:29:57 PM] Removing window hooks
+[Info | 2:29:57 PM] Window hooks removed
+[Info | 2:29:57 PM] Stopping performance monitor.
+[Info | 2:29:57 PM] Stopping periodic game extension jobs.
+[Debug | 2:29:59 PM] game/stopped reply "ok"
+[Debug | 2:29:59 PM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 2:29:59 PM] Clear override settings
+[Info | 2:29:59 PM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 2:29:59 PM] [ESM Event] - ConfigChangedRestart
+[Info | 2:29:59 PM] job.respond c30d4bec-01cc-444a-97d4-5617e57a50a7
+[Debug | 2:29:59 PM] PollDesktopJobQueue reply [{'uuid':'c30d4bec-01cc-444a-97d4-5617e57a50a7','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 2:29:59 PM] job.respond "ok"
+[Debug | 2:30:00 PM] game/stopped reply "ok"
+[Info | 2:31:17 PM] Game Found Type ProcessClass: Roblox
+[Info | 2:31:17 PM] Process name found RobloxPlayerBeta | Caption | Roblox | and class | WINDOWSCLIENT | Detect all Games | False
+[Info | 2:31:17 PM] Game found RobloxPlayerBeta Handle: 459844
+[Info | 2:31:17 PM] Monitor: 65537 Current DPI: 96, 96
+[Info | 2:31:17 PM] Setting up window hooks
+[Info | 2:31:17 PM] Window location change event hooked
+[Info | 2:31:17 PM] Window focus event hooked
+[Info | 2:31:17 PM] Window destroy event hooked
+[Info | 2:31:17 PM] Window reorder event hooked
+[Info | 2:31:17 PM] Window hooks complete
+[Info | 2:31:17 PM] Active game initialized Roblox
+[Info | 2:31:17 PM] [Game Status]: game/started - Roblox[1e2Ad6EOaE]
+[Info | 2:31:17 PM] Start recording game Roblox
+[Info | 2:31:17 PM] [ESM Event] - WindowCaptureStart
+[Info | 2:31:17 PM] Dispose overlay frame
+[Info | 2:31:17 PM] Environment.OSVersion.Version - 10.0.19045.0
+[Info | 2:31:17 PM] Dispose overlay frame
+[Warning | 2:31:17 PM] Screenshots are disabled!
+[Info | 2:31:17 PM] ICYMI initializing. Config Enabled: True - Settings Enabled: False
+[Info | 2:31:17 PM] Check for late hook install: False
+[Info | 2:31:17 PM] Frame factory initialized on device Auto, LUID:42459
+[Info | 2:31:17 PM] codecName- a264hw, fcc type- eMFCC_NV12
+[Debug | 2:31:18 PM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 2:31:18 PM] Clear override settings
+[Info | 2:31:18 PM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 2:31:18 PM] [ESM Event] - ConfigChangedRestart
+[Info | 2:31:18 PM] job.respond 24c75a6f-f8c9-4964-b95e-8816ec2a5bc5
+[Debug | 2:31:18 PM] PollDesktopJobQueue reply [{'uuid':'24c75a6f-f8c9-4964-b95e-8816ec2a5bc5','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 2:31:18 PM] job.respond "ok"
+[Debug | 2:31:19 PM] game/started reply "ok"
+[Info | 2:31:20 PM] Output Mode: Clip Output
+[Info | 2:31:23 PM] Recording mic: False
+[Info | 2:31:23 PM] Stream 524 Added! Props: streamid='524' pid='13280'
+[Info | 2:31:23 PM] Mic disabled
+[Info | 2:31:23 PM] Window capture video resolution is {Width=1320, Height=720} - Aspect ratio is Custom
+[Info | 2:31:23 PM] Window capture aspect ratio 11:6
+[Info | 2:31:23 PM] Acquired window capture device.
+[Info | 2:31:24 PM] Capture area is 0,24,1920,1040
+[Info | 2:31:24 PM] Screen: 0
+[Info | 2:31:24 PM] Hiding: 0,24,1920,1040
+[Info | 2:31:24 PM] [Game Status]: capture/started - Roblox[1e2Ad6EOaE]
+[Info | 2:31:24 PM] codecName- a264hw, fcc type- eMFCC_NV12
+[Info | 2:31:24 PM] Memory buffer size (MB): 180
+[Debug | 2:31:24 PM] capture/started reply "ok"
+[Info | 2:31:24 PM] Started Filter
+[Info | 2:31:24 PM] Starting GAO...
+[Info | 2:31:24 PM] InputManager starting...
+[Info | 2:31:24 PM] Check for input devices
+[Info | 2:31:24 PM] First video data from screen capture
+[Info | 2:31:24 PM] InputManager: PollInput started
+[Info | 2:31:24 PM] InputManager started.
+[Info | 2:31:24 PM] InputManager: active game switch detected, regenerating trigger inputs
+[Info | 2:31:24 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 2:31:24 PM] [ESM Event] - GameWindowFocus
+[Info | 2:31:24 PM] ----[ESM State]: WindowCaptureStandard----
+[Info | 2:31:24 PM] Stopped Filter
+[Info | 2:31:24 PM] Stopping window capture...
+[Info | 2:31:24 PM] Window capture stopped.
+[Info | 2:31:24 PM] Dispose overlay frame
+[Info | 2:31:24 PM] Mic disabled
+[Info | 2:31:32 PM] [ESM Event] - GameWindowDefocus
+[Info | 2:31:34 PM] 1 logs of- [ESM Event] - GameWindowDefocus
+[Info | 2:31:34 PM] Post Match Info: {"categoryId":"1e2Ad6EOaE","server":{"externalId":"2709441373","name":"[TRADING] Ability Playground","metadata":null},"match":null,"player":{"externalId":"1883801835","name":"karma","metadata":null,"matchMetadata":null},"otherPlayers":null,"metadata":{"playerCount":17}}
+[Info | 2:31:40 PM] [ESM Event] - GameWindowFocus
+[Warning | 2:31:44 PM] InputManager polling slowly: average of 2.206ms
+[Warning | 2:35:11 PM] InputManager polling slowly: average of 2.240ms
+[Warning | 2:35:16 PM] InputManager polling slowly: average of 2.201ms
+[Warning | 2:35:21 PM] InputManager polling slowly: average of 2.010ms
+[Warning | 2:35:46 PM] InputManager polling slowly: average of 2.056ms
+[Warning | 2:35:51 PM] InputManager polling slowly: average of 2.141ms
+[Warning | 2:35:56 PM] InputManager polling slowly: average of 2.190ms
+[Warning | 2:36:01 PM] InputManager polling slowly: average of 2.149ms
+[Warning | 2:36:11 PM] InputManager polling slowly: average of 2.184ms
+[Warning | 2:36:16 PM] InputManager polling slowly: average of 2.409ms
+[Warning | 2:36:21 PM] InputManager polling slowly: average of 2.055ms
+[Warning | 2:36:31 PM] InputManager polling slowly: average of 2.051ms
+[Warning | 2:36:41 PM] InputManager polling slowly: average of 2.079ms
+[Warning | 2:36:46 PM] InputManager polling slowly: average of 2.102ms
+[Warning | 2:37:02 PM] InputManager polling slowly: average of 2.058ms
+[Warning | 2:37:17 PM] InputManager polling slowly: average of 2.222ms
+[Warning | 2:37:22 PM] InputManager polling slowly: average of 2.146ms
+[Warning | 2:37:37 PM] InputManager polling slowly: average of 2.359ms
+[Warning | 2:37:42 PM] InputManager polling slowly: average of 2.541ms
+[Warning | 2:37:47 PM] InputManager polling slowly: average of 2.378ms
+[Warning | 2:37:52 PM] InputManager polling slowly: average of 2.193ms
+[Warning | 2:38:07 PM] InputManager polling slowly: average of 2.056ms
+[Warning | 2:38:17 PM] InputManager polling slowly: average of 2.066ms
+[Warning | 2:38:27 PM] InputManager polling slowly: average of 2.049ms
+[Info | 2:38:53 PM] [ESM Event] - GameWindowDefocus
+[Info | 2:38:57 PM] 1 logs of- [ESM Event] - GameWindowDefocus
+[Info | 2:38:57 PM] [ESM Event] - GameWindowFocus
+[Warning | 2:39:43 PM] InputManager polling slowly: average of 2.060ms
+[Warning | 2:39:58 PM] InputManager polling slowly: average of 2.185ms
+[Warning | 2:40:03 PM] InputManager polling slowly: average of 2.189ms
+[Warning | 2:40:08 PM] InputManager polling slowly: average of 2.039ms
+[Warning | 2:43:09 PM] InputManager polling slowly: average of 2.007ms
+[Warning | 2:44:35 PM] InputManager polling slowly: average of 2.121ms
+[Warning | 2:44:45 PM] InputManager polling slowly: average of 3.448ms
+[Warning | 2:44:50 PM] InputManager polling slowly: average of 3.500ms
+[Info | 2:45:10 PM] [ESM Event] - GameWindowDefocus
+[Info | 2:45:13 PM] 1 logs of- [ESM Event] - GameWindowDefocus
+[Info | 2:45:13 PM] [ESM Event] - GameWindowFocus
+[Warning | 2:45:25 PM] InputManager polling slowly: average of 2.004ms
+[Warning | 2:46:26 PM] InputManager polling slowly: average of 2.825ms
+[Warning | 2:46:31 PM] InputManager polling slowly: average of 2.987ms
+[Warning | 2:46:51 PM] InputManager polling slowly: average of 2.110ms
+[Warning | 2:46:56 PM] InputManager polling slowly: average of 2.154ms
+[Warning | 2:47:31 PM] InputManager polling slowly: average of 2.019ms
+[Warning | 2:47:56 PM] InputManager polling slowly: average of 2.002ms
+[Warning | 2:48:01 PM] InputManager polling slowly: average of 2.015ms
+[Warning | 2:49:17 PM] InputManager polling slowly: average of 2.037ms
+[Warning | 2:50:28 PM] InputManager polling slowly: average of 2.039ms
+[Warning | 2:51:13 PM] InputManager polling slowly: average of 2.260ms
+[Warning | 2:51:18 PM] InputManager polling slowly: average of 2.208ms
+[Warning | 2:51:23 PM] InputManager polling slowly: average of 2.025ms
+[Warning | 2:51:48 PM] InputManager polling slowly: average of 2.139ms
+[Warning | 2:53:09 PM] InputManager polling slowly: average of 2.227ms
+[Warning | 2:53:19 PM] InputManager polling slowly: average of 2.016ms
+[Warning | 2:53:59 PM] InputManager polling slowly: average of 2.015ms
+[Warning | 2:55:15 PM] InputManager polling slowly: average of 2.009ms
+[Warning | 2:55:20 PM] InputManager polling slowly: average of 2.110ms
+[Warning | 2:55:40 PM] InputManager polling slowly: average of 2.036ms
+[Warning | 2:56:15 PM] InputManager polling slowly: average of 2.069ms
+[Warning | 2:56:30 PM] InputManager polling slowly: average of 3.062ms
+[Warning | 2:56:35 PM] InputManager polling slowly: average of 2.907ms
+[Warning | 2:57:05 PM] InputManager polling slowly: average of 2.044ms
+[Warning | 2:58:31 PM] InputManager polling slowly: average of 2.026ms
+[Warning | 2:58:36 PM] InputManager polling slowly: average of 2.234ms
+[Warning | 2:58:41 PM] InputManager polling slowly: average of 2.147ms
+[Warning | 3:01:02 PM] InputManager polling slowly: average of 2.141ms
+[Warning | 3:01:22 PM] InputManager polling slowly: average of 2.074ms
+[Warning | 3:01:58 PM] InputManager polling slowly: average of 2.089ms
+[Warning | 3:02:33 PM] InputManager polling slowly: average of 2.051ms
+[Warning | 3:03:23 PM] InputManager polling slowly: average of 2.024ms
+[Warning | 3:03:28 PM] InputManager polling slowly: average of 2.148ms
+[Warning | 3:03:33 PM] InputManager polling slowly: average of 2.041ms
+[Warning | 3:03:54 PM] InputManager polling slowly: average of 2.023ms
+[Warning | 3:03:59 PM] InputManager polling slowly: average of 2.026ms
+[Warning | 3:06:10 PM] InputManager polling slowly: average of 2.050ms
+[Warning | 3:06:15 PM] InputManager polling slowly: average of 2.381ms
+[Warning | 3:06:20 PM] InputManager polling slowly: average of 2.141ms
+[Warning | 3:08:21 PM] InputManager polling slowly: average of 2.101ms
+[Warning | 3:08:26 PM] InputManager polling slowly: average of 2.050ms
+[Warning | 3:09:26 PM] InputManager polling slowly: average of 2.135ms
+[Warning | 3:09:31 PM] InputManager polling slowly: average of 2.048ms
+[Warning | 3:09:41 PM] InputManager polling slowly: average of 2.128ms
+[Warning | 3:09:46 PM] InputManager polling slowly: average of 2.260ms
+[Warning | 3:09:51 PM] InputManager polling slowly: average of 2.255ms
+[Warning | 3:09:56 PM] InputManager polling slowly: average of 2.245ms
+[Warning | 3:10:01 PM] InputManager polling slowly: average of 2.063ms
+[Warning | 3:10:06 PM] InputManager polling slowly: average of 2.114ms
+[Warning | 3:10:11 PM] InputManager polling slowly: average of 2.151ms
+[Warning | 3:10:22 PM] InputManager polling slowly: average of 2.043ms
+[Warning | 3:10:27 PM] InputManager polling slowly: average of 2.700ms
+[Warning | 3:10:32 PM] InputManager polling slowly: average of 2.436ms
+[Warning | 3:10:47 PM] InputManager polling slowly: average of 2.058ms
+[Warning | 3:10:52 PM] InputManager polling slowly: average of 2.209ms
+[Warning | 3:11:37 PM] InputManager polling slowly: average of 2.470ms
+[Warning | 3:11:42 PM] InputManager polling slowly: average of 2.463ms
+[Warning | 3:11:57 PM] InputManager polling slowly: average of 2.140ms
+[Warning | 3:12:03 PM] InputManager polling slowly: average of 2.094ms
+[Warning | 3:12:08 PM] InputManager polling slowly: average of 2.162ms
+[Warning | 3:12:13 PM] InputManager polling slowly: average of 2.156ms
+[Warning | 3:12:28 PM] InputManager polling slowly: average of 2.034ms
+[Warning | 3:12:33 PM] InputManager polling slowly: average of 2.073ms
+[Warning | 3:12:58 PM] InputManager polling slowly: average of 2.114ms
+[Warning | 3:13:03 PM] InputManager polling slowly: average of 2.106ms
+[Warning | 3:13:28 PM] InputManager polling slowly: average of 2.010ms
+[Warning | 3:13:58 PM] InputManager polling slowly: average of 2.351ms
+[Warning | 3:14:03 PM] InputManager polling slowly: average of 2.115ms
+[Warning | 3:14:14 PM] InputManager polling slowly: average of 2.276ms
+[Warning | 3:14:19 PM] InputManager polling slowly: average of 2.161ms
+[Warning | 3:14:24 PM] InputManager polling slowly: average of 2.085ms
+[Warning | 3:14:29 PM] InputManager polling slowly: average of 2.194ms
+[Warning | 3:14:34 PM] InputManager polling slowly: average of 2.097ms
+[Warning | 3:14:39 PM] InputManager polling slowly: average of 2.069ms
+[Warning | 3:14:44 PM] InputManager polling slowly: average of 2.179ms
+[Warning | 3:14:49 PM] InputManager polling slowly: average of 2.052ms
+[Warning | 3:15:09 PM] InputManager polling slowly: average of 2.119ms
+[Warning | 3:16:25 PM] InputManager polling slowly: average of 2.078ms
+[Warning | 3:16:30 PM] InputManager polling slowly: average of 2.258ms
+[Warning | 3:16:45 PM] InputManager polling slowly: average of 2.224ms
+[Warning | 3:17:40 PM] InputManager polling slowly: average of 2.137ms
+[Warning | 3:17:45 PM] InputManager polling slowly: average of 2.063ms
+[Warning | 3:17:50 PM] InputManager polling slowly: average of 2.061ms
+[Warning | 3:17:55 PM] InputManager polling slowly: average of 2.001ms
+[Warning | 3:18:51 PM] InputManager polling slowly: average of 2.209ms
+[Warning | 3:18:56 PM] InputManager polling slowly: average of 2.292ms
+[Warning | 3:19:01 PM] InputManager polling slowly: average of 2.271ms
+[Warning | 3:19:21 PM] InputManager polling slowly: average of 2.153ms
+[Warning | 3:19:26 PM] InputManager polling slowly: average of 2.129ms
+[Warning | 3:19:31 PM] InputManager polling slowly: average of 2.041ms
+[Warning | 3:20:31 PM] InputManager polling slowly: average of 2.082ms
+[Warning | 3:20:47 PM] InputManager polling slowly: average of 2.190ms
+[Warning | 3:20:52 PM] InputManager polling slowly: average of 2.287ms
+[Warning | 3:20:57 PM] InputManager polling slowly: average of 2.039ms
+[Warning | 3:21:07 PM] InputManager polling slowly: average of 2.121ms
+[Warning | 3:21:12 PM] InputManager polling slowly: average of 2.304ms
+[Warning | 3:21:17 PM] InputManager polling slowly: average of 2.473ms
+[Warning | 3:21:22 PM] InputManager polling slowly: average of 2.190ms
+[Warning | 3:22:18 PM] InputManager polling slowly: average of 2.133ms
+[Warning | 3:22:23 PM] InputManager polling slowly: average of 2.169ms
+[Warning | 3:22:33 PM] InputManager polling slowly: average of 2.025ms
+[Warning | 3:22:38 PM] InputManager polling slowly: average of 2.173ms
+[Warning | 3:22:53 PM] InputManager polling slowly: average of 2.078ms
+[Warning | 3:22:58 PM] InputManager polling slowly: average of 2.035ms
+[Warning | 3:23:13 PM] InputManager polling slowly: average of 2.651ms
+[Warning | 3:23:18 PM] InputManager polling slowly: average of 2.741ms
+[Warning | 3:24:24 PM] InputManager polling slowly: average of 2.074ms
+[Warning | 3:24:39 PM] InputManager polling slowly: average of 2.162ms
+[Warning | 3:24:44 PM] InputManager polling slowly: average of 2.040ms
+[Warning | 3:25:04 PM] InputManager polling slowly: average of 2.038ms
+[Warning | 3:25:09 PM] InputManager polling slowly: average of 2.320ms
+[Warning | 3:25:14 PM] InputManager polling slowly: average of 2.377ms
+[Warning | 3:25:19 PM] InputManager polling slowly: average of 2.180ms
+[Warning | 3:26:05 PM] InputManager polling slowly: average of 2.031ms
+[Warning | 3:26:15 PM] InputManager polling slowly: average of 2.102ms
+[Warning | 3:26:35 PM] InputManager polling slowly: average of 2.007ms
+[Warning | 3:26:50 PM] InputManager polling slowly: average of 2.021ms
+[Warning | 3:26:55 PM] InputManager polling slowly: average of 2.058ms
+[Warning | 3:27:20 PM] InputManager polling slowly: average of 2.225ms
+[Warning | 3:27:25 PM] InputManager polling slowly: average of 2.264ms
+[Warning | 3:27:30 PM] InputManager polling slowly: average of 2.406ms
+[Warning | 3:27:46 PM] InputManager polling slowly: average of 2.043ms
+[Warning | 3:28:16 PM] InputManager polling slowly: average of 2.150ms
+[Warning | 3:28:21 PM] InputManager polling slowly: average of 2.455ms
+[Warning | 3:28:56 PM] InputManager polling slowly: average of 2.267ms
+[Warning | 3:29:01 PM] InputManager polling slowly: average of 2.096ms
+[Warning | 3:29:26 PM] InputManager polling slowly: average of 2.031ms
+[Warning | 3:29:46 PM] InputManager polling slowly: average of 2.113ms
+[Warning | 3:30:17 PM] InputManager polling slowly: average of 2.041ms
+[Warning | 3:30:22 PM] InputManager polling slowly: average of 2.264ms
+[Warning | 3:30:27 PM] InputManager polling slowly: average of 2.586ms
+[Warning | 3:30:32 PM] InputManager polling slowly: average of 2.458ms
+[Warning | 3:30:37 PM] InputManager polling slowly: average of 2.034ms
+[Warning | 3:30:47 PM] InputManager polling slowly: average of 2.078ms
+[Warning | 3:30:52 PM] InputManager polling slowly: average of 2.331ms
+[Warning | 3:30:57 PM] InputManager polling slowly: average of 2.152ms
+[Warning | 3:31:07 PM] InputManager polling slowly: average of 2.118ms
+[Warning | 3:31:32 PM] InputManager polling slowly: average of 2.105ms
+[Warning | 3:31:37 PM] InputManager polling slowly: average of 2.183ms
+[Warning | 3:31:43 PM] InputManager polling slowly: average of 2.172ms
+[Warning | 3:31:48 PM] InputManager polling slowly: average of 2.305ms
+[Warning | 3:31:53 PM] InputManager polling slowly: average of 2.071ms
+[Warning | 3:32:48 PM] InputManager polling slowly: average of 2.560ms
+[Warning | 3:32:53 PM] InputManager polling slowly: average of 2.585ms
+[Warning | 3:32:58 PM] InputManager polling slowly: average of 2.280ms
+[Warning | 3:33:18 PM] InputManager polling slowly: average of 2.145ms
+[Warning | 3:33:49 PM] InputManager polling slowly: average of 2.006ms
+[Warning | 3:34:29 PM] InputManager polling slowly: average of 2.096ms
+[Warning | 3:34:44 PM] InputManager polling slowly: average of 2.030ms
+[Warning | 3:34:49 PM] InputManager polling slowly: average of 2.051ms
+[Warning | 3:34:59 PM] InputManager polling slowly: average of 2.505ms
+[Warning | 3:35:04 PM] InputManager polling slowly: average of 2.492ms
+[Warning | 3:35:14 PM] InputManager polling slowly: average of 2.029ms
+[Warning | 3:35:24 PM] InputManager polling slowly: average of 2.035ms
+[Warning | 3:35:29 PM] InputManager polling slowly: average of 2.110ms
+[Warning | 3:35:39 PM] InputManager polling slowly: average of 2.277ms
+[Warning | 3:35:45 PM] InputManager polling slowly: average of 2.587ms
+[Warning | 3:35:50 PM] InputManager polling slowly: average of 2.039ms
+[Warning | 3:36:05 PM] InputManager polling slowly: average of 2.051ms
+[Warning | 3:36:10 PM] InputManager polling slowly: average of 2.061ms
+[Warning | 3:36:25 PM] InputManager polling slowly: average of 2.099ms
+[Warning | 3:36:45 PM] InputManager polling slowly: average of 2.315ms
+[Warning | 3:37:10 PM] InputManager polling slowly: average of 2.081ms
+[Warning | 3:37:15 PM] InputManager polling slowly: average of 2.118ms
+[Warning | 3:37:20 PM] InputManager polling slowly: average of 2.116ms
+[Warning | 3:37:25 PM] InputManager polling slowly: average of 2.235ms
+[Warning | 3:37:30 PM] InputManager polling slowly: average of 2.050ms
+[Warning | 3:37:36 PM] InputManager polling slowly: average of 2.040ms
+[Warning | 3:37:56 PM] InputManager polling slowly: average of 2.260ms
+[Warning | 3:38:01 PM] InputManager polling slowly: average of 2.017ms
+[Warning | 3:38:21 PM] InputManager polling slowly: average of 2.002ms
+[Warning | 3:38:26 PM] InputManager polling slowly: average of 2.163ms
+[Warning | 3:41:47 PM] InputManager polling slowly: average of 2.027ms
+[Warning | 3:41:52 PM] InputManager polling slowly: average of 2.098ms
+[Warning | 3:41:57 PM] InputManager polling slowly: average of 2.099ms
+[Warning | 3:43:43 PM] InputManager polling slowly: average of 2.064ms
+[Warning | 3:43:48 PM] InputManager polling slowly: average of 2.065ms
+[Warning | 3:44:28 PM] InputManager polling slowly: average of 2.009ms
+[Warning | 3:44:33 PM] InputManager polling slowly: average of 2.103ms
+[Warning | 3:44:38 PM] InputManager polling slowly: average of 2.032ms
+[Warning | 3:45:54 PM] InputManager polling slowly: average of 2.099ms
+[Warning | 3:45:59 PM] InputManager polling slowly: average of 2.045ms
+[Warning | 3:48:20 PM] InputManager polling slowly: average of 4.113ms
+[Warning | 3:48:25 PM] InputManager polling slowly: average of 4.363ms
+[Warning | 3:53:07 PM] InputManager polling slowly: average of 2.080ms
+[Warning | 3:55:03 PM] InputManager polling slowly: average of 3.884ms
+[Warning | 3:55:08 PM] InputManager polling slowly: average of 4.218ms
+[Warning | 3:55:13 PM] InputManager polling slowly: average of 2.185ms
+[Warning | 3:55:29 PM] InputManager polling slowly: average of 2.317ms
+[Warning | 3:55:44 PM] InputManager polling slowly: average of 2.314ms
+[Warning | 3:55:49 PM] InputManager polling slowly: average of 2.066ms
+[Warning | 3:56:09 PM] InputManager polling slowly: average of 2.109ms
+[Warning | 3:56:14 PM] InputManager polling slowly: average of 2.093ms
+[Warning | 3:56:19 PM] InputManager polling slowly: average of 2.071ms
+[Warning | 3:56:34 PM] InputManager polling slowly: average of 2.114ms
+[Warning | 3:56:39 PM] InputManager polling slowly: average of 2.156ms
+[Warning | 3:56:44 PM] InputManager polling slowly: average of 4.240ms
+[Warning | 3:56:49 PM] InputManager polling slowly: average of 4.261ms
+[Warning | 3:56:54 PM] InputManager polling slowly: average of 2.101ms
+[Warning | 3:56:59 PM] InputManager polling slowly: average of 2.039ms
+[Warning | 3:57:25 PM] InputManager polling slowly: average of 2.092ms
+[Warning | 3:57:30 PM] InputManager polling slowly: average of 2.096ms
+[Warning | 3:57:35 PM] InputManager polling slowly: average of 2.006ms
+[Warning | 3:57:45 PM] InputManager polling slowly: average of 2.130ms
+[Warning | 3:57:50 PM] InputManager polling slowly: average of 2.110ms
+[Warning | 3:58:10 PM] InputManager polling slowly: average of 2.044ms
+[Warning | 3:58:15 PM] InputManager polling slowly: average of 2.186ms
+[Warning | 3:58:20 PM] InputManager polling slowly: average of 2.028ms
+[Warning | 3:58:50 PM] InputManager polling slowly: average of 2.359ms
+[Warning | 3:58:55 PM] InputManager polling slowly: average of 2.373ms
+[Warning | 3:59:00 PM] InputManager polling slowly: average of 2.203ms
+[Warning | 3:59:31 PM] InputManager polling slowly: average of 2.241ms
+[Warning | 3:59:36 PM] InputManager polling slowly: average of 2.296ms
+[Warning | 3:59:41 PM] InputManager polling slowly: average of 2.081ms
+[Warning | 4:00:36 PM] InputManager polling slowly: average of 2.043ms
+[Warning | 4:00:41 PM] InputManager polling slowly: average of 2.142ms
+[Warning | 4:00:56 PM] InputManager polling slowly: average of 2.104ms
+[Warning | 4:01:01 PM] InputManager polling slowly: average of 2.238ms
+[Warning | 4:01:06 PM] InputManager polling slowly: average of 2.087ms
+[Warning | 4:01:32 PM] InputManager polling slowly: average of 2.235ms
+[Warning | 4:01:37 PM] InputManager polling slowly: average of 2.290ms
+[Warning | 4:01:52 PM] InputManager polling slowly: average of 2.009ms
+[Warning | 4:01:57 PM] InputManager polling slowly: average of 2.150ms
+[Warning | 4:02:02 PM] InputManager polling slowly: average of 2.211ms
+[Warning | 4:02:07 PM] InputManager polling slowly: average of 2.094ms
+[Warning | 4:03:37 PM] InputManager polling slowly: average of 2.056ms
+[Warning | 4:03:42 PM] InputManager polling slowly: average of 2.131ms
+[Warning | 4:03:47 PM] InputManager polling slowly: average of 2.011ms
+[Warning | 4:06:44 PM] InputManager polling slowly: average of 2.264ms
+[Warning | 4:06:49 PM] InputManager polling slowly: average of 2.255ms
+[Warning | 4:06:54 PM] InputManager polling slowly: average of 2.039ms
+[Warning | 4:10:05 PM] InputManager polling slowly: average of 3.406ms
+[Warning | 4:10:10 PM] InputManager polling slowly: average of 3.438ms
+[Warning | 4:13:27 PM] InputManager polling slowly: average of 2.211ms
+[Warning | 4:13:32 PM] InputManager polling slowly: average of 2.293ms
+[Info | 4:14:33 PM] [ESM Event] - GameWindowDefocus
+[Info | 4:14:33 PM] Window object destroyed: Roblox -- 459844
+[Info | 4:14:33 PM] Game is still running
+[Info | 4:14:38 PM] Game window changed. Finding new game window
+[Info | 4:14:38 PM] Found 0 windows that match process caption and class
+[Info | 4:14:38 PM] New window handle 0
+[Info | 4:14:38 PM] Finding new game window failed
+[Info | 4:14:38 PM] Roblox exited.
+[Info | 4:14:38 PM] [Game Status]: game/stopped - Roblox[1e2Ad6EOaE]
+[Info | 4:14:38 PM] InputManager: active game switch detected, regenerating trigger inputs
+[Info | 4:14:38 PM] Stop recording game Roblox
+[Info | 4:14:38 PM] InputManager stopping...
+[Info | 4:14:38 PM] InputManager: PollInput stopped
+[Info | 4:14:38 PM] InputManager stopped.
+[Info | 4:14:38 PM] [ESM Event] - GameClosed
+[Info | 4:14:38 PM] Removing window hooks
+[Info | 4:14:38 PM] Window hooks removed
+[Info | 4:14:38 PM] Stopping periodic game extension jobs.
+[Debug | 4:14:39 PM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 4:14:39 PM] Clear override settings
+[Info | 4:14:39 PM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 4:14:39 PM] [ESM Event] - ConfigChangedRestart
+[Info | 4:14:39 PM] job.respond 5fc49e5c-d3c7-4367-a02a-312dd1d067aa
+[Debug | 4:14:39 PM] PollDesktopJobQueue reply [{'uuid':'34a69572-8847-47ed-a5ac-bdd8b386d6cc','body':{},'action':'ping'},{'uuid':'5fc49e5c-d3c7-4367-a02a-312dd1d067aa','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 4:14:39 PM] job.respond "ok"
+[Debug | 4:14:41 PM] game/stopped reply "ok"
+[Info | 4:20:20 PM] Game Found Type ProcessClass: Roblox
+[Info | 4:20:20 PM] Process name found RobloxPlayerBeta | Caption | Roblox | and class | WINDOWSCLIENT | Detect all Games | False
+[Info | 4:20:20 PM] Game found RobloxPlayerBeta Handle: 1115754
+[Info | 4:20:20 PM] Monitor: 65537 Current DPI: 96, 96
+[Info | 4:20:20 PM] Setting up window hooks
+[Info | 4:20:20 PM] Window location change event hooked
+[Info | 4:20:20 PM] Window focus event hooked
+[Info | 4:20:20 PM] Window destroy event hooked
+[Info | 4:20:20 PM] Window reorder event hooked
+[Info | 4:20:20 PM] Window hooks complete
+[Info | 4:20:20 PM] Active game initialized Roblox
+[Info | 4:20:20 PM] [Game Status]: game/started - Roblox[1e2Ad6EOaE]
+[Info | 4:20:20 PM] Start recording game Roblox
+[Info | 4:20:20 PM] [ESM Event] - WindowCaptureStart
+[Debug | 4:20:30 PM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 4:20:30 PM] Clear override settings
+[Info | 4:20:30 PM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 4:20:30 PM] [ESM Event] - ConfigChangedRestart
+[Info | 4:20:30 PM] job.respond e044d523-7405-4400-ab28-808202a7a110
+[Debug | 4:20:30 PM] PollDesktopJobQueue reply [{'uuid':'e044d523-7405-4400-ab28-808202a7a110','body':{'enabled':false},'action':'set.toggleBroadcast'},{'uuid':'44a49c08-2108-43ab-a3b9-032a1e55cff1','body':{},'action':'ping'}]
+[Debug | 4:20:30 PM] job.respond "ok"
+[Debug | 4:20:32 PM] game/started reply "ok"
+[Info | 4:20:36 PM] [ESM Event] - GameWindowDefocus
+[Info | 4:20:40 PM] 2 logs of- [ESM Event] - GameWindowDefocus
+[Info | 4:20:40 PM] Window is moving, fallback canceled
+[Info | 4:20:41 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 4:20:41 PM] [ESM Event] - WindowCaptureMoved
+[Info | 4:20:41 PM] [ESM Event] - GameWindowFocus
+[Warning | 4:21:23 PM] Slow game scan: completed (224 handles) after 2358.9ms
+[Warning | 4:21:23 PM] Scanning already in progress (2.55s)
+[Warning | 4:21:24 PM]     window handles: 2308.8ms, 233 results
+[Warning | 4:21:24 PM]     window infos:   40.7ms, 224 results
+[Warning | 4:21:24 PM]     window checks:  9.8ms
+[Info | 5:33:41 PM] [ESM Event] - GameWindowDefocus
+[Info | 5:33:41 PM] Window object destroyed: Roblox -- 1115754
+[Info | 5:33:41 PM] Game is closed
+[Info | 5:33:41 PM] Roblox exited.
+[Info | 5:33:41 PM] [Game Status]: game/stopped - Roblox[1e2Ad6EOaE]
+[Info | 5:33:41 PM] Stop recording game Roblox
+[Info | 5:33:41 PM] [ESM Event] - GameClosed
+[Info | 5:33:41 PM] Removing window hooks
+[Info | 5:33:41 PM] Window hooks removed
+[Info | 5:33:41 PM] Stopping periodic game extension jobs.
+[Debug | 5:33:48 PM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 5:33:48 PM] Clear override settings
+[Info | 5:33:48 PM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 5:33:48 PM] [ESM Event] - ConfigChangedRestart
+[Info | 5:33:48 PM] job.respond 054c18d0-cfc5-4bba-9431-a88a9e61b3a6
+[Debug | 5:33:48 PM] PollDesktopJobQueue reply [{'uuid':'054c18d0-cfc5-4bba-9431-a88a9e61b3a6','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 5:33:48 PM] job.respond "ok"
+[Debug | 5:33:50 PM] game/stopped reply "ok"
+[Info | 5:50:33 PM] Game Found Type ProcessClass: Roblox
+[Info | 5:50:33 PM] Process name found RobloxPlayerBeta | Caption | Roblox | and class | WINDOWSCLIENT | Detect all Games | False
+[Info | 5:50:33 PM] Game found RobloxPlayerBeta Handle: 1049382
+[Info | 5:50:33 PM] Monitor: 65537 Current DPI: 96, 96
+[Info | 5:50:33 PM] Setting up window hooks
+[Info | 5:50:33 PM] Window location change event hooked
+[Info | 5:50:33 PM] Window focus event hooked
+[Info | 5:50:33 PM] Window destroy event hooked
+[Info | 5:50:33 PM] Window reorder event hooked
+[Info | 5:50:33 PM] Window hooks complete
+[Info | 5:50:33 PM] Active game initialized Roblox
+[Info | 5:50:33 PM] [Game Status]: game/started - Roblox[1e2Ad6EOaE]
+[Info | 5:50:33 PM] Start recording game Roblox
+[Info | 5:50:33 PM] [ESM Event] - WindowCaptureStart
+[Debug | 5:50:36 PM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 5:50:36 PM] Clear override settings
+[Info | 5:50:36 PM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 5:50:36 PM] [ESM Event] - ConfigChangedRestart
+[Info | 5:50:36 PM] job.respond feb44846-8d3c-41ba-820b-9073e9430227
+[Debug | 5:50:36 PM] PollDesktopJobQueue reply [{'uuid':'feb44846-8d3c-41ba-820b-9073e9430227','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 5:50:36 PM] job.respond "ok"
+[Debug | 5:50:37 PM] game/started reply "ok"
+[Info | 5:50:39 PM] Notification message received
+[Info | 5:50:39 PM] job.respond b5f76349-035a-42f6-863a-fc30503759a6
+[Debug | 5:50:39 PM] job.respond "ok"
+[Info | 5:51:12 PM] [ESM Event] - GameWindowDefocus
+[Info | 5:51:25 PM] 2 logs of- [ESM Event] - GameWindowDefocus
+[Info | 5:51:25 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 5:51:25 PM] [ESM Event] - WindowCaptureMoved
+[Info | 5:51:25 PM] [ESM Event] - GameWindowFocus
+[Info | 5:55:28 PM] [ESM Event] - GameWindowDefocus
+[Info | 5:55:32 PM] 1 logs of- [ESM Event] - GameWindowDefocus
+[Info | 5:55:32 PM] [ESM Event] - GameWindowFocus
+[Info | 6:04:10 PM] 1 logs of- [ESM Event] - GameWindowFocus
+[Info | 6:04:10 PM] [ESM Event] - GameWindowDefocus
+[Info | 6:04:11 PM] 1 logs of- [ESM Event] - GameWindowDefocus
+[Info | 6:04:11 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 6:04:11 PM] [ESM Event] - WindowCaptureMoved
+[Info | 6:04:11 PM] [ESM Event] - GameWindowDefocus
+[Info | 6:04:13 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 6:04:13 PM] [ESM Event] - WindowCaptureMoved
+[Info | 6:04:13 PM] [ESM Event] - GameWindowFocus
+[Info | 6:23:32 PM] [ESM Event] - GameWindowDefocus
+[Info | 6:23:33 PM] 1 logs of- [ESM Event] - GameWindowDefocus
+[Info | 6:23:33 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 6:23:33 PM] [ESM Event] - WindowCaptureMoved
+[Info | 6:23:37 PM] [ESM Event] - GameWindowFocus
+[Info | 6:23:37 PM] [ESM Event] - GameWindowDefocus
+[Info | 6:23:38 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 6:23:38 PM] [ESM Event] - WindowCaptureMoved
+[Info | 6:23:38 PM] [ESM Event] - GameWindowFocus
+[Info | 6:24:31 PM] [ESM Event] - GameWindowDefocus
+[Info | 6:24:32 PM] 1 logs of- [ESM Event] - GameWindowDefocus
+[Info | 6:24:32 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 6:24:32 PM] [ESM Event] - WindowCaptureMoved
+[Info | 6:25:04 PM] [ESM Event] - GameWindowFocus
+[Info | 6:25:04 PM] [ESM Event] - GameWindowDefocus
+[Info | 6:25:05 PM] Window is moving, fallback canceled
+[Info | 6:25:05 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 6:25:05 PM] [ESM Event] - WindowCaptureMoved
+[Info | 6:25:05 PM] [ESM Event] - GameWindowFocus
+[Info | 6:25:18 PM] 1 logs of- [ESM Event] - GameWindowFocus
+[Info | 6:25:18 PM] [ESM Event] - GameWindowDefocus
+[Info | 6:25:19 PM] 1 logs of- [ESM Event] - GameWindowDefocus
+[Info | 6:25:19 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 6:25:19 PM] [ESM Event] - WindowCaptureMoved
+[Info | 6:25:31 PM] [ESM Event] - GameWindowDefocus
+[Info | 6:25:32 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 6:25:32 PM] [ESM Event] - WindowCaptureMoved
+[Info | 6:25:32 PM] [ESM Event] - GameWindowFocus
+[Info | 6:26:34 PM] 1 logs of- [ESM Event] - GameWindowFocus
+[Info | 6:26:34 PM] [ESM Event] - GameWindowDefocus
+[Info | 6:26:35 PM] 1 logs of- [ESM Event] - GameWindowDefocus
+[Info | 6:26:35 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 6:26:35 PM] [ESM Event] - WindowCaptureMoved
+[Info | 6:28:18 PM] [ESM Event] - GameWindowDefocus
+[Info | 6:28:19 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 6:28:19 PM] [ESM Event] - WindowCaptureMoved
+[Info | 6:28:19 PM] [ESM Event] - GameWindowFocus
+[Info | 6:28:23 PM] Window object destroyed: Roblox -- 1049382
+[Info | 6:28:23 PM] Game is still running
+[Info | 6:28:23 PM] Game window changed. Finding new game window
+[Info | 6:28:23 PM] Found 0 windows that match process caption and class
+[Info | 6:28:23 PM] New window handle 0
+[Info | 6:28:23 PM] Finding new game window failed
+[Info | 6:28:23 PM] Roblox exited.
+[Info | 6:28:23 PM] [Game Status]: game/stopped - Roblox[1e2Ad6EOaE]
+[Info | 6:28:23 PM] Stop recording game Roblox
+[Info | 6:28:23 PM] [ESM Event] - GameClosed
+[Info | 6:28:23 PM] Removing window hooks
+[Info | 6:28:23 PM] Window hooks removed
+[Info | 6:28:23 PM] Stopping periodic game extension jobs.
+[Debug | 6:28:29 PM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 6:28:29 PM] Clear override settings
+[Info | 6:28:29 PM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 6:28:29 PM] [ESM Event] - ConfigChangedRestart
+[Info | 6:28:29 PM] job.respond 03c4a3b5-f266-4f1a-b097-923a1187163a
+[Debug | 6:28:29 PM] PollDesktopJobQueue reply [{'uuid':'03c4a3b5-f266-4f1a-b097-923a1187163a','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 6:28:29 PM] job.respond "ok"
+[Debug | 6:28:31 PM] game/stopped reply "ok"
+[Info | 6:29:00 PM] Game Found Type ProcessClass: Roblox
+[Info | 6:29:00 PM] Process name found RobloxPlayerBeta | Caption | Roblox | and class | WINDOWSCLIENT | Detect all Games | False
+[Info | 6:29:00 PM] Game found RobloxPlayerBeta Handle: 1639886
+[Info | 6:29:00 PM] Monitor: 65537 Current DPI: 96, 96
+[Info | 6:29:00 PM] Setting up window hooks
+[Info | 6:29:00 PM] Window location change event hooked
+[Info | 6:29:00 PM] Window focus event hooked
+[Info | 6:29:00 PM] Window destroy event hooked
+[Info | 6:29:00 PM] Window reorder event hooked
+[Info | 6:29:00 PM] Window hooks complete
+[Info | 6:29:00 PM] Active game initialized Roblox
+[Info | 6:29:00 PM] [Game Status]: game/started - Roblox[1e2Ad6EOaE]
+[Info | 6:29:00 PM] Start recording game Roblox
+[Info | 6:29:00 PM] [ESM Event] - WindowCaptureStart
+[Debug | 6:29:02 PM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 6:29:02 PM] Clear override settings
+[Info | 6:29:02 PM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 6:29:02 PM] [ESM Event] - ConfigChangedRestart
+[Info | 6:29:02 PM] job.respond e3211e00-61c7-4bf5-9ea3-70de337381fb
+[Debug | 6:29:02 PM] PollDesktopJobQueue reply [{'uuid':'e3211e00-61c7-4bf5-9ea3-70de337381fb','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 6:29:02 PM] job.respond "ok"
+[Debug | 6:29:03 PM] game/started reply "ok"
+[Info | 6:29:17 PM] [ESM Event] - GameWindowDefocus
+[Info | 6:29:18 PM] Window object destroyed: Roblox -- 1639886
+[Info | 6:29:18 PM] Game is closed
+[Info | 6:29:18 PM] Roblox exited.
+[Info | 6:29:18 PM] [Game Status]: game/stopped - Roblox[1e2Ad6EOaE]
+[Info | 6:29:18 PM] Stop recording game Roblox
+[Info | 6:29:18 PM] [ESM Event] - GameClosed
+[Info | 6:29:18 PM] Removing window hooks
+[Info | 6:29:18 PM] Window hooks removed
+[Info | 6:29:18 PM] Stopping periodic game extension jobs.
+[Debug | 6:29:20 PM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 6:29:20 PM] Clear override settings
+[Info | 6:29:20 PM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 6:29:20 PM] [ESM Event] - ConfigChangedRestart
+[Info | 6:29:20 PM] job.respond bf7dc65f-6d13-4137-8cba-ccc59806883c
+[Debug | 6:29:20 PM] PollDesktopJobQueue reply [{'uuid':'bf7dc65f-6d13-4137-8cba-ccc59806883c','body':{'enabled':false},'action':'set.toggleBroadcast'},{'uuid':'703b0be9-b615-4f34-b7c8-5a98feca6448','body':{},'action':'ping'}]
+[Debug | 6:29:20 PM] job.respond "ok"
+[Debug | 6:29:21 PM] game/stopped reply "ok"
+[Info | 6:29:48 PM] Game Found Type ProcessClass: Roblox
+[Info | 6:29:48 PM] Process name found RobloxPlayerBeta | Caption | Roblox | and class | WINDOWSCLIENT | Detect all Games | False
+[Info | 6:29:48 PM] Game found RobloxPlayerBeta Handle: 1443256
+[Info | 6:29:48 PM] Monitor: 65537 Current DPI: 96, 96
+[Info | 6:29:48 PM] Setting up window hooks
+[Info | 6:29:48 PM] Window location change event hooked
+[Info | 6:29:48 PM] Window focus event hooked
+[Info | 6:29:48 PM] Window destroy event hooked
+[Info | 6:29:48 PM] Window reorder event hooked
+[Info | 6:29:48 PM] Window hooks complete
+[Info | 6:29:48 PM] Active game initialized Roblox
+[Info | 6:29:48 PM] [Game Status]: game/started - Roblox[1e2Ad6EOaE]
+[Info | 6:29:48 PM] Start recording game Roblox
+[Info | 6:29:48 PM] [ESM Event] - WindowCaptureStart
+[Debug | 6:29:51 PM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 6:29:51 PM] Clear override settings
+[Info | 6:29:51 PM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 6:29:51 PM] [ESM Event] - ConfigChangedRestart
+[Info | 6:29:51 PM] job.respond 8209dfa4-b004-4b87-b6ca-fa3c2605b581
+[Debug | 6:29:51 PM] PollDesktopJobQueue reply [{'uuid':'8209dfa4-b004-4b87-b6ca-fa3c2605b581','body':{'enabled':false},'action':'set.toggleBroadcast'},{'uuid':'22a9194f-e054-430e-b037-07943c1f24e8','body':{},'action':'ping'}]
+[Debug | 6:29:51 PM] job.respond "ok"
+[Debug | 6:29:52 PM] game/started reply "ok"
+[Info | 6:48:50 PM] [ESM Event] - GameWindowDefocus
+[Info | 6:48:51 PM] [ESM Event] - GameWindowFocus
+[Info | 7:01:51 PM] Window object destroyed: Roblox -- 1443256
+[Info | 7:01:51 PM] Game is still running
+[Info | 7:01:52 PM] Game window changed. Finding new game window
+[Info | 7:01:52 PM] Found 0 windows that match process caption and class
+[Info | 7:01:52 PM] New window handle 0
+[Info | 7:01:52 PM] Finding new game window failed
+[Info | 7:01:52 PM] Roblox exited.
+[Info | 7:01:52 PM] [Game Status]: game/stopped - Roblox[1e2Ad6EOaE]
+[Info | 7:01:52 PM] Stop recording game Roblox
+[Info | 7:01:52 PM] [ESM Event] - GameClosed
+[Info | 7:01:52 PM] Removing window hooks
+[Info | 7:01:52 PM] Window hooks removed
+[Info | 7:01:52 PM] Stopping periodic game extension jobs.
+[Debug | 7:01:55 PM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 7:01:55 PM] Clear override settings
+[Info | 7:01:55 PM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 7:01:55 PM] [ESM Event] - ConfigChangedRestart
+[Info | 7:01:55 PM] job.respond 0c205a47-7d83-4ada-8eef-8a652776e139
+[Debug | 7:01:55 PM] PollDesktopJobQueue reply [{'uuid':'0c205a47-7d83-4ada-8eef-8a652776e139','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 7:01:56 PM] job.respond "ok"
+[Debug | 7:01:57 PM] game/stopped reply "ok"
+[Info | 7:06:45 PM] Game Found Type ProcessClass: Roblox
+[Info | 7:06:45 PM] Process name found RobloxPlayerBeta | Caption | Roblox | and class | WINDOWSCLIENT | Detect all Games | False
+[Info | 7:06:45 PM] Game found RobloxPlayerBeta Handle: 1312210
+[Info | 7:06:45 PM] Monitor: 65537 Current DPI: 96, 96
+[Info | 7:06:45 PM] Setting up window hooks
+[Info | 7:06:45 PM] Window location change event hooked
+[Info | 7:06:45 PM] Window focus event hooked
+[Info | 7:06:45 PM] Window destroy event hooked
+[Info | 7:06:45 PM] Window reorder event hooked
+[Info | 7:06:45 PM] Window hooks complete
+[Info | 7:06:45 PM] Active game initialized Roblox
+[Info | 7:06:45 PM] [Game Status]: game/started - Roblox[1e2Ad6EOaE]
+[Info | 7:06:45 PM] Start recording game Roblox
+[Info | 7:06:45 PM] [ESM Event] - WindowCaptureStart
+[Debug | 7:06:47 PM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 7:06:47 PM] Clear override settings
+[Info | 7:06:47 PM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 7:06:47 PM] [ESM Event] - ConfigChangedRestart
+[Info | 7:06:47 PM] job.respond 10450d25-d68a-4299-b46b-86862e4840d8
+[Debug | 7:06:47 PM] PollDesktopJobQueue reply [{'uuid':'10450d25-d68a-4299-b46b-86862e4840d8','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 7:06:47 PM] job.respond "ok"
+[Debug | 7:06:49 PM] game/started reply "ok"
+[Info | 7:07:16 PM] [ESM Event] - GameWindowFocus
+[Info | 7:07:16 PM] Fallback set game in focus
+[Info | 7:11:17 PM] Window object destroyed: Roblox -- 1312210
+[Info | 7:11:17 PM] Game is still running
+[Info | 7:11:17 PM] Game window changed. Finding new game window
+[Info | 7:11:17 PM] Found 0 windows that match process caption and class
+[Info | 7:11:17 PM] New window handle 0
+[Info | 7:11:17 PM] Finding new game window failed
+[Info | 7:11:17 PM] Roblox exited.
+[Info | 7:11:17 PM] [Game Status]: game/stopped - Roblox[1e2Ad6EOaE]
+[Info | 7:11:17 PM] Stop recording game Roblox
+[Info | 7:11:17 PM] [ESM Event] - GameClosed
+[Info | 7:11:17 PM] Removing window hooks
+[Info | 7:11:17 PM] Window hooks removed
+[Info | 7:11:17 PM] Stopping periodic game extension jobs.
+[Debug | 7:11:20 PM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 7:11:20 PM] Clear override settings
+[Info | 7:11:20 PM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 7:11:20 PM] [ESM Event] - ConfigChangedRestart
+[Info | 7:11:20 PM] job.respond fb67e11d-25d3-44c4-97ae-667944cbc41d
+[Debug | 7:11:20 PM] PollDesktopJobQueue reply [{'uuid':'fb67e11d-25d3-44c4-97ae-667944cbc41d','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 7:11:20 PM] job.respond "ok"
+[Debug | 7:11:21 PM] game/stopped reply "ok"
+[Warning | 7:23:56 PM] Scanning already in progress (0.01s)
+[Info | 7:49:34 PM] Game Found Type ProcessClass: Roblox
+[Info | 7:49:34 PM] Process name found RobloxPlayerBeta | Caption | Roblox | and class | WINDOWSCLIENT | Detect all Games | False
+[Info | 7:49:34 PM] Game found RobloxPlayerBeta Handle: 1770906
+[Info | 7:49:34 PM] Monitor: 65537 Current DPI: 96, 96
+[Info | 7:49:34 PM] Setting up window hooks
+[Info | 7:49:34 PM] Window location change event hooked
+[Info | 7:49:34 PM] Window focus event hooked
+[Info | 7:49:34 PM] Window destroy event hooked
+[Info | 7:49:34 PM] Window reorder event hooked
+[Info | 7:49:34 PM] Window hooks complete
+[Info | 7:49:34 PM] Active game initialized Roblox
+[Info | 7:49:34 PM] [Game Status]: game/started - Roblox[1e2Ad6EOaE]
+[Info | 7:49:34 PM] Start recording game Roblox
+[Info | 7:49:34 PM] [ESM Event] - WindowCaptureStart
+[Debug | 7:49:36 PM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 7:49:36 PM] Clear override settings
+[Info | 7:49:36 PM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 7:49:36 PM] [ESM Event] - ConfigChangedRestart
+[Info | 7:49:36 PM] job.respond bea5b5fb-1eec-4257-93fe-cff855cafb62
+[Debug | 7:49:36 PM] PollDesktopJobQueue reply [{'uuid':'bea5b5fb-1eec-4257-93fe-cff855cafb62','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 7:49:36 PM] job.respond "ok"
+[Debug | 7:49:37 PM] game/started reply "ok"
+[Info | 7:49:37 PM] Notification message received
+[Info | 7:49:37 PM] job.respond 412ee22f-9a4a-4506-b845-39409cd1064f
+[Debug | 7:49:37 PM] job.respond "ok"
+[Info | 7:53:25 PM] [ESM Event] - GameWindowDefocus
+[Info | 7:53:28 PM] 1 logs of- [ESM Event] - GameWindowDefocus
+[Info | 7:53:28 PM] [ESM Event] - GameWindowFocus
+[Info | 8:01:13 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:01:14 PM] 1 logs of- [ESM Event] - GameWindowDefocus
+[Info | 8:01:14 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 8:01:14 PM] [ESM Event] - WindowCaptureMoved
+[Info | 8:01:23 PM] [ESM Event] - GameWindowFocus
+[Info | 8:01:24 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:01:25 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 8:01:25 PM] [ESM Event] - WindowCaptureMoved
+[Info | 8:01:25 PM] [ESM Event] - GameWindowFocus
+[Info | 8:01:27 PM] 1 logs of- [ESM Event] - GameWindowFocus
+[Info | 8:01:27 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:01:28 PM] 1 logs of- [ESM Event] - GameWindowDefocus
+[Info | 8:01:28 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 8:01:28 PM] [ESM Event] - WindowCaptureMoved
+[Info | 8:02:03 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:02:04 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 8:02:04 PM] [ESM Event] - WindowCaptureMoved
+[Info | 8:02:04 PM] [ESM Event] - GameWindowFocus
+[Info | 8:02:25 PM] 1 logs of- [ESM Event] - GameWindowFocus
+[Info | 8:02:25 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:02:26 PM] 1 logs of- [ESM Event] - GameWindowDefocus
+[Info | 8:02:26 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 8:02:26 PM] [ESM Event] - WindowCaptureMoved
+[Info | 8:02:36 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:02:36 PM] Window is moving, fallback canceled
+[Info | 8:02:37 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 8:02:37 PM] [ESM Event] - WindowCaptureMoved
+[Info | 8:02:37 PM] [ESM Event] - GameWindowFocus
+[Info | 8:02:39 PM] 1 logs of- [ESM Event] - GameWindowFocus
+[Info | 8:02:39 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:02:40 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 8:02:40 PM] [ESM Event] - WindowCaptureMoved
+[Info | 8:02:41 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:02:56 PM] 3 logs of- [ESM Event] - GameWindowDefocus
+[Info | 8:02:56 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 8:02:56 PM] [ESM Event] - WindowCaptureMoved
+[Info | 8:02:56 PM] [ESM Event] - GameWindowFocus
+[Info | 8:03:02 PM] 1 logs of- [ESM Event] - GameWindowFocus
+[Info | 8:03:02 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:03:03 PM] 1 logs of- [ESM Event] - GameWindowDefocus
+[Info | 8:03:03 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 8:03:03 PM] [ESM Event] - WindowCaptureMoved
+[Info | 8:03:11 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:03:12 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 8:03:12 PM] [ESM Event] - WindowCaptureMoved
+[Info | 8:03:12 PM] [ESM Event] - GameWindowFocus
+[Info | 8:04:10 PM] 1 logs of- [ESM Event] - GameWindowFocus
+[Info | 8:04:10 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:04:11 PM] 1 logs of- [ESM Event] - GameWindowDefocus
+[Info | 8:04:11 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 8:04:11 PM] [ESM Event] - WindowCaptureMoved
+[Info | 8:04:22 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:04:23 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 8:04:23 PM] [ESM Event] - WindowCaptureMoved
+[Info | 8:04:23 PM] [ESM Event] - GameWindowFocus
+[Info | 8:04:49 PM] 1 logs of- [ESM Event] - GameWindowFocus
+[Info | 8:04:49 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:04:50 PM] 1 logs of- [ESM Event] - GameWindowDefocus
+[Info | 8:04:50 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 8:04:50 PM] [ESM Event] - WindowCaptureMoved
+[Info | 8:05:00 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:05:01 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 8:05:01 PM] [ESM Event] - WindowCaptureMoved
+[Info | 8:05:01 PM] [ESM Event] - GameWindowFocus
+[Info | 8:07:32 PM] 1 logs of- [ESM Event] - GameWindowFocus
+[Info | 8:07:32 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:07:33 PM] 1 logs of- [ESM Event] - GameWindowDefocus
+[Info | 8:07:33 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 8:07:33 PM] [ESM Event] - WindowCaptureMoved
+[Info | 8:07:48 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:07:49 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 8:07:49 PM] [ESM Event] - WindowCaptureMoved
+[Info | 8:07:49 PM] [ESM Event] - GameWindowFocus
+[Info | 8:08:04 PM] 1 logs of- [ESM Event] - GameWindowFocus
+[Info | 8:08:04 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:08:05 PM] 1 logs of- [ESM Event] - GameWindowDefocus
+[Info | 8:08:05 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 8:08:05 PM] [ESM Event] - WindowCaptureMoved
+[Info | 8:08:11 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:08:11 PM] Window is moving, fallback canceled
+[Info | 8:08:12 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 8:08:12 PM] [ESM Event] - WindowCaptureMoved
+[Info | 8:08:12 PM] [ESM Event] - GameWindowFocus
+[Info | 8:08:16 PM] 1 logs of- [ESM Event] - GameWindowFocus
+[Info | 8:08:16 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:08:17 PM] 1 logs of- [ESM Event] - GameWindowDefocus
+[Info | 8:08:17 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 8:08:17 PM] [ESM Event] - WindowCaptureMoved
+[Info | 8:08:26 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:08:26 PM] Window is moving, fallback canceled
+[Info | 8:08:27 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 8:08:27 PM] [ESM Event] - WindowCaptureMoved
+[Info | 8:08:27 PM] [ESM Event] - GameWindowFocus
+[Info | 8:08:45 PM] 1 logs of- [ESM Event] - GameWindowFocus
+[Info | 8:08:45 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:08:47 PM] 1 logs of- [ESM Event] - GameWindowDefocus
+[Info | 8:08:47 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 8:08:47 PM] [ESM Event] - WindowCaptureMoved
+[Info | 8:08:59 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:09:02 PM] [ESM Event] - GameWindowFocus
+[Info | 8:09:02 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:09:04 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 8:09:04 PM] [ESM Event] - WindowCaptureMoved
+[Info | 8:09:14 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:09:17 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 8:09:17 PM] [ESM Event] - WindowCaptureMoved
+[Info | 8:09:17 PM] [ESM Event] - GameWindowFocus
+[Info | 8:10:03 PM] 1 logs of- [ESM Event] - GameWindowFocus
+[Info | 8:10:03 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:10:04 PM] 1 logs of- [ESM Event] - GameWindowDefocus
+[Info | 8:10:04 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 8:10:04 PM] [ESM Event] - WindowCaptureMoved
+[Info | 8:10:15 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:10:15 PM] Window is moving, fallback canceled
+[Info | 8:10:16 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 8:10:16 PM] [ESM Event] - WindowCaptureMoved
+[Info | 8:10:16 PM] [ESM Event] - GameWindowFocus
+[Info | 8:10:41 PM] Window object destroyed: Roblox -- 1770906
+[Info | 8:10:41 PM] Game is still running
+[Info | 8:10:42 PM] Game window changed. Finding new game window
+[Info | 8:10:42 PM] Found 0 windows that match process caption and class
+[Info | 8:10:42 PM] New window handle 0
+[Info | 8:10:42 PM] Finding new game window failed
+[Info | 8:10:42 PM] Roblox exited.
+[Info | 8:10:42 PM] [Game Status]: game/stopped - Roblox[1e2Ad6EOaE]
+[Info | 8:10:42 PM] Stop recording game Roblox
+[Info | 8:10:43 PM] [ESM Event] - GameClosed
+[Info | 8:10:43 PM] Removing window hooks
+[Info | 8:10:43 PM] Window hooks removed
+[Info | 8:10:43 PM] Stopping periodic game extension jobs.
+[Debug | 8:10:45 PM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 8:10:45 PM] Clear override settings
+[Info | 8:10:45 PM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 8:10:45 PM] [ESM Event] - ConfigChangedRestart
+[Info | 8:10:45 PM] job.respond 64dd5178-e9ee-4662-9da8-0b3887b3e08d
+[Debug | 8:10:45 PM] PollDesktopJobQueue reply [{'uuid':'64dd5178-e9ee-4662-9da8-0b3887b3e08d','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 8:10:45 PM] job.respond "ok"
+[Debug | 8:10:46 PM] game/stopped reply "ok"
+[Info | 8:13:06 PM] Game Found Type ProcessClass: Roblox
+[Info | 8:13:06 PM] Process name found RobloxPlayerBeta | Caption | Roblox | and class | WINDOWSCLIENT | Detect all Games | False
+[Info | 8:13:06 PM] Game found RobloxPlayerBeta Handle: 1181074
+[Info | 8:13:06 PM] Monitor: 65537 Current DPI: 96, 96
+[Info | 8:13:06 PM] Setting up window hooks
+[Info | 8:13:06 PM] Window location change event hooked
+[Info | 8:13:06 PM] Window focus event hooked
+[Info | 8:13:06 PM] Window destroy event hooked
+[Info | 8:13:06 PM] Window reorder event hooked
+[Info | 8:13:06 PM] Window hooks complete
+[Info | 8:13:06 PM] Active game initialized Roblox
+[Info | 8:13:06 PM] [Game Status]: game/started - Roblox[1e2Ad6EOaE]
+[Info | 8:13:06 PM] Start recording game Roblox
+[Info | 8:13:06 PM] [ESM Event] - WindowCaptureStart
+[Debug | 8:13:07 PM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 8:13:07 PM] Clear override settings
+[Info | 8:13:07 PM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 8:13:07 PM] [ESM Event] - ConfigChangedRestart
+[Info | 8:13:07 PM] job.respond a867a2cd-a1af-48cd-896e-c7678b3c9e7a
+[Debug | 8:13:07 PM] PollDesktopJobQueue reply [{'uuid':'9990d10f-197a-4b9a-80bf-6f5060b303db','body':{},'action':'ping'},{'uuid':'a867a2cd-a1af-48cd-896e-c7678b3c9e7a','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 8:13:07 PM] job.respond "ok"
+[Debug | 8:13:10 PM] game/started reply "ok"
+[Critical | 8:17:03 PM] Main thread is locked
+[Info | 8:29:35 PM] [ESM Event] - GameWindowFocus
+[Info | 8:29:35 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:29:36 PM] 1 logs of- [ESM Event] - GameWindowDefocus
+[Info | 8:29:36 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 8:29:36 PM] [ESM Event] - WindowCaptureMoved
+[Info | 8:30:37 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:30:38 PM] Window is moving, fallback canceled
+[Info | 8:30:38 PM] [ESM Event] - WindowCaptureSetMonitor
+[Info | 8:30:38 PM] [ESM Event] - WindowCaptureMoved
+[Info | 8:30:38 PM] [ESM Event] - GameWindowFocus
+[Info | 8:53:04 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:53:14 PM] 1 logs of- [ESM Event] - GameWindowDefocus
+[Info | 8:53:14 PM] [ESM Event] - GameWindowFocus
+[Info | 8:54:36 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:54:44 PM] 1 logs of- [ESM Event] - GameWindowDefocus
+[Info | 8:54:44 PM] [ESM Event] - GameWindowFocus
+[Info | 8:54:46 PM] [ESM Event] - GameWindowDefocus
+[Info | 8:54:50 PM] 1 logs of- [ESM Event] - GameWindowDefocus
+[Info | 8:54:50 PM] [ESM Event] - GameWindowFocus
+[Info | 9:03:52 PM] [ESM Event] - GameWindowDefocus
+[Info | 9:03:52 PM] Window object destroyed: Roblox -- 1181074
+[Info | 9:03:52 PM] Game is still running
+[Info | 9:03:53 PM] Game window changed. Finding new game window
+[Info | 9:03:53 PM] Found 0 windows that match process caption and class
+[Info | 9:03:53 PM] New window handle 0
+[Info | 9:03:53 PM] Finding new game window failed
+[Info | 9:03:53 PM] Roblox exited.
+[Info | 9:03:53 PM] [Game Status]: game/stopped - Roblox[1e2Ad6EOaE]
+[Info | 9:03:53 PM] Stop recording game Roblox
+[Info | 9:03:53 PM] [ESM Event] - GameClosed
+[Info | 9:03:53 PM] Removing window hooks
+[Info | 9:03:53 PM] Window hooks removed
+[Info | 9:03:53 PM] Stopping periodic game extension jobs.
+[Debug | 9:03:55 PM] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 9:03:55 PM] Clear override settings
+[Info | 9:03:55 PM] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 9:03:55 PM] [ESM Event] - ConfigChangedRestart
+[Info | 9:03:55 PM] job.respond f1b7070e-9bfb-4779-b800-df073a1eb25e
+[Debug | 9:03:55 PM] PollDesktopJobQueue reply [{'uuid':'f1b7070e-9bfb-4779-b800-df073a1eb25e','body':{'enabled':false},'action':'set.toggleBroadcast'}]
+[Debug | 9:03:55 PM] job.respond "ok"
+[Debug | 9:03:56 PM] game/stopped reply "ok"

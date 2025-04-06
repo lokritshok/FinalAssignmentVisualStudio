@@ -1,0 +1,56 @@
+/*----------------------
+      GENERIC STYLES
+      ------------------*/
+      html {
+        font-family: "Helvetica Neue";
+        font-size: 70%;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
+
+      body {
+        font-size: 14px;
+        margin: 0;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        line-height: 1.42857143;
+        color: #333;
+        background-color: #fff;
+      } 
+      
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'Helvetica Neue', sans-serif;
+        font-weight: 300;
+        line-height: 30px;
+        padding-bottom: 15px;
+      }
+
+      p {
+        font-family: 'Helvetica Neue';
+          font-weight: 300;
+          line-height: 30px;
+          padding-bottom: 15px;
+        }
+      
+
+
+     
+
+        /*----------------------
+                RESERVATION STYLES
+         -----------------------*/
+
+
+        
+          .reservation input[type="text"]:hover{
+              box-shadow: 0 0 10px rgba(100, 65, 0, 0.8);
+          }
+
+          .input-register {
+              margin: 2% auto;
+              padding: 30px 39px;
+              width: 80% auto;
+              Border: 80% auto;
+              border-radius: 7px;
+            }
+          

@@ -1,0 +1,33 @@
+[ Log | 10:37:02 ] [Medal Launcher Log Init] 1.0.0.1 - 03/08/2023 10:37:02
+
+[ Log | 10:37:02 ] Deleted 1 previous GPU scheduling entries successfully
+[ Log | 10:37:02 ] Updated GPU Scheduling registry entry successfully
+[ Log | 10:37:02 ] Launching recorder C:\Users\User\AppData\Local\Medal\recorder-3.696.0\MedalEncoder.exe
+[ Log | 10:37:02 ] No other MedalEncoder instances running
+[ Log | 10:37:05 ] Launched recorder C:\Users\User\AppData\Local\Medal\recorder-3.696.0\MedalEncoder.exe
+[ Log | 10:37:39 ] Starting suicide lock interval
+[ Log | 10:38:27 ] Init OverlayInterface
+[ Log | 13:24:30 ] [Medal Launcher Log Init] 1.0.0.1 - 03/08/2023 13:24:30
+
+[ Log | 13:24:30 ] GPU Scheduling registry exists
+[ Log | 13:24:30 ] Launching recorder C:\Users\User\AppData\Local\Medal\recorder-3.696.0\MedalEncoder.exe
+[ Log | 13:24:30 ] No other MedalEncoder instances running
+[ Log | 13:24:30 ] Launched recorder C:\Users\User\AppData\Local\Medal\recorder-3.696.0\MedalEncoder.exe
+[ Log | 13:25:02 ] Starting suicide lock interval
+[ Log | 13:25:22 ] Init OverlayInterface
+[ Log | 14:32:17 ] [Medal Launcher Log Init] 1.0.0.1 - 03/08/2023 14:32:17
+
+[ Log | 14:32:17 ] GPU Scheduling registry exists
+[ Log | 14:32:17 ] Launching recorder C:\Users\User\AppData\Local\Medal\recorder-3.696.0\MedalEncoder.exe
+[ Log | 14:32:17 ] No other MedalEncoder instances running
+[ Log | 14:32:17 ] Launched recorder C:\Users\User\AppData\Local\Medal\recorder-3.696.0\MedalEncoder.exe
+[ Log | 14:32:49 ] Starting suicide lock interval
+[ Log | 14:33:04 ] Init OverlayInterface
+[ Log | 20:04:39 ] [Medal Launcher Log Init] 1.0.0.1 - 03/08/2023 20:04:39
+
+[ Log | 20:04:39 ] GPU Scheduling registry exists
+[ Log | 20:04:39 ] Launching recorder C:\Users\User\AppData\Local\Medal\recorder-3.696.0\MedalEncoder.exe
+[ Log | 20:04:39 ] No other MedalEncoder instances running
+[ Log | 20:04:39 ] Launched recorder C:\Users\User\AppData\Local\Medal\recorder-3.696.0\MedalEncoder.exe
+[ Log | 20:05:10 ] Starting suicide lock interval
+[ Log | 20:05:30 ] Init OverlayInterface
